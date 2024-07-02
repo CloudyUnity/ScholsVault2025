@@ -1,7 +1,3 @@
-Matrix:
-	$\begin{bmatrix} a_{11} & a_{12} \\ a_{21} & a_{22} \end{bmatrix}$
-	An nxn grid of numbers used for representing the state of a graph or transformation in space
-
 Dot Product:
 	Two Component Vectors:
 		$p \cdot q = p_{x} q_{x} + p_{y} q_{y}$
@@ -20,12 +16,21 @@ Cross Product:
 	Cross two vectors to find a new vector perpendicular to the two:
 		$v_1 \times v_2 = v_{\perp}$
 
+Matrix:
+	$\begin{bmatrix} a_{11} & a_{12} \\ a_{21} & a_{22} \end{bmatrix}$
+	An $m \times n$ grid of numbers used for representing the state of a graph or transformation in space
+	m rows and n columns
+
+Square Matrix:
+	Matrix with the same number of rows and columns
+
 Transpose:
 	$\begin{bmatrix} a_{11} & a_{12} \\ a_{21} & a_{22} \end{bmatrix} ^T = \begin{bmatrix} a_{11} & a_{21} \\ a_{12} & a_{22} \end{bmatrix}$
+	$(ABC)^T = C^T B^T A^T$
 
 Identity Matrix:
 	$I = \begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix}$
-	For any nxn matrix it is always 1s along the main diagonal
+	For any $m \times m$ matrix it is always 1s along the main diagonal. It must be square
 	Any matrix or vector multiplied by the identity matrix equals itself ($AI = A$)
 		In the same way 1 is the identity scalar (x * 1 = x)
 
@@ -34,20 +39,21 @@ Transformations:
 	For 3D we need a 4x4 matrix
 	How transformations are represented within the matrix depends on whether its in a right-handed or left-handed coordinate system, and whether its row-major or column-major
 
-Inverse:
-	$A A^{-1} = I$
-	For any matrix transformation the inverse is the opposite transformation
-		For example a matrix representing a translation of (0, 5, 0), the inverse is a translation of (0, -5, 0). Multiply them together and they cancel out
-
-Matrix of Cofactors:
+Matrix Minor:
+	The minor $M_{ij}$ of a $n \times n$ matrix A is the determinant of A with the i-th row and j-th column deleted
 
 Matrix of Signs:
+	$\begin{bmatrix} + & - & + \\ - & + & - \\ + & - & + \end{bmatrix}$
+	Starting with the top left as $+$ form a checkerboard pattern
+	Can be any sized matrix
 
-Implicit vs Parametric Equations:
-
-Parametric Sphere Equation:
-	$(R cos(\theta) sin(\phi), R sin(\theta) sin(\phi), R cos(\phi))$
+Matrix of Cofactors:
+	$\tilde{A} = \begin{bmatrix} M_{11} & -M_{12} & \dots \\ -M_{21} & M_{22} & \dots \\ \vdots & \vdots & \end{bmatrix}$
+	Use the matrix of signs
 
 Row-Major vs Column-Major:
 
 Adjoint:
+
+The Zero Vector:
+	$\overline{0} = (0, 0, 0)$
