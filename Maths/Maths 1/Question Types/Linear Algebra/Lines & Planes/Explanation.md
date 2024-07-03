@@ -59,7 +59,7 @@ Finding the implicit equation of a line given a point $P$ and a parallel vector 
 	$\frac{x - P_x}{u_x} = \frac{y - P_y}{u_y} = \frac{z - P_z}{u_z}$
 
 Finding the parametric equation of a line given a point $P$ and a parallel vector $\overline{u}$:
-$X = P + \overline{u} t$
-$x = P_x + u_x t$
-$y = P_y + u_y t$
-$z = P_z + u_z t$
+	$X = P + \overline{u} t$
+	$x = P_x + u_x t$
+	$y = P_y + u_y t$
+	$z = P_z + u_z t$
