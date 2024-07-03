@@ -48,6 +48,21 @@ Integration by substitution:
 
 Integration by parts:
 	$\int u \ dv = uv - \int v \ du$	
+	For example:
+		$\int x e^{2x}$
+		$u = x, dv = e^{2x}$
+
+Integrating partial fractions:
+	$y = \dfrac{f(x)}{g_1(x) g_2(x) \dots g_n(x)}$
+	Number of partial fractions = number of roots in denominator
+	$y = \dfrac{A(x)}{g_1(x)} + \dfrac{B(x)}{g_2(x)} + \dots + \dfrac{C(x)}{g_n(x)}$
+	Degree of numerator = Degree of denominator - 1
+		For example:
+			$\dfrac{A}{x + 1}, \dfrac{Bx + C}{(x - 1)^2}$
+	Combine partial fractions into a single fraction
+		Must have the same denominator as the original
+	Solve for $A, B, \dots, C$
+	Integrate the partial fractions
 
 Graphing Rational Functions:
 	Not covered
