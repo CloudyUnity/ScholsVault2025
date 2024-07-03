@@ -37,7 +37,7 @@ Identity Matrix:
 Transformations:
 	A matrix can represent a transformation in space (Often 2D or 3D)
 	For 3D we need a 4x4 matrix
-	How transformations are represented within the matrix depends on whether its in a right-handed or left-handed coordinate system, and whether its row-major or column-major
+	How transformations are represented within the matrix depends on whether its in a right-handed or left-handed coordinate system
 
 Matrix Minor:
 	The minor $M_{ij}$ of a $n \times n$ matrix A is the determinant of A with the i-th row and j-th column deleted

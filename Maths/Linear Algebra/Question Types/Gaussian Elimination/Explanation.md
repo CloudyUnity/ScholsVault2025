@@ -1,4 +1,4 @@
-Pre-requisite knowledge: [[Schols/Linear Algebra/Question Types/Linear Systems/Explanation|Explanation]]
+Pre-requisite knowledge: [[Trinity/Schols/Maths/Linear Algebra/Question Types/Linear Systems/Explanation|Explanation]]
 
 Given $A \overline x = \overline b$
 Use ERO to convert $[A \overline b]$ to $[I \overline b]$
