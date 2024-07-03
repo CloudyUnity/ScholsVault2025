@@ -51,9 +51,9 @@ Matrix of Cofactors:
 	$\tilde{A} = \begin{bmatrix} M_{11} & -M_{12} & \dots \\ -M_{21} & M_{22} & \dots \\ \vdots & \vdots & \end{bmatrix}$
 	Use the matrix of signs
 
-Row-Major vs Column-Major:
-
 Adjoint:
+	$adj(A) = (\tilde{A})^T$
+	$A \  adj(A) = det(A) I$
 
 The Zero Vector:
 	$\overline{0} = (0, 0, 0)$
