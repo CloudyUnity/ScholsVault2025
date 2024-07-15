@@ -1,6 +1,11 @@
+Charge ($q$):
+	TODO
+
 Coulomb's Law:
 	Force between any two point charges is proportional to the product of the charges 
+		$F = k q_1 q_2$
 	Force between any two point charges is inversely proportional to the square distance between them
+		$F = k \dfrac{1}{|AB|}$
 
 Potential Energy: The energy of a body due to state or position
 
@@ -15,15 +20,16 @@ Electromotive Force ($emf$):
 	Work done bringing a positive charge around a closed loop
 	The supply voltage
 
-Current:
+Current ($I$):
 	Charge flow per time
 	Unit = Ampere (Scalar)
 
 Ampere ($A$):
 	$A = C/s$
+	A constant current maintained in two straight parallel conductors, 1m apart in a vacuum, causes each to exert a force of $2\times 10^{-7} N$ 
 
 Coulomb ($C$):
-	TODO
+	A quantity of charge transferred when 1$A$ flows for 1 second
 
 Joules ($J$):
 	TODO

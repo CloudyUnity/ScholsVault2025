@@ -1,3 +1,9 @@
+Prefixes:
+$m = milli (\frac{1}{1000})$
+$\mu = micro (10^{-6})$
+$n = nano (10^{-9})$
+$p = pico (10^{-12})$
+
 Anode:
 	Positively charged side of a circuit
 
@@ -29,3 +35,5 @@ Load:
 $\alpha cos(x) + \beta sin(x) = R cos (x - \alpha)$
 	$R = \sqrt{\alpha^2 + \beta^2}$
 
+Solenoid:
+	A coil of wire (e.g. springs, inductors, etc)

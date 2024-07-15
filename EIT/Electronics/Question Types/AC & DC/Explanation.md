@@ -1,4 +1,4 @@
-AC: Alternating Current
+ AC: Alternating Current
 	Periodic alternating current from positive/negative
 	Example: The Mains
 

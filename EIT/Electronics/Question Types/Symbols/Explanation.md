@@ -1,3 +1,4 @@
+
 ![[Pasted image 20240704171514.png]]
 ![[Pasted image 20240704171526.png]]![[Pasted image 20240704171535.png]]
 ![[Pasted image 20240704171542.png]]![[Pasted image 20240704171845.png]]
@@ -7,3 +8,9 @@
 ![[Pasted image 20240704173309.png]]
 ![[Pasted image 20240704173555.png]]
 ![[Pasted image 20240704175341.png]]
+![[Pasted image 20240715142854.png]]
+![[Pasted image 20240715153759.png]]
+![[Pasted image 20240715161405.png]]
+![[Pasted image 20240715161536.png]]
+![[Pasted image 20240715161749.png]]
+![[Pasted image 20240715163040.png]]

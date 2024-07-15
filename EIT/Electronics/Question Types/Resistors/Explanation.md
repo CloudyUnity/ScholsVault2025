@@ -6,7 +6,7 @@ Resistor:
 		These have a linear relationship between applied voltage and current
 
 Ohms ($\ohm$):
-	
+	TODO
 
 Ohm's Law:
 	$V = IR$
@@ -22,7 +22,7 @@ Resistors in Series:
 	$R = R_1 + R_2 + \dots + R_n$
 
 Resistors in Parallel:
-	
+	$\dfrac{1}{R} = \dfrac{1}{R_1} + \dfrac{1}{R_2} + \dots + \dfrac{1}{R_n}$
 
 The Potential Divider:
-	
+	TODO
