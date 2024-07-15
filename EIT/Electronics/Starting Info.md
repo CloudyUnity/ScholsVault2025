@@ -37,3 +37,7 @@ $\alpha cos(x) + \beta sin(x) = R cos (x - \alpha)$
 
 Solenoid:
 	A coil of wire (e.g. springs, inductors, etc)
+
+Electrical Power:
+	Rate of energy expenditure
+	$J/s$ or Watts ($W$)

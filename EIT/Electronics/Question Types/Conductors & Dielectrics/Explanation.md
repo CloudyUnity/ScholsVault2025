@@ -45,7 +45,9 @@ Semiconductor Diodes:
 	![[Pasted image 20240715153741.png]]
 
 Static Resistance:
-	TODO
+	Resistance offered by the diode to the flow of DC
+	The ratio of DC voltage applied across the diode to the DC flowing through it
+	$R_{dc} = \dfrac{V_{dc}}{I_{dc}}$
 
 Zener Diodes:
 	Designed to operate in the breakdown region
@@ -61,3 +63,9 @@ Photodiodes:
 	Dark Current:
 		The current direction in darkness is opposite the direction in light
 		Dark current must be minimised to maximise the device sensitivity
+
+#bonus
+Forward Resistance:
+	The resistance offered by the diode in its forward-biasing condition
+	Static forward resistance for DC
+	Dynamic forward resistance for AC
