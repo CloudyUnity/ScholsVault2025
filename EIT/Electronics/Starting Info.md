@@ -30,7 +30,7 @@ Conventions:
 		Electrons flow from negative to positive
 
 Load:
-	TODO
+	An electrical component in a circuit that consumes power
 
 $\alpha cos(x) + \beta sin(x) = R cos (x - \alpha)$
 	$R = \sqrt{\alpha^2 + \beta^2}$

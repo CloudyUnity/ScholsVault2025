@@ -1,8 +1,8 @@
-$A \overline v = \lambda \overline v$
-Find $\lambda$ (The Eigenvalues) and $\overline v$ (The Eigenvectors)
+$A \mathbf v = \lambda \mathbf v$
+Find $\lambda$ (The Eigenvalues) and $\mathbf v$ (The Eigenvectors)
 
-$A \overline v = \lambda \overline v$
-$(A - \lambda I) \overline v = \overline 0$
+$A \mathbf v = \lambda \mathbf v$
+$(A - \lambda I) \mathbf v = \mathbf 0$
 $det(A - \lambda I) = 0$
 This is the characteristic equation
 
@@ -22,8 +22,8 @@ Geometric multiplicity $\leq$ Algebraic multiplicity
 
 The set of eigenvectors for an eigenvalue is its eigenspace
 
-To find the eigenvectors solve $(A - \lambda I) \overline v = \overline 0$ using gaussian elimination
-	See how it looks like $A \overline x = \overline b$
+To find the eigenvectors solve $(A - \lambda I) \mathbf v = \mathbf 0$ using gaussian elimination
+	See how it looks like $A \mathbf x = \mathbf b$
 
 
 

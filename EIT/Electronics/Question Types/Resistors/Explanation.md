@@ -6,10 +6,14 @@ Resistor:
 		These have a linear relationship between applied voltage and current
 
 Ohms ($\ohm$):
-	TODO
+	Unit of electrical resistance
+	$\ohm = \dfrac{V}{A} = \dfrac{W}{A^2} = \dfrac{V^2}{W} = \dfrac{H}{s} = \dfrac{Wb}{C}$
 
 Ohm's Law:
 	$V = IR$
+
+Joules Law:
+	$P = VI = \dfrac{V^2}{R} = I^2 R$
 
 Non-ideal power sources can be modelled using a resistor 
 	In series for voltage sources
@@ -25,4 +29,7 @@ Resistors in Parallel:
 	$\dfrac{1}{R} = \dfrac{1}{R_1} + \dfrac{1}{R_2} + \dots + \dfrac{1}{R_n}$
 
 The Potential Divider:
-	TODO
+	A circuit that divides a voltage into smaller voltages
+	Has two resisters in series
+	$V_o = V_i \dfrac{R_2}{R_1 + R_2}$
+	Used for volume controls in audio equipment

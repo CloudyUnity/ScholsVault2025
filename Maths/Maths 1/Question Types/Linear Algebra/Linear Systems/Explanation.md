@@ -3,10 +3,10 @@ Given a system of linear equations:
 
 This system is consistent if it has at least one solution
 
-Rewrite this equation where $A \overline x = \overline b$
+Rewrite this equation where $A \mathbf x = \mathbf b$
 ![[Pasted image 20240702171352.png]]
 
-The augmented matrix of the system is the concatenated matrix $[A \overline b]$
+The augmented matrix of the system is the concatenated matrix $[A \mathbf b]$
 
 Row-Echelon Form:
 	All zero rows are at the bottom

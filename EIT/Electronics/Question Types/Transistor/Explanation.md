@@ -23,5 +23,5 @@ Amplifiers:
 	$V_{in}$ is AC
 	$V_{DD}$ is DC
 	Capacitors prevent backflow
-	TODO: 
-		Explain how each variable is gotten
+	TODO:
+		Solve for each variable, idfk how it's confusin

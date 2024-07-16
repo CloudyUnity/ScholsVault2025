@@ -14,18 +14,16 @@ Inductance ($L$):
 Henry ($H$):
 	Inductance of an inductor which has 1$A$ and 1$Wb$ flux in its core
 
-Webbers ($Wb$):
-	TODO (Can be moved to another section)
-
 Back-EMF:
-	TODO
+	Counter-electromotive force ($CEMF$)
+	The $emf$ manifesting as a voltage that opposes the change in current which induced it
 	Can exceed the supply voltage for a short period
 
 Inductors in series:
-	TODO
+	$L = L_1 + L_2 + \dots + L_n$
 
 Inductors in parallel:
-	TODO
+	$\dfrac{1}{L} = \dfrac{1}{L_1} + \dfrac{1}{L_2} + \dots + \dfrac{1}{L_n}$
 
 Inductor Examples:
 	Car spark plugs, used to ignite fuel

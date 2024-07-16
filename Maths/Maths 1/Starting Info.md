@@ -34,6 +34,7 @@ Identity Matrix:
 	Any matrix or vector multiplied by the identity matrix equals itself ($AI = A$)
 		In the same way 1 is the identity scalar (x * 1 = x)
 
+#bonus
 Transformations:
 	A matrix can represent a transformation in space (Often 2D or 3D)
 	For 3D we need a 4x4 matrix
