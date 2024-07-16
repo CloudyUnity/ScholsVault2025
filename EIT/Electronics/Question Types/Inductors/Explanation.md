@@ -11,6 +11,8 @@ Inductance ($L$):
 	Length, area, turns equation TODO
 	Unit = Henry (Scalar)
 
+$V_L = L \dfrac{dI}{dt}$
+
 Henry ($H$):
 	Inductance of an inductor which has 1$A$ and 1$Wb$ flux in its core
 

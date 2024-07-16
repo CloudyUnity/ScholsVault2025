@@ -4,12 +4,17 @@ Electric Field:
 	$\mathbf E = \dfrac{\mathbf F}{q}$
 	Unit = N/C or V/m (Vector)
 	Represented by gauss lines radiating from a charge
+	$\mathbf{E} = k \dfrac{|q_{1} - q_{2}|}{|AB|^2}$
 
 Electric Flux ($\phi_E$):
 	The measure of an electric field through a surface
-	Electric Flux Density corresponds to the electric field strength (Number of gauss lines per unit area)
-	$\phi_{E} = \mathbf E \cdot \hat{n} = ||\mathbf E|| A cos(\theta)$
+	$\phi_{E} = \mathbf E \cdot \mathbf{\hat{n}} = ||\mathbf E|| A cos(\theta) = \mathbf{\hat n} \mathbf D A$
 	![[Pasted image 20240715143557.png]]
+
+Electric Flux Density ($\mathbf D$):
+	Corresponds to the electric field strength (Number of gauss lines per unit area)
+	$\mathbf D = \epsilon \mathbf E$
+		$\epsilon$ = Electrical Permittivity
 
 Electrical Current and Magnetism:
 	Currents attract if moving in the same direction, repel if opposite
@@ -22,7 +27,7 @@ Magnetic Pole/Charge:
 	A pole of 1 $Wb$ takes 1 $J$ to move around 1 $A$
 	Magnetic poles are an abstraction, not physical
 
-Magnetic Field Strength (MFS):
+Magnetic Field Strength ($\mathbf H$):
 	 MFS at a point is the force per unit positive magnetic pole at that point
 	 Unit = $A$ (Vector)
 
@@ -31,6 +36,10 @@ Magnetic Flux Density ($\mathbf B$):
 	$\mathbf B = \dfrac{\mathbf F}{I l}$
 		$\mathbf F$ = Force (Vector)
 		$l$ = Length of wire
+	$\mathbf B = \mu H$
+		$\mu$ is the magnetic permeability 
+	$\mathbf{B} = \dfrac{\mu I}{2 \pi r} \mathbf{\hat{I}} \times \mathbf{\hat{r}}$
+		$r$ is the radial distance to the wire
 	Unit = Tesla (Vector)
 
 Weber ($Wb$):
@@ -39,7 +48,7 @@ Weber ($Wb$):
 
 Magnetic Flux ($\phi_B$)
 	Number of magnetic field lines passing through a closed surface
-	$\phi_B = \mathbf B \cdot \hat{n} = ||\mathbf B|| A cos(\theta)$
+	$\phi_B = \mathbf B \cdot \hat{n} = ||\mathbf B|| A cos(\theta) = \mathbf{\hat n} \mathbf B A$
 		$\mathbf B$ is the magnetic field density
 		$A$ is the area
 	Unit = $Wb$ or $Tm^2$ (Scalar)
@@ -54,6 +63,7 @@ In magnetic fields the force on a moving charge is perpendicular to the directio
 Lorentz Force Law:
 	Lorentz force is the electric and magnetic force on a point charge from electromagnetic fields
 	$\mathbf F = q(\mathbf E + \mathbf v \times \mathbf B)$
+	$\mathbf F = \mathbf{B} I L$
 
 Ampere's Law for an Infinite Straight Wire:
 	Ampere's Circuital Law says that for a straight current-carrying wire:
@@ -77,4 +87,3 @@ Lenz's Law:
 	An induced electric current flows in a direction such that the current opposes the change that induced it
 	For example if you thrust a pole magnet into a coil the induced current would match the charge repelling it, when retracting the pole the current swaps signs to attract it back
 	$emf = -N \dfrac{\partial \phi_B}{\partial t}$
-

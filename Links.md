@@ -1,6 +1,8 @@
 Past Papers:
 	https://cs-exams.com/docs/schols
 	https://www.tcd.ie/academicregistry/exams/past-papers/scholarship/
+		2023/2024:
+			NOT FOUND YET
 		2022/2023:
 			Maths: 
 				https://www.tcd.ie/academicregistry/exams/assets/local/schol2023/Past%20Papers/XSCH3071.pdf
