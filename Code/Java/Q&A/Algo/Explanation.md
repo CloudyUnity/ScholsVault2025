@@ -1,0 +1,2 @@
+These questions are often very similar to leetcode questions, utilising algorithms and data structures 
+They seem to be at around a medium leetcode difficulty so if you get comfortable with hard questions you'll be flying
