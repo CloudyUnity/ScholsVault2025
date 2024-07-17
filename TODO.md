@@ -1,6 +1,6 @@
 Main:
 - [x] Electronics Explanation
-- [ ] Electronics Q
+- [x] Electronics Q
 - [ ] IT Explanation
 - [ ] IT Q
 - [x] Maths 1 Explanation
