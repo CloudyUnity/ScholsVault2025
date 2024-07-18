@@ -3,7 +3,7 @@ Wireless transmission is more efficient at high frequencies and there's more ban
 Also allows for multiplexing 
 
 Remember that phase is the derivative of frequency
-$B_m$ is the modulated bandwidth
+$B_m$ is the bandwidth
 $B_b$ is the baseband
 
 Amplitude Modulation (AM):

@@ -1,8 +1,8 @@
 Main:
 - [x] Electronics Explanation
 - [x] Electronics Q
-- [ ] IT Explanation
-- [ ] IT Q
+- [x] IT Explanation
+- [x] IT Q
 - [x] Maths 1 Explanation
 - [x] Maths 1 Q
 - [ ] Maths 2 Explanation
@@ -15,9 +15,11 @@ Main:
 - [ ] DLD Q
 - [ ] Comp Arch Explanation
 - [ ] Comp Arch Q
-- [ ] Java section
-- [ ] C section
+- [x] Java section
+- [x] C section
 - [ ] ARM section
+
+- [ ] FIND 2023/2024 SCHOLS PAPERS!!!!
 
 Updates:
 - [x] Replace all $\overline v$ and $\overrightarrow v$ in Linear Algebra/Elec with $\mathbf v$
