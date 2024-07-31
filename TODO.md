@@ -2,7 +2,7 @@ Main:
 - [x] Electronics Explanation
 - [x] Electronics Q
 - [x] IT Explanation
-- [x] IT Q
+- [ ] IT Q
 - [x] Maths 1 Explanation
 - [x] Maths 1 Q
 - [ ] Maths 2 Explanation
@@ -11,8 +11,8 @@ Main:
 - [ ] Stats Q
 - [ ] Probability Explanation
 - [ ] Probability Q
-- [ ] DLD Explanation
-- [ ] DLD Q
+- [x] DLD Explanation
+- [x] DLD Q
 - [ ] Comp Arch Explanation
 - [ ] Comp Arch Q
 - [x] Java section

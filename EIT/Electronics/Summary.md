@@ -117,7 +117,7 @@ $R_{dc} = \dfrac{V_{dc}}{I_{dc}}$
 $q = It$
 $F = k \dfrac{q_1 q_2}{|AB|^2}$
 $\mathbf F = F \mathbf{\hat r}$
-$V = \dfrac{J}{q} = \dfrac{dW}{dt}$
+$V = \dfrac{J}{q} = \dfrac{dW}{dq}$
 $A = C/s$
 $V_{RMS} = \dfrac{V_{pk}}{\sqrt 2}$
 $\mathbf E = \dfrac{\mathbf F}{q}$

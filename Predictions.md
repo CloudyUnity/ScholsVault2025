@@ -7,13 +7,16 @@ Maths:
 	Stats:
 	Probability:
 
-Science:
-
 Programming:
 	Java:
+	ARM:
+	C:
 
 Systems:
 	EIT:
 		Transistors
 	DLD:
+		Multiplexors + KMaps
+	Arch:
+	Info:	
 
