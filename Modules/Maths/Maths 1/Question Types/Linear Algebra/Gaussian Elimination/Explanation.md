@@ -1,4 +1,4 @@
-Pre-requisite knowledge: [[Trinity/Schols/Maths/Maths 1/Question Types/Linear Algebra/Linear Systems/Explanation|Explanation]]
+Pre-requisite knowledge: [[Trinity/Schols/Modules/Maths/Maths 1/Question Types/Linear Algebra/Linear Systems/Explanation|Explanation]]
 
 Given $A \mathbf x = \mathbf b$
 Use ERO to convert $[A \mathbf b]$ to $[I \mathbf b]$

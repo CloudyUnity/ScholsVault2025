@@ -2,7 +2,7 @@ Main:
 - [x] Electronics Explanation
 - [x] Electronics Q
 - [x] IT Explanation
-- [ ] IT Q
+- [x] IT Q
 - [x] Maths 1 Explanation
 - [x] Maths 1 Q
 - [ ] Maths 2 Explanation
@@ -15,6 +15,8 @@ Main:
 - [x] DLD Q
 - [ ] Comp Arch Explanation
 - [ ] Comp Arch Q
+- [ ] Info Management Explanation
+- [ ] Info Management Q
 - [x] Java section
 - [x] C section
 - [ ] ARM section
@@ -24,4 +26,4 @@ Main:
 Updates:
 - [x] Replace all $\overline v$ and $\overrightarrow v$ in Linear Algebra/Elec with $\mathbf v$
 - [x] Add bonus tag to maths 1 stuff (Finn)
-- [ ] Sort Elec/Maths 1 summaries neatly
+- [ ] Sort summaries neatly

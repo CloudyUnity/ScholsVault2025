@@ -50,7 +50,7 @@ Three-state Gates:
 	![[Pasted image 20240731140948.png]]
 
 Also learn:
-	EIT Transistors: [[Trinity/Schols/EIT/Electronics/Question Types/Transistor/Explanation|Explanation]]
-	EIT Chemistry: [[Trinity/Schols/EIT/Electronics/Question Types/Chemistry/Explanation|Explanation]]
-	EIT Conductors: [[Trinity/Schols/EIT/Electronics/Question Types/Conductors & Dielectrics/Explanation|Explanation]]
+	EIT Transistors: [[Trinity/Schols/Modules/EIT/Electronics/Question Types/Transistor/Explanation|Explanation]]
+	EIT Chemistry: [[Trinity/Schols/Modules/EIT/Electronics/Question Types/Chemistry/Explanation|Explanation]]
+	EIT Conductors: [[Trinity/Schols/Modules/EIT/Electronics/Question Types/Conductors & Dielectrics/Explanation|Explanation]]
 
