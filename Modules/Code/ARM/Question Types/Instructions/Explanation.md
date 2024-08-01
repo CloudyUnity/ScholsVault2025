@@ -8,9 +8,14 @@ Appended Shift
 	LSR Rn*
 	ASL Rn*
 	ASR Rn*
+	ROR Rn*
+	ROL Rn*
 
 Arithmetic Shift (ASL) brings in 1s to the left if the MSB is a 1
 	Allows quick division for signed numbers
+
+Rotates (ROR) brings the LSB back around to the MSB while shifting
+Basically wrapping the number
 
 Rx* = Register or Register + Appended Shift or Constant Value
 ~ = Discarded value
@@ -41,6 +46,9 @@ Variations (V):
 	IB = Increment Before
 	DA = Decrement After
 	DB = Decrement Before
+	FD = Full Descending Stack
+		IA for LDM
+		DB for STM 
 	All increment/decrement by 4
 
 Condition Code Extensions (CC):
@@ -59,51 +67,73 @@ Condition Code Extensions (CC):
 
 MOV{S} Ro, Rn*
 	Copies Rn* into Rd
-	Cycles: 
+	Cycles: 1
 
 ADD{S} Ro, Rn, Rm
 	Ro = Rn + Rm
-	Cycles:
+	Cycles: 1
 
 SUB{S} Ro, Rn, Rm
 	Ro = Rn - Rm
-	Cycles:
+	Cycles: 1
 
 AND{S} Ro, Rn, Rm
 	Ro = Rn & Rm
-	Cycles:
+	Cycles: 1
+
+BIC{S} Ro, Rn, Rm
+	Ro = Rn & ~Rm
+	Cycles: 1
 
 ORR{S} Ro, Rn, Rm
 	Ro = Rn | Rm
-	Cycles:
+	Cycles: 1
 
 EOR{S} Ro, Rn, Rm
 	Ro = Rn ^ Rm
-	Cycles:
+	Cycles: 1
+
+MUL{S} Ro, Rn, Rm
+	Ro = Rn * Rm
+	Cycles: 2-5
+
+UDIV{S} Ro, Rn, Rm
+	Ro = Rn / Rm
+	Cycles: 4
+
+SDIV{S} Ro, Rn, Rm
+	Ro = Rn / Rm
+	Cycles: 4
 
 NOT Ro, Rn
 	Ro = ~Rn
-	Cycles:
+	Cycles: 1
+
+NEG Ro, Rn
+	Ro = -Rn
+	Cycles: 1
 
 CMP Rn, Rm
 	SUBS ~, Rn, Rm
 	Updates CPSR
-	Cycles:
+	Cycles: 1
 
 B{CC} .Label
 	Sets the PC to the label address
-	Cycles:
+	Cycles: 3
 
 BX LR
 	Sets the PC to the LR
-	Cycles:
+	Cycles: 3
 
 BL{CC} .Label
 	Sets the LR to the PC
 	Sets the PC to the label address	
-	Cycles:
+	Cycles: 3
 
-CZO
+CBZ Rn, .Label
+	Branches to label if Rn == 0
+	Cycles: 3
 
 IT {CC}
 	Activates conditional execution for thumb mode
@@ -112,49 +142,50 @@ IT {CC}
 		`ADDEQ R0, R0, R1`
 		`SUBEQ R2, R2, R3`
 		`MOVNE R4, R5`
+	Cycles: 1
 
 LDR{E} Ro, [Ra, Rn*]{!}
 	Loads a word/halfword/byte from [Ra + Rn*] into Ro
 	If (!) then Ra += Rn*
-	Cycles:
+	Cycles: 3
 
 LDR{E} Ro, [Ra], Rn*
 	Loads a word/halfword/byte from [Ra] into Ro
 	Ra += Rn*
-	Cycles: 
+	Cycles: 3
 
 LDR{E} Ro, =.Label*
 	Loads a word/halfword/byte from [.Label*] into Ro
-	Cycles:
+	Cycles: 3
 
 STR{E} Rn, [Ra, Rn*]{!}
 	Stores a word/halfword/byte from Rn into [Ra + Rn*] 
 	If (!) then Ra += Rn*
-	Cycles:
+	Cycles: 2
 
 STR{E} Rn, [Ra], Rn*
 	Stores a word/halfword/byte from Rn into [Ra]
 	Ra += Rn*
-	Cycles:
+	Cycles: 2
 
 STR{E} Ro, =.Label*
 	Stores a word/halfword/byte from Rn into [.Label*]
-	Cycles:
+	Cycles: 2
 
 LDM{V} Ra{!}, {`R List`}
 	Loads n words from [Ra] into `R List`
 	If (!) then Ra saves the new address
-	Cycles:
+	Cycles: 2 + n
 
 STM{V} Ra{!}, {`R List`}
 	Stores n words from each in `R List` into [Ra]
 	If (!) then Ra saves the new address
-	Cycles:
+	Cycles: 2 + n
 
 PUSH {`R List`}
 	LDMDB! SP, {`R List`}
-	Cycles:
+	Cycles: 2 + n
 
 POP {`R List`}
 	STMIA! SP, {`R List`}
-	Cycles:
+	Cycles: 4 + n

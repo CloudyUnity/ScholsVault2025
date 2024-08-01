@@ -4,11 +4,12 @@ Reduced Instruction Set Computing (RISC):
 	Only Load/Store instructions can access memory
 
 Complex Instruction Set Computing (CISC):
-	TODO
+	Can apply operators on memory directly without load/stores
+	Example: x86
 
 ARM Mode vs Thumb Mode:
 	Thumb instructions can be either 2 or 4 bytes
-	TODO
+	Thumb is a subset of the ARM set (Excluding `IT`)
 
 Least Significant Bit (LSB):
 	Bit of value 1 in a n-bit number
@@ -39,6 +40,19 @@ Registers:
 ![[Pasted image 20240731173911.png]]
 	Jazelle is related to executing java bytecode
 
+ASCII:
+	Each unsigned byte value is assigned a letter
+	Uppercase A starts on 0x40
+	Lowercase a starts on 0x60
+	'\0' or 0x0 is the null character
+
+ROM:
+	Read-Only part of RAM
+	Commonly stores bytecode but can store data as well
+
+See Also:
+	DLD Two's Complement: [[Trinity/Schols/Modules/Digital Logic/Question Types/Twos Complement/Explanation|Explanation]]
+
 #bonus
 ARM Versions:
 	ARM7 (v4)
@@ -61,4 +75,6 @@ Understand how languages are compiled, linked, assembled and executed, there wil
 
 #bonus 
 ROP Chains:
-	TODO
+	Return-Oriented Programming is a security exploit where an attacker gains control of the call stack and executes specific machine instructions called gadgets
+	Chained together gadgets perform arbitrary operations
+	An advanced version of the stack smashing attack
