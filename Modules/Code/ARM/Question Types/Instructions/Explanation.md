@@ -17,7 +17,7 @@ Arithmetic Shift (ASL) brings in 1s to the left if the MSB is a 1
 Rotates (ROR) brings the LSB back around to the MSB while shifting
 Basically wrapping the number
 
-Rx* = Register or Register + Appended Shift or Constant Value
+Rx* = Register / Register + Appended Shift / Constant Value
 ~ = Discarded value
 {x} = x is optional (Excluding `R List`)
 [x] = value at address x
