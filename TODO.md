@@ -13,8 +13,8 @@ First Year:
 - [x] DLD Q
 - [ ] Java 
 - [x] Java Q
-- [ ] ARM
-- [ ] ARM Q
+- [x] ARM
+- [x] ARM Q
 
 Second Year:
 - [ ] Maths 3 Explanation
@@ -31,6 +31,7 @@ Second Year:
 - [x] C Q
 
 - [ ] FIND 2023/2024 SCHOLS PAPERS!!!!
+- [ ] Find out whether multitasking used to be a part of computing and thus is unlikely to appear on the schols paper
 
 Updates:
 - [x] Replace all $\overline v$ and $\overrightarrow v$ in Linear Algebra/Elec with $\mathbf v$

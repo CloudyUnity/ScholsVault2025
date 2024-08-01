@@ -10,6 +10,7 @@ Maths:
 Programming:
 	Java:
 	ARM:
+		Algorithm
 	C:
 
 Systems:
