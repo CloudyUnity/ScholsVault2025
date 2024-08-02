@@ -51,7 +51,7 @@ ROM:
 	Commonly stores bytecode but can store data as well
 
 See Also:
-	DLD Two's Complement: [[Trinity/Schols/Modules/Digital Logic/Question Types/Twos Complement/Explanation|Explanation]]
+	DLD Two's Complement: [[Trinity/Schols/Modules/Digital Logic/Topics/Twos Complement/Explanation|Explanation]]
 
 #bonus
 ARM Versions:
