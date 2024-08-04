@@ -39,3 +39,14 @@ Chinese Remainder Theorem:
 		$M_i = \frac{m}{m_i}$
 		$v_i$ = inverse of $M_i$ (mod $m_i$)
 		$x_0 \equiv (\sum a_i v_i M_i)$ (mod m)	
+
+Fermat's Little Theorem:
+	If $p$ is a prime number co-prime with $a$
+	$a^{p-1} \equiv 1$ (mod $p$)
+	Use FLT to find the least residue of a high power. Split the power into a prime
+
+#bonus 
+Fermat's Last Theorem:
+	No positive integers $a, b, c$ for any value of $n > 2$ satisfy:
+		$a^n + b^n = c^n$
+

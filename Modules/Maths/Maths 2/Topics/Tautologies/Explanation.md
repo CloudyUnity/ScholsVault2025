@@ -1,63 +1,40 @@
-Mathematical Logic is a tool for working with compound statements
-Propositional Logic is the logic of compound statements built from boolean connectives
-A proposition is a statement that's either true or false
+A tautology is a compound proposition true no matter the truth values of its atomic propositions
 
-Connectives:
-	Operators combining operand expressions
-	Unary: -5
-	Binary: 4 + 5
-	Propositional/Boolean: A $\to$ B
-	Examples:
-		¬ = NOT/Opposite
-		$\land$ = AND
-		$\lor$ = OR
-		$\oplus$ = XOR
-		$\to$ = Implies
-		$\leftrightarrow$ = IFF
+$P \lor ¬P$
+$¬(P \land ¬P)$
+$¬¬P \leftrightarrow P$
 
-Predicate Logic is an extension of propositional logic that permits reasoning about classes of entities. It distinguishes the subject of a sentence from its predicate
+$(P \land Q) \to P$
+$(P \land Q) \to Q$
+$P \to (P \lor Q)$
+$Q \to (P \lor Q)$
+$Q \to (P \to Q)$
+$¬P \to (P \to Q)$
 
-Gödel's Incomplete Theorem:
-	Given any finitely describable consistent proof procedure, there will always remain some true statements that will never be proven by that procedure
+$(¬P \land (P \lor Q)) \to Q$
+$P \to (Q \to (P \land Q))$
+$((P \to Q) \land (Q \to R)) \to (P \to R)$
+$(P \to Q) \to ((P \lor R) \to (Q \lor R))$
+$(P \to Q) \to ((P \land R) \to (Q \land R))$
+$((P \leftrightarrow Q) \land (Q \leftrightarrow E)) \to (P \leftrightarrow R)$
 
-A subject is the noun performing the verb in a sentence
-A predicate is the part of the sentence that provides info on the subject
-	Has at least 1 free variable
+$¬(P \land Q) \leftrightarrow (¬P \lor ¬Q)$
+$¬(P \lor Q) \leftrightarrow (¬P \land ¬Q)$
+$¬(P \to Q) \leftrightarrow (P \land ¬Q)$
 
-Lowercase denotes objects/variables
-Uppercase represents predicates/functions
+$(P \to Q) \leftrightarrow (¬P \lor Q)$
+$(P \leftrightarrow Q) \leftrightarrow ((P \to Q) \land (Q \to P))$
+$(P \leftrightarrow Q) \leftrightarrow ((P \land Q) \lor (¬Q \land ¬P))$
 
-Universe of Discourse (UD):
-	The collection of values a variable can take
+$(P \to Q) \leftrightarrow (¬Q \to ¬P)$
+$((P \to Q) \land (P \to R)) \leftrightarrow (P \to (Q \land R))$
+$((P \to R) \land (Q \to R)) \leftrightarrow ((P \lor Q) \to R)$
+$(P \to (Q \to R)) \leftrightarrow (P \land Q) \to R$
+TODO
 
-Quantifier:
-	Notation for quantifying objects in a UD
-	($\forall , \exists$)
+Modus Ponens:
+	$( P \land (P \to Q) ) \to Q$
 
-For an implication $p \to q$
-	Converse: $q \to p$
-	Inverse: $¬p \to q$
-	Contrapositive: $¬q \to ¬p$
-		This one is always equivalent to the original
-	$((p \to q) \land (q \to p)) \to (p \leftrightarrow q)$
+Modus Tollens:
+	$(¬Q \land (P \to Q)) \to ¬P$
 
-Free Variable:
-	An undefined variable such as in a predicate
-Bound Variable:
-	A variable found in a quantifier
-Example:
-	$\forall x, P(x, y)$ has 1 free and 1 bound
-
-A statement not made from simpler ones is atomic/simple as opposed to compound
-A Tautology/Law is a compound proposition that is always true
-A contradiction is a compound proposition that is always false
-Propositional Equivalence is when a tautology results due to a biconditional operator ($\leftrightarrow$) between two statements
-
-Remember "Some" = $\exists$, "Only Some" = $\exists \land ¬\exists$
-
-DeMorgan:
-	¬$\exists$ = $\forall$
-	¬$\forall$ = $\exists$
-
-#bonus 
-In probability propositions can have percentage values to represent more complex uncertainties 
