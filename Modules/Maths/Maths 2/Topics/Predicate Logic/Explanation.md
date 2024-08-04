@@ -56,8 +56,8 @@ Propositional Equivalence is when a tautology results due to a biconditional ope
 Remember "Some" = $\exists$, "Only Some" = $\exists \land ¬\exists$
 
 DeMorgan:
-	¬$\exists$ = $\forall$
-	¬$\forall$ = $\exists$
+	¬$\exists x$ = $\forall ¬x$
+	¬$\forall x$ = $\exists ¬x$
 
 #bonus 
 In probability propositions can have percentage values to represent more complex uncertainties 
