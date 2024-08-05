@@ -54,7 +54,7 @@ Proof by Induction:
 			$n^2 + (2n + 1) = n^2 + 2n + 1$
 		Equality:
 			TODO
-		Inference:
+		Division:
 			TODO
 
 Inference Rules:

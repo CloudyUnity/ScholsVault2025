@@ -5,8 +5,8 @@ First Year:
 - [x] IT Q
 - [x] Maths 1 Explanation
 - [x] Maths 1 Q
-- [ ] Maths 2 Explanation
-- [ ] Maths 2 Q
+- [x] Maths 2 Explanation
+- [x] Maths 2 Q
 - [ ] Stats Explanation
 - [ ] Stats Q
 - [x] DLD Explanation

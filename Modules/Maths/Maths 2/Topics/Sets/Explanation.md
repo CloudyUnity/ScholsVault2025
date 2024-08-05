@@ -1,8 +1,11 @@
 A set in an unordered collection of elements
 
-|S| defines the size/cardinality of a set S
-Some sets are infinite ($\mathbb{R}$)
-A is cardinal to B if |A| = |B|
+Cardinality:
+	|S| defines the size/cardinality of a set S
+	Some sets are infinite ($\mathbb{R}$)
+	A is cardinal to B if |A| = |B|
+	$|A \cup B| = |A| + |B| - |A \cap B|$
+	$B \subseteq A \to|A \backslash B| = |A| - |B|$
 
 Naïve Set Theory:
 	Leads to a contradiction 
@@ -28,8 +31,6 @@ Half Plane Set Formula:
 Disc Set Formula:
 	$x^2 + y^2 < 1$
 Use solid/hollow dots and solid/broken lines for inclusion when graphing	
-
-Normal/Ordinary sets do not contain themselves
 
 Axiom of Choice:
 	Given a set of non-empty sets $A$
@@ -92,34 +93,46 @@ Tuples:
 		$|A \times B| = |A| + |B|$
 		Appends a tuple onto another
 
-Karnaugh Maps / Veitch Diagram:
-	Sets are disjoint IFF $A \cap B = \emptyset$
-	$X \oplus Y = (X \cap \bar Y) \cup (\bar X \cap Y)$
+$X \oplus Y = (X \cap \bar Y) \cup (\bar X \cap Y)$
+
+Karnaugh Maps / Veitch Diagram:	
+	![[Pasted image 20240805112301.png]]
+	![[Pasted image 20240805112022.png]]
+	![[Pasted image 20240805112735.png]]
+	Fill in values in the map similar to how you'd do it on a venn diagram
+	Break large expressions into smaller veitches and combine them with union/intersection
 	Example:
 		Out of 100 students and 3 modules (A, B, C):
-			3 failed all
-				111=3
-			9 failed B and C
-				011=9-3=6			
-			10 failed A and C
-				101=10-3=7
-			12 failed A and B
-				110=12-3=9
-			32 failed A
-				100=32-3-7-8=13
-			30 failed B
-				010=30-3-6-9=12
-			46 failed C
-				001=46-3-6-7=30
-			100-30-12-6-13-7-9-3=20
-				000=20
-		Write Karnaugh map where A = row 2, B = column 3-4, C = column 1-2
-		Fill in table with info above
-		Profit
+			3 failed all:                          111 = 3
+			9 failed B and C:                 011 = 9-3 = 6			
+			10 failed A and C:               101 = 10-3 = 7
+			12 failed A and B:               110 = 12-3 = 9
+			32 failed A:                         100 = 32-3-7-8 = 13
+			30 failed B:                          010 = 30-3-6-9 = 12
+			46 failed C:                          001 = 46-3-6-7 = 30
+			100-30-12-6-13-7-9-3=20: 000=20
+		Fill in map with info above
 
 Power Set:
 	$\wp(A)$ is the power set of A
+	This is the set of all subsets of $A$
 	$A = \{0, 1\} \to \wp(A) = \{\emptyset, \{0\}, \{1\}, \{0, 1\}\}$
 	$A = \{0, 1, 2\} \to \wp(A) = \{\emptyset, \{0\}, \{1\}, \{2\}, \{0, 1\}, \{0, 2\}, \{1, 2\}, \{0, 1, 2\}\}|$
 	$A = \emptyset \to \wp(A) = \{\emptyset\} \to \wp(\wp(A)) = \{\emptyset, \{\emptyset\}\}$	
 	$|A| = n \to |\wp(A)| = 2^n$
+
+#bonus 
+Countable Sets:
+	A set that is finite or has the same cardinality as $\mathbb{N}$ is countable
+	When an infinite set $S$ is countable then $|S| = \aleph_0$
+	Any subset of a countable set is countable
+	The union of countably many countable sets is countable	
+	$|\mathbb{N}| = |\mathbb{N}_{EVEN}| = |\mathbb{Z}| = |\mathbb{Q}^{+}| = \aleph_0$
+		Try to find a 1-1 correspondence between sets
+		![[Pasted image 20240805114115.png]]
+	A set with an uncountable subset is uncountable
+	$\mathbb{R}$ is uncountable as $(0, 1) \subseteq \mathbb{R}$ 
+
+#bonus 
+Cantor's Theorem:
+	$|N| \neq |\wp (\mathbb{N})|$
