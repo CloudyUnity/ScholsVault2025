@@ -37,3 +37,4 @@ Updates:
 - [x] Replace all $\overline v$ and $\overrightarrow v$ in Linear Algebra/Elec with $\mathbf v$
 - [x] Add bonus tag to maths 1 stuff (Finn)
 - [ ] Sort summaries neatly
+- [ ] Make inter-module stats comparing most info to learn, most questions, most varied questions, etc
