@@ -1,4 +1,3 @@
-
 Exploration is when there is a message in the data and the display helps to understand it
 Communication is when we know something and the display communicates it to others
 Decoration is when the display is engaging and enlivens a presentation
@@ -14,12 +13,14 @@ Histograms:
 		Relative:
 			Divide the count of each class by the total range width
 
+Bar plot:
+	Qualitative data
+	Shows absolute/relative frequency of a variable
+
 Scatterplots:
 	Quantitative data
 	Represents values of one variable against another
-
-Bar plot:
-	Qualitative data
+	Plots pairs of data
 
 Box plot:
 	Pair of Quantitative and Qualitative variables

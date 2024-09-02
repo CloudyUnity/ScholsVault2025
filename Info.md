@@ -17,7 +17,7 @@ Code must all be handwritten so start getting good at writing bugless code
 Answer every question
 Math papers from 2016 on are a good basis 
 	Also see this book (A tour through mathematical logic by Robert Wolf)
-		https://books.google.com.vc/books?id=QBmzDwAAQBAJ&printsec=frontcover&rview=1&source=gbs_vpt_read#v=onepage&q&f=false
+		https://pdfcoffee.com/r-wolf-a-tour-through-mathematical-logic-pdf-free.html
 Ask your lecturers questions because they like to give hints
 Also pay attention during lectures for hints
 Watch out for micheal manzke, a demon apparently. Can write on Systems paper

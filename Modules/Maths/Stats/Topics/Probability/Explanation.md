@@ -6,8 +6,6 @@ It's a value in the range `[0, 1]` to measure the degree on uncertainty associat
 0 is impossible
 1 is certain
 
-$Pr(E) \approx \tilde{f}_E$
-
 Sample Space ($\ohm$):
 	A defined set of 2 or more outcomes
 
@@ -23,6 +21,7 @@ Trial:
 Event ($E$):
 	A set of outcomes from an experiment with corresponding probability values $Pr(E)$
 	An event with 1 outcome is elementary, otherwise compound
+	$Pr(E) \approx \tilde{f}_E$
 
 #NeedsFactCheckingByTrueAmericanPatriots 
 Set of all subsets in $\ohm$:
@@ -36,6 +35,9 @@ Complement:
 $E_1 \cup E_2$ = Either happens
 $E_1 \cap E_2$ = Both happen
 $Pr(\ohm) = 1$
+
+#NeedsFactCheckingByTrueAmericanPatriots 
+$Pr(\mathscr{A}) = A_0 \cup A_1 \cup \dots \cup A_2$
 
 $Pr(A \cup B) = Pr(A) + Pr(B) - Pr(A \cap B)$
 
@@ -59,11 +61,22 @@ Independence:
 
 Bayes Theorem:
 	$Pr(B_i|A) = \dfrac{Pr(B_i) Pr(A|B_i)}{\sum Pr(B_i)Pr(A|B_i)}$
+	You'll be given $Pr(A)$ and some combination of conditionals
+	Step 1 is calculating all conditionals using `1 - X`
 	Example:
 		Given $Pr(A), Pr(B|\bar A), Pr(\bar B | A)$
 		Find $Pr(A|B)$
 		Solution:
-		$Pr(\bar B | \bar A) = 1 - Pr(B | \bar A)$
-		$Pr(B | A) = 1 - Pr(\bar B | A)$
-		$Pr(A|B) = \dfrac{Pr(A)Pr(B|A)}{Pr(A)Pr(B|A) + Pr(\bar A)Pr(B|\bar A)}$
-		
+			$Pr(\bar B | \bar A) = 1 - Pr(B | \bar A)$
+			$Pr(B | A) = 1 - Pr(\bar B | A)$
+			$Pr(A|B) = \dfrac{Pr(A)Pr(B|A)}{Pr(A)Pr(B|A) + Pr(\bar A)Pr(B|\bar A)}$	
+	How Bayes Works:
+		To calculate a conditional you need to find two probabilities: The chance of getting both events to happen, and the chance of getting the initial event
+		You must divide the intersect chance by the initial event chance
+		$Pr(A) Pr(B|A) = Pr(A \cap B)$
+			Chance of getting `A and B given A` = `A and B`
+		Bayes simplifies to
+			$Pr(A|B) = \dfrac{Pr(A \cap B)}{Pr(A \cap B) + Pr(\bar{A} \cap B)}$
+			The denominator is equivalent to $Pr(B)$
+			$Pr(A|B) = \dfrac{Pr(A \cap B)}{Pr(B)}$
+

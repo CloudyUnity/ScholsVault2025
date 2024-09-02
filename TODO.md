@@ -1,16 +1,22 @@
 First Year:
 - [x] Electronics Explanation
 - [x] Electronics Q
+- [ ] Elec tut sheets
 - [x] IT Explanation
 - [x] IT Q
+- [ ] IT tut sheets
 - [x] Maths 1 Explanation
 - [x] Maths 1 Q
+- [ ] Maths 1 tut sheets
 - [x] Maths 2 Explanation
 - [x] Maths 2 Q
+- [ ] Maths 2 tut sheets
 - [ ] Stats Explanation
 - [ ] Stats Q
+- [ ] Stats Slide Exercises
 - [x] DLD Explanation
 - [x] DLD Q
+- [ ] DLD tut sheets
 - [ ] Java 
 - [x] Java Q
 - [x] ARM
@@ -31,10 +37,12 @@ Second Year:
 - [x] C Q
 
 - [ ] FIND 2023/2024 SCHOLS PAPERS!!!!
-- [ ] Find out whether multitasking used to be a part of computing and thus is unlikely to appear on the schols paper
+- [ ] Answer questions in [[Questions]]
 
 Updates:
 - [x] Replace all $\overline v$ and $\overrightarrow v$ in Linear Algebra/Elec with $\mathbf v$
 - [x] Add bonus tag to maths 1 stuff (Finn)
 - [ ] Sort summaries neatly
 - [ ] Make inter-module stats comparing most info to learn, most questions, most varied questions, etc
+- [ ] Gather all non-lecture material from stats module on blackboard
+- [ ] Replace "TODO" text with #todo tag
