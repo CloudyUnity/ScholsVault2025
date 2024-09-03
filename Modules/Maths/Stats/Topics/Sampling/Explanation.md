@@ -65,7 +65,7 @@ Sample Statistic
 		$\hat{\sigma}^2 = n^{-1} \sum (X_i - \bar{X})^2$
 	The value of the sample statistic evaluated on the observed sample is $t(x_1, x_2, \dots, x_n)$
 	#todo 
-		Huh? What does that even mean
+		Huh? What does that even mean, like the whole thing
 
 Sampling Distribution
 	The probability distribution of $t(X_1, X_2, \dots, X_n)$ 
