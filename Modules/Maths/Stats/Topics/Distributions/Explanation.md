@@ -1,4 +1,5 @@
 What is a distribution
+	 
 	#todo 
 
 $X \sim$ R(...)
