@@ -1,6 +1,7 @@
 What is a distribution
-	 
-	#todo 
+	 **"The simplest useful numerical description of a distribution
+consists of both a measure of center and a measure of spread."** - *David. S. Moore* himself
+	 A distribution is a method of visualizing the spread, variability and frequencies of outcomes in an probabilistic event we can observe, the useful thing about observations is that they can have patterns we can use to describe them.
 
 $X \sim$ R(...)
 	The r.v. X is distributed in the R distribution
