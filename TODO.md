@@ -11,7 +11,7 @@ First Year:
 - [x] Maths 2 Explanation
 - [x] Maths 2 Q
 - [ ] Maths 2 tut sheets
-- [ ] Stats Explanation
+- [x] Stats Explanation
 - [ ] Stats Q
 - [ ] Stats Slide Exercises
 - [x] DLD Explanation
@@ -23,14 +23,19 @@ First Year:
 - [x] ARM Q
 
 Second Year:
+- [ ] Maths 3 Get all slides
 - [ ] Maths 3 Explanation
 - [ ] Maths 3 Q
+- [ ] Probability Get all slides
 - [ ] Probability Explanation
 - [ ] Probability Q
+- [ ] Comp Arch Get all slides
 - [ ] Comp Arch Explanation
 - [ ] Comp Arch Q
+- [ ] Info Management Get all slides
 - [ ] Info Management Explanation
 - [ ] Info Management Q
+- [ ] ADS Get all slides
 - [ ] ADS Explanation
 - [ ] ADS Q
 - [ ] C
@@ -45,4 +50,4 @@ Updates:
 - [ ] Sort summaries neatly
 - [ ] Make inter-module stats comparing most info to learn, most questions, most varied questions, etc
 - [ ] Gather all non-lecture material from stats module on blackboard
-- [ ] Replace "TODO" text with #todo tag
+- [x] Replace "TODO" text with #todo tag

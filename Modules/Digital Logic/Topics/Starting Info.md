@@ -8,7 +8,7 @@ Nibble:
 Active High/Low:
 	![[Pasted image 20240731121234.png]]
 	Bobbles on the input indicate active-low
-	TODO
+	#todo
 
 XOR3:
 	Option 1:

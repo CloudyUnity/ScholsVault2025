@@ -36,8 +36,6 @@ Simple Random Sampling Design:
 	When sampling with no repetition the values in the sample are dependant 
 		$X \sim$ U(1, 3)
 		$Pr(X_2 = 2) \neq Pr(X_2 = 2 | X_1 = 1)$
-		#todo 
-			Does it make sense to use $X \sim \dots$ for discrete populations?
 
 Stratified Random Sampling Design:
 	The population is divided into subgroups according to different criterion
@@ -50,7 +48,7 @@ Systematic Sampling Design
 	Easy to implement but large risk of data manipulation when ordering the population or choosing $K$
 
 Independent and Identically Distributed (i.i.d.)
-	#todo
+	A collection of r.v.s that have the same probability distribution and are mutually independent
 
 Sampling from infinite populations
 	Census is not an option, you must always sample
@@ -59,13 +57,13 @@ Sampling from infinite populations
 
 Sample Statistic
 	A function of the sample observations $t(X_1, X_2, \dots, X_n)$
+	A piece of info you get from a sample
 	Sample Mean:
 		$\bar{X} = n^{-1} \sum X_i$
 	Sample Variance:
 		$\hat{\sigma}^2 = n^{-1} \sum (X_i - \bar{X})^2$
 	The value of the sample statistic evaluated on the observed sample is $t(x_1, x_2, \dots, x_n)$
-	#todo 
-		Huh? What does that even mean, like the whole thing
+	It's kind of like a generic way of saying applying some functions on some inputs results in some outputs
 
 Sampling Distribution
 	The probability distribution of $t(X_1, X_2, \dots, X_n)$ 

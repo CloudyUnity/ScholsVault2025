@@ -34,12 +34,6 @@ Identity Matrix:
 	Any matrix or vector multiplied by the identity matrix equals itself ($AI = A$)
 		In the same way 1 is the identity scalar (x * 1 = x)
 
-#bonus
-Transformations:
-	A matrix can represent a transformation in space (Often 2D or 3D)
-	For 3D we need a 4x4 matrix
-	How transformations are represented within the matrix depends on whether its in a right-handed or left-handed coordinate system
-
 Matrix Minor:
 	The minor $M_{ij}$ of a $n \times n$ matrix A is the determinant of A with the i-th row and j-th column deleted
 
@@ -58,3 +52,9 @@ Adjoint:
 
 The Zero Vector:
 	$\overline{0} = (0, 0, 0)$
+
+#bonus
+Transformations:
+	A matrix can represent a transformation in space (Often 2D or 3D)
+	For 3D we need a 4x4 matrix
+	How transformations are represented within the matrix depends on whether its in a right-handed or left-handed coordinate system

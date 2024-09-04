@@ -15,7 +15,7 @@ Frequency Modulation (FM):
 		$I(t)$ is the information signal
 		$\omega$ is the carrier angular frequency
 		$\beta$ is the frequency modulation index
-			TODO: What is this?
+			#todo What is this?
 	Example: FM Radio 
 	Bandwidth:
 		$B_m = 2(1 + \beta) B_b$			

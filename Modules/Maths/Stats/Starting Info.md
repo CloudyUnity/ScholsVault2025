@@ -8,8 +8,11 @@ Population:
 Sample:
 	Samples are drawn from populations of interest. The size is lower than the population size
 
-Data is structured into units and variables
-	#todo
+Unit
+	A single observation or measurement
+
+Variable
+	A characteristic or quality that can be measured and assumes different values per unit
 
 Quantitative:
 	Discrete is predefined intervals
@@ -28,9 +31,9 @@ Relative Frequency = $\tilde f$
 Cumulative Relative Frequency = $f_c$
 	$f_{ci} = \overset{i}{\underset{k = 1}{\sum}} \tilde{f}_k$
 
-Unimodal
-	#todo 
-	Mode = Median = Mean?
+Unimodal has a single clear peak/mode
+Bimodal has 2 peaks
+Multimodal has 2+ peaks
 
 Arg max $f(x)$:
 	The points $x$ where $f(x)$ attains the largest value

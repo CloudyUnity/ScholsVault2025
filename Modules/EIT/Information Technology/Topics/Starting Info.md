@@ -1,5 +1,5 @@
 Carrier signal:
-	TODO
+	#todo
 
 Analogue = Continuous
 Digital = Discrete

@@ -53,9 +53,9 @@ Proof by Induction:
 			$1 + 3 + 5 + \dots + (2n - 1) + (2(n+1) - 1) = (n+1)^2$
 			$n^2 + (2n + 1) = n^2 + 2n + 1$
 		Equality:
-			TODO
+			#todo 
 		Division:
-			TODO
+			#todo
 
 Inference Rules:
 	Propositional Consequence:

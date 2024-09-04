@@ -131,8 +131,7 @@ Gaussian Errors
 
 $\dfrac{\hat \beta - \beta}{S(\hat \beta)} \sim T(n-2)$
 $S(\hat \beta)$ is the $SE$ of $\hat \beta$
-	#todo 
-	What is that?
+	$S(\hat \beta) = \sqrt{\dfrac{\sum \hat{\epsilon}^2_i}{(n-2)\sum (x_i - \bar x)^2}}$
 
 $H_0 : \beta = 0$
 $H_1 : \beta \neq 0$

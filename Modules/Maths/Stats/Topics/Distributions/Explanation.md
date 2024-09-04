@@ -1,5 +1,7 @@
 What is a distribution
-	#todo 
+	A function showing possible values for a variable and how often they each occur
+	Normal Distribution is bell shaped
+	Uniform Distribution is a flat block
 
 $X \sim$ R(...)
 	The r.v. X is distributed in the R distribution

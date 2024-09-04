@@ -10,7 +10,7 @@ Enhancement Metal Oxide Semiconductor Field Effect Transistor (E-MOSFET):
 		![[Pasted image 20240715162616.png]]
 		N-Channel is also called an inversion layer
 		Why does the dielectric become negative closer to the gate though? 
-			TODO find an answer
+			#todo find an answer
 
 Building Logic Gates:
 	![[Pasted image 20240715163158.png]]
@@ -23,5 +23,5 @@ Amplifiers:
 	$V_{in}$ is AC
 	$V_{DD}$ is DC
 	Capacitors prevent backflow
-	TODO:
+	#todo
 		Solve for each variable, idfk how it's confusin

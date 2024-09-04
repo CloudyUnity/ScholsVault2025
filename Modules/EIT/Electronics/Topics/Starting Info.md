@@ -44,4 +44,4 @@ Electrical Power:
 
 #bonus 
 Potentiometer:
-	TODO
+	#todo
