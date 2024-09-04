@@ -53,9 +53,6 @@ For continuous r.v.s
 	$E(X) = n \pi$
 	$V(X) = n \pi (1 - \pi)$
 	$\overline{x}_{a} \approx n \pi$
-	#todo 
-		Isn't $E(X) = \bar{x}_a$?
-		Why is one approx and one equal?
 
 `D` Poisson:
 	$X \sim$ Pois($\lambda$)
@@ -127,3 +124,9 @@ Given $X \sim Binom(\pi, n)$
 	$v \geq 3 \to V(X) = \dfrac{v}{v - 2}$		
 	Use tables to calculate $Pr(T \leq t)$
 
+`C` Chi-Squared:
+	$X \sim \mathscr{X}^2(v)$
+	$v =$ degrees of freedom
+	$v > 25 \to X \sim N$
+	#todo 
+		Check if $E(X), V(X),$ etc are important/readable
