@@ -28,7 +28,7 @@ Probability Density Function (PDF)
 	$Pr(xi \leq X \leq x_j) = \int^{x_j}_{x_i} f(x) dx$
 	$f(x)$ is the PDF
 	$f(x) \geq 0$
-	If a continuous r.v $X$ takes values in `[a, b]
+	If a continuous r.v. $X$ takes values in `[a, b]
 		$\int^{b}_a f(x) dx = 1$
 	$Pr(X = x_i) = 0$
 	$Pr(x_i \leq X \leq x_j) = Pr(x_i < X < x_j)$
@@ -64,4 +64,3 @@ Standardization ($Z$)
 	$Z$ is a r.v. corresponding to the standardized $X$ r.v.
 	$E(Z) = 0$
 	$V(Z) = 1$
-	

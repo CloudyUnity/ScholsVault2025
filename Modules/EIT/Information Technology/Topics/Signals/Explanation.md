@@ -38,4 +38,4 @@ Information that needs to be transmitted is aperiodic which can't be represented
 
 Fourier Transform:
 	$F(\omega) = \int^{\infty}_{-\infty} f(t) e^{-2 \pi \omega i t} dt$
-	TODO
+	#todo

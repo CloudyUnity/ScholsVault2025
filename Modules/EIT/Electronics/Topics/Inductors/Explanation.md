@@ -7,8 +7,8 @@ Inductor:
 
 Inductance ($L$):
 	Total magnetic flux threading the inductor
-	Equation for current TODO
-	Length, area, turns equation TODO
+	Equation for current #todo
+	Length, area, turns equation #todo
 	Unit = Henry (Scalar)
 
 $V_L = L \dfrac{dI}{dt}$

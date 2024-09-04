@@ -31,7 +31,7 @@ Estimators
 	These are used to obtain estimate quantities of interest in the population from observations in a sample 
 	An estimator for the generic population parameter $\theta$ is a function of the sample observations $T = t(X_1, X_2, \dots, X_n)$
 	The value of the estimator is called the estimate: $t = t(x_1, x_2, \dots, x_n)$
-	Equivalent to sample statistics and their values but with the focus on finding estimators for $\theta$
+	Equivalent to sample statistics but with the focus on finding estimators for $\theta$
 
 r.v. $X \ \ \ \ \ \ \ \ \ \ \longrightarrow$ Observation $x$
 Estimator $T \longrightarrow$ Estimate $t$
@@ -78,9 +78,6 @@ For the sample mean with a known population variance
 
 For an observed sample
 	$\bar{x}_n \pm z_{\frac{a}{2}} \dfrac{\sigma}{\sqrt n}$
-
-#todo 
-	What is the difference between a sample $\{X_1, X_2, \dots, X_n\}$ and an observed sample $\{x_1, x_2, \dots, x_n\}$
 
 $Pr(\bar{x}_n - z_{\frac{a}{2}} \dfrac{\sigma}{\sqrt n} \leq \mu \leq \bar{x}_n + z_{\frac{a}{2}} \dfrac{\sigma}{\sqrt n} )) = 1 - a$
 There is a $(1-a)$ probability that the interval for the sample mean will contain $\mu$

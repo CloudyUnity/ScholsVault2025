@@ -2,6 +2,8 @@ What is a distribution
 	 **"The simplest useful numerical description of a distribution
 consists of both a measure of center and a measure of spread."** - *David. S. Moore* himself
 	 A distribution is a method of visualizing the spread, variability and frequencies of outcomes in an probabilistic event we can observe, the useful thing about observations is that they can have patterns we can use to describe them.
+	 Normal Distribution is bell shaped
+	 Uniform Distribution is a flat block
 
 $X \sim$ R(...)
 	The r.v. X is distributed in the R distribution
@@ -57,9 +59,6 @@ For continuous r.v.s
 	$E(X) = n \pi$
 	$V(X) = n \pi (1 - \pi)$
 	$\overline{x}_{a} \approx n \pi$
-	#todo 
-		Isn't $E(X) = \bar{x}_a$?
-		Why is one approx and one equal?
 
 `D` Poisson:
 	$X \sim$ Pois($\lambda$)
@@ -131,3 +130,9 @@ Given $X \sim Binom(\pi, n)$
 	$v \geq 3 \to V(X) = \dfrac{v}{v - 2}$		
 	Use tables to calculate $Pr(T \leq t)$
 
+`C` Chi-Squared:
+	$X \sim \mathscr{X}^2(v)$
+	$v =$ degrees of freedom
+	$v > 25 \to X \sim N$
+	#todo 
+		Check if $E(X), V(X),$ etc are important/readable

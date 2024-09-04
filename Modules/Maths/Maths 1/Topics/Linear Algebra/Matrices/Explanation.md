@@ -10,11 +10,10 @@ Calculating the inverse:
 		$A^{-1} = \dfrac{1}{det(A)} \begin{bmatrix} d & -b \\ -c & a \end{bmatrix}$
 		Flip main diagonal
 		Negate others
-	$3 \times 3$ matrix:
-		TODO
 
 Inverse from the matrix of cofactors:
 	$A^{-1} = \dfrac{1}{det(A)} (\tilde{A})^T$
+	This is the only way to get 3x3 inverses
 
 $(ABC)^{-1} = C^{-1} B^{-1} A^{-1}$
 

@@ -5,3 +5,5 @@ Are we allowed calculators/log books into all exams
 How lenient is the exam on syntax errors / spelling mistakes / etc
 
 Are there any language features not allowed?
+
+Do we need to memorize the workings for certain equations like OLS in stats?
