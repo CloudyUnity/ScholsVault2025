@@ -34,10 +34,13 @@ Median:
 		$M_e = 0.5 (x_{i_1} + x_{i_2})$
 	 $arg \ \underset{c}{min} [\sum |x_i - c|] = \sum |x_i - M_e|$
 	 Median Class:
-		$M_e = m_{M_e} + \triangle_{M_e} \dfrac{0.5 - fc_{M_e - 1}}{fc_{M_e} - fc_{M_e - 1}}$
+		$M_e = m_{M_e} + \triangle_{M_e} \dfrac{\frac{n}{2} - fc_{M_e - 1}}{fc_{M_e} - fc_{M_e - 1}}$
 			$m_{M_e}$ is the lower bound of the class containing the median
 			$\triangle_{M_e}$ is the class width
+			 $n$ is the number of observations
 		The class containing the median will always be the first class to have its $f_c$ surpass 0.5
+		The formula can also be expressed in this method, which is important when dealing with tables where you don't know all frequencies
+		 $M_e = m_{M_e} + \triangle_{M_e} \dfrac{\frac{n}{2} - fc_{M_e - 1}}{f_{M_{e}}}$
 
 Mode:
 	Largest frequency 
