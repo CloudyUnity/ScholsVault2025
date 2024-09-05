@@ -1,6 +1,4 @@
 What is a distribution
-	 **"The simplest useful numerical description of a distribution
-consists of both a measure of center and a measure of spread."** - *David. S. Moore* himself
 	 A distribution is a method of visualizing the spread, variability and frequencies of outcomes in an probabilistic event we can observe, the useful thing about observations is that they can have patterns we can use to describe them.
 	 Normal Distribution is bell shaped
 	 Uniform Distribution is a flat block
@@ -13,14 +11,12 @@ $X \sim$ R(...)
 
 $f(x)$ is the PDF for continuous r.v.s
 $Pr(x_i \leq X \leq x_j) = \int^{x_j}_{x_i} f(w) dw$
-	PDF = Probability Density Function
-	
+
 $F(x)$ is the CDF for a discrete or continuous r.v.
 For an interval `[a, b]`
 	$x < a \to F(x) = 0$
 	$x > b \to F(x) = 1$
-	 CDF = Cumulative Distribution Function
-	 
+
 For discrete r.v.s 
 	$E(X) = \sum x_i Pr(x_i)$
 	$V(X) = \sum [x_i - E(X)]^2 Pr(x_i)$
