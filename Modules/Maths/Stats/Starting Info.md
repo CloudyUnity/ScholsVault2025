@@ -29,7 +29,9 @@ Contingency Table:
 Absolute Frequency = $f$
 Relative Frequency = $\tilde f$
 Cumulative Relative Frequency = $f_c$
-	$f_{ci} = \overset{i}{\underset{k = 1}{\sum}} \tilde{f}_k$
+	$f_{c_{i}} = \overset{i}{\underset{k = 1}{\sum}} \tilde{f}_k$
+Cumulative Absolute Frequency = $f_C$
+	$f_{C_i} = \overset{i}{\underset{k=1}{\sum}} f_k$
 
 Unimodal has a single clear peak/mode
 Bimodal has 2 peaks

@@ -39,9 +39,9 @@ Median:
 		$m_{M_e}$ is the lower bound of the class containing the median
 		$\triangle_{M_e}$ is the class width
 	The class containing the median will always be the first class to have its $f_c$ surpass 0.5
-	#NeedsFactCheckingByTrueAmericanPatriots 
 	The formula can also be expressed in this method, which is important when dealing with tables where you don't know all frequencies
-		 $M_e = m_{M_e} + \triangle_{M_e} \dfrac{\frac{n}{2} - fc_{M_e - 1}}{f_{M_{e}}}$
+		 $M_e = m_{M_e} + \triangle_{M_e} \dfrac{\frac{n}{2} - f_{C_{M_e - 1}}}{f_{M_{e}}}$
+		Note it uses Absolute Cumulative Frequencies
 
 Mode:
 	Largest frequency 
