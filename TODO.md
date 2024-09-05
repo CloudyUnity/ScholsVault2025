@@ -12,7 +12,7 @@ First Year:
 - [x] Maths 2 Q
 - [ ] Maths 2 tut sheets
 - [x] Stats Explanation
-- [ ] Stats Q
+- [x] Stats Q
 - [ ] Stats Slide Exercises
 - [x] DLD Explanation
 - [x] DLD Q
@@ -48,6 +48,6 @@ Updates:
 - [x] Replace all $\overline v$ and $\overrightarrow v$ in Linear Algebra/Elec with $\mathbf v$
 - [x] Add bonus tag to maths 1 stuff (Finn)
 - [ ] Sort summaries neatly
-- [ ] Make inter-module stats comparing most info to learn, most questions, most varied questions, etc
+- [x] Make inter-module stats comparing most info to learn, most questions, most varied questions, etc
 - [ ] Gather all non-lecture material from stats module on blackboard
 - [x] Replace "TODO" text with #todo tag

@@ -4,7 +4,9 @@ Maths:
 	Linear Algebra:
 		Matrices/Eigenvalues
 	Discrete:
+		Sets
 	Stats:
+		Distributions
 	Probability:
 
 Programming:

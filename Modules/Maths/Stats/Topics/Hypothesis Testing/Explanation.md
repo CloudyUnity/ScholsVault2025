@@ -120,8 +120,10 @@ Test for proportions
 	$H_0 : \pi_1, \pi_2, \dots, \pi_K$
 	$H_1 :$ Any proportion different
 	$T_{s} \sim \mathscr{X}^2(K - 1)$
-	$\mathscr{x}^2 = \overset{K}\sum \dfrac{(f_k - n \pi_k)^2}{n \pi_k}$
-	$\mathscr{x}^2 = \overset{K}\sum \dfrac{(\tilde f_k - \pi_k)^2}{\pi_k}$
+	When given frequencies, test with frequencies
+		$\mathscr{x}^2 = \overset{K}\sum \dfrac{(f_k - n \pi_k)^2}{n \pi_k}$
+	Otherwise test with proportions
+		$\mathscr{x}^2 = \overset{K}\sum \dfrac{(\tilde f_k - \pi_k)^2}{\pi_k}$
 	$\mathscr{x}^2 = \overset{K}\sum \dfrac{(O - E)^2}{E}$
 		$O$ = Observed Value
 		$E$ = Expected Value

@@ -31,6 +31,7 @@ Box plot:
 		$q_{75}$ the 3rd quartile
 		$q_{100}$ the maximum
 	Outliers are often represented separately
+	Be aware $q_0 = q_{25} \lor q_{100} = q_{75}$ can happen
 	Interquartile Range:
 		IQR = $q_{75} - q_{25}$ 
 
