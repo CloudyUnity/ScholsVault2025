@@ -51,3 +51,10 @@ Updates:
 - [x] Make inter-module stats comparing most info to learn, most questions, most varied questions, etc
 - [ ] Gather all non-lecture material from stats module on blackboard
 - [x] Replace "TODO" text with #todo tag
+- [ ] Write out kens coding standard
+
+# Finn Specific
+- [ ] Learn quicksort and be able to write it in Java and C
+- [ ] Learn binary search and be able to write it in Java and C
+- [ ] Learn Insertion sort and be able to write it in ARM
+- [ ] Learn pros and cons of various sorts/searches especially ones named above
