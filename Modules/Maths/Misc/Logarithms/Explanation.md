@@ -11,3 +11,5 @@ $log_a x + log_a y = log_a (xy)$
 $log_a x - log_a y = log_a (\frac{x}{y})$
 
 $log_b x = \dfrac{log_a x}{log_a b}$
+
+$\int ln(x) \ dx = xln(x) - x$

@@ -56,9 +56,25 @@
 >$ln|\dfrac{0.5^2 + 1}{-0.5^2 + 1}| - ln|\dfrac{1}{1}|$
 >$ln(\dfrac{5}{3})$
 >To Verify Answer: #todo 
+>(e) #todo
 
 #schols 
 ![[Pasted image 20240703145449.png]]
 
-#schols 
-![[Pasted image 20240703150453.png]]
+This is wrong, needs updating
+> [!question]- #schols  ![[Pasted image 20240703150453.png]]
+> $u = ln^3 \ x$
+> $du = 3 (\dfrac{1}{x}) (ln^2 \ x)\ dx$
+> $dv = dx$
+> $v = x$
+> $x ln^3 \ x - \int (x)3 (\dfrac{1}{x}) (ln^2 \ x)\ dx$
+> $x ln^3 \ x - 3 \int ln^2 \ x \ dx$
+> $u = ln^2 \ x$
+> $du = 2 (\dfrac{1}{x}) (ln \ x) \ dx$
+> $dv = dx$
+> $v = x$
+> $\dots + x ln^2 \ x - \int (x) 2 (\dfrac{1}{x}) (ln \ x) \ dx$
+> $\dots + x ln^2 \ x - 2(x ln(x) - x)$
+> $x ln^3 \ x - 3(x ln^2 \ x - 2x ln(x) - 2x)$
+> $x ln^3 \ x - 3x ln^2 \ x - 6x ln(x) - 6x + C$
+

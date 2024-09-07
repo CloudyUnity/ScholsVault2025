@@ -7,3 +7,5 @@ Don't forget $+ \ C$
 Remember that:
 $\dfrac{d}{dx} e^{f(x)} = (\dfrac{d}{dx} f(x)) e^{f(x)}$
 $\int e^{f(x)} = (\dfrac{d}{dx} f(x))^{-1} e^{f(x)}$
+
+Be aware of sometimes needing to use integration by parts on single term logarithmic integrands
