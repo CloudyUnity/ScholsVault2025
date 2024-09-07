@@ -29,6 +29,33 @@
 >$sin^{-1} \dfrac{x-1}{\sqrt 5} + C$
 
 >[!question]- #schols  ![[Pasted image 20240703145121.png]]
+>(i)
+>$u = ln \ x$
+>$du = \frac{1}{x}\ dx$
+>$x \ du = dx$
+>$\int \frac{1}{x} x \dfrac{1}{\sqrt{1 - u^2}} \ du$
+>$\int \dfrac{1}{\sqrt{a^2 - x^2}} = sin^{-1} (\dfrac{x}{a})$
+>$sin^{-1} (\dfrac{u}{1}) = sin^{-1} (ln \ x)$
+>$sin^{-1} (ln \ \sqrt{e}) - sin^{-1} (ln \ 1)$
+>$\dfrac{\pi}{6}$
+>(ii)
+>$(1 - x^4) = (1 + x^2)(1-x^2)$
+>$\dfrac{4x}{(1-x^2)(1+x^2)} = \dfrac{ax + b}{1+x^2} + \dfrac{cx + d}{1-x^2}$
+>$\dfrac{4x}{(1-x^2)(1+x^2)} = \dfrac{(ax+b)(1-x^2) + (cx+d)(1+x^2)}{(1-x^2)(1+x^2)}$
+>$b = d = 0$
+>$4x = ax + cx$
+>$a = c = 2$
+>$\int \dfrac{2x}{1+x^2} \ dx + \int \dfrac{2x}{1-x^2} \ dx$
+>$u = 1 + x^2$
+>$du = 2x \ dx$
+>$\int \dfrac{1}{u} \ du = ln |x^2 + 1|$
+>$u = 1 - x^2$
+>$du = -2x \ dx$
+>$-\int \dfrac{1}{u} \ du = ln |-x^2 + 1|$
+>$ln|x^2 + 1| - ln|-x^2 + 1| = ln|\dfrac{x^2 + 1}{-x^2 + 1}$
+>$ln|\dfrac{0.5^2 + 1}{-0.5^2 + 1}| - ln|\dfrac{1}{1}|$
+>$ln(\dfrac{5}{3})$
+>To Verify Answer: #todo 
 
 #schols 
 ![[Pasted image 20240703145449.png]]

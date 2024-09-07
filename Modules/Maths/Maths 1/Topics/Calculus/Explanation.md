@@ -53,15 +53,17 @@ Integration by parts:
 		$u = x, dv = e^{2x}$
 
 Integrating partial fractions:
-	$y = \dfrac{f(x)}{g_1(x) g_2(x) \dots g_n(x)}$
+	$y = \dfrac{f(x)}{p(x)} = \dfrac{f(x)}{g_1(x)g_2(x) \dots g_n(x)}$
+	You may need to factorise $p(x)$
 	Number of partial fractions = number of roots in denominator
 	$y = \dfrac{A(x)}{g_1(x)} + \dfrac{B(x)}{g_2(x)} + \dots + \dfrac{C(x)}{g_n(x)}$
 	Degree of numerator = Degree of denominator - 1
 		For example:
-			$\dfrac{A}{x + 1}, \dfrac{Bx + C}{(x - 1)^2}$
+			$\dfrac{A}{x + 1} + \dfrac{Bx + C}{(x - 1)^2} + \dots$
 	Combine partial fractions into a single fraction
 		Must have the same denominator as the original
-	Solve for $A, B, \dots, C$
+		$\dfrac{f(x)}{p(x)} = \dfrac{\dots}{p(x)}$
+	Solve for $A, B, \dots$ and substitute into partial fractions
 	Integrate the partial fractions
 
 #bonus 
