@@ -7,7 +7,7 @@ The schols is composed of 4 papers
 	Systems          | 3 Qs     | 2 hrs | 22.5%
 
 "Broadly based on your first three semesters"
-	Aka it's possible to get asked questions you've not seen in the course like multithreading
+	Aka it's possible to get asked questions you've not seen in the course like multithreading or Maths 3 II
 Takes place between 9-13th January 2025
 
 You need to apply for two online forms, once in September, another in November

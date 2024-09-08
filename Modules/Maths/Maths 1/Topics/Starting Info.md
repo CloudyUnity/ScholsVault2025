@@ -24,6 +24,13 @@ Matrix:
 Square Matrix:
 	Matrix with the same number of rows and columns
 
+Singular Matrix:
+	A square matrix whose determinant is 0
+	A non-invertible matrix
+
+Orthonormal Matrix
+	Where $A^{-1} = A^T$
+
 Transpose:
 	$\begin{bmatrix} a_{11} & a_{12} \\ a_{21} & a_{22} \end{bmatrix} ^T = \begin{bmatrix} a_{11} & a_{21} \\ a_{12} & a_{22} \end{bmatrix}$
 	$(ABC)^T = C^T B^T A^T$

@@ -56,12 +56,32 @@
 >$ln|\dfrac{0.5^2 + 1}{-0.5^2 + 1}| - ln|\dfrac{1}{1}|$
 >$ln(\dfrac{5}{3})$
 >To Verify Answer: #todo 
->(e) #todo
+>(e) #bonus
 
-#schols 
-![[Pasted image 20240703145449.png]]
+> [!question]- #schols ![[Pasted image 20240703145449.png]]
+> (i)
+> $\dfrac{x}{(x+1)^2(x-2)} = \dfrac{ax + b}{(x+1)^2} + \dfrac{c}{x-2}$
+> $x = (ax + b)(x-2) + c(x+1)^2$
+> $1 = -2a + b + 2c$
+> $a = b = c = 1$
+> $\int \dfrac{1x+1}{(x+1)^2} \ dx = \int \dfrac{1}{x+1} \ dx = ln|x+1|$
+> $\int \dfrac{1}{x-2} \ dx = ln|x-2|$
+> $ln|x+1| - ln|x-2| + C$
+> $ln|\dfrac{x+1}{x-2}| + C$
+> ,
+> (ii)
+> $\dfrac{x^2}{x^2 - x - 2} = \dfrac{x^2 - x - 2 + x + 2}{x^2 - x - 2} = 1 + \dfrac{x+2}{x^2 - x - 2}$
+> $x + 2 = a(x-2) + b(x+1)$
+> $a + b = 1$
+> $-2a + b = 2$
+> $a = -\dfrac{1}{3}$
+> $b = \dfrac{4}{3}$
+> $\int - \dfrac{1}{3} \dfrac{1}{x+1} \ dx = - \dfrac{1}{3} ln|x+1|$
+> $\int \dfrac{4}{3} \dfrac{1}{x-2} \ dx = \dfrac{4}{3} ln|x-2|$
+> $\int 1 \ dx = x$
+> $x + \dfrac{1}{3} (4ln|x-2| - ln|x+1|) + C$
+> $x + \dfrac{1}{3} (ln|\dfrac{(x-2)^4}{x+1}|) + C$
 
-This is wrong, needs updating
 > [!question]- #schols  ![[Pasted image 20240703150453.png]]
 > $u = ln^3 \ x$
 > $du = 3 (\dfrac{1}{x}) (ln^2 \ x)\ dx$

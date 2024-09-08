@@ -2,44 +2,56 @@ First Year:
 - [x] Electronics Explanation
 - [x] Electronics Q
 - [ ] Elec tut sheets
+- [ ] Elec A
 - [x] IT Explanation
 - [x] IT Q
 - [ ] IT tut sheets
+- [ ] IT A
 - [x] Maths 1 Explanation
 - [x] Maths 1 Q
 - [ ] Maths 1 tut sheets
+- [ ] Maths 1 A
 - [x] Maths 2 Explanation
 - [x] Maths 2 Q
 - [ ] Maths 2 tut sheets
+- [ ] Maths 2 A
 - [x] Stats Explanation
 - [x] Stats Q
 - [ ] Stats Slide Exercises
+- [ ] Stats A
 - [x] DLD Explanation
 - [x] DLD Q
 - [ ] DLD tut sheets
+- [ ] DLD A
 - [ ] Java 
 - [x] Java Q
+- [ ] Java A
 - [x] ARM
 - [x] ARM Q
+- [ ] ARM A
 
 Second Year:
 - [ ] Maths 3 Get all slides
 - [ ] Maths 3 Explanation
 - [ ] Maths 3 Q
+- [ ] Maths 3 A
 - [ ] Probability Get all slides
 - [ ] Probability Explanation
 - [ ] Probability Q
+- [ ] Probability A
 - [ ] Comp Arch Get all slides
 - [ ] Comp Arch Explanation
 - [ ] Comp Arch Q
-- [ ] Info Management Get all slides
-- [ ] Info Management Explanation
-- [ ] Info Management Q
+- [ ] Comp Arch A
+- [ ] Info Get all slides
+- [ ] Info Explanation
+- [ ] Info Q
+- [ ] Info A
 - [ ] ADS Get all slides
 - [ ] ADS Explanation
-- [ ] ADS Q
 - [ ] C
 - [x] C Q
+- [ ] C A
 
 - [ ] FIND 2023/2024 SCHOLS PAPERS!!!!
 - [ ] Answer questions in [[Questions]]
