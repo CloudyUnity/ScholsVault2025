@@ -3,7 +3,7 @@ A diagonal matrix is a square matrix with values only on the main diagonal
 
 A scalar matrix is a multiple of the identity matrix
 	For example:
-		$\begin{bmatrix} 0.5 & 0 \\ 0 & 0.5 \end{bmatrix}$
+		$0.5I =\begin{bmatrix} 0.5 & 0 \\ 0 & 0.5 \end{bmatrix}$
 
 Diagonal matrices are easily raised to a power
 	$diag(k_1, k_2, \dots, k_n)^p = diag(k_1^p, k_2^p, \dots, k_n^p)$
