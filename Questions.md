@@ -11,6 +11,8 @@ Are there any language (java/c/arm) features not allowed?
 Is it possible for any Year 2 Semester 2 content to appear on the papers?
 
 Do we need to follow kens coding standard in the java question?
+
+If the Info Management question asks about a previous disaster, is it guaranteed to include the Therac disaster as an option? If not what are all the possible options for disasters
 # Exam
 
 Are we allowed calculators/log books into all exams?
