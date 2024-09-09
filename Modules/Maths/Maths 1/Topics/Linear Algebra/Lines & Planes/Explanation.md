@@ -40,12 +40,14 @@ Finding the implicit equation of a plane given a point $P$ and two vectors $\mat
 
 Finding the parametric equation of a plane given a point $P$ and two vectors $\mathbf{u}, \mathbf{v}$:
 	$X = P + \mathbf{u} s + \mathbf{v} t$
-		$x = P_x + u_{x} s + v_{x} t$
-		$y = P_y + u_{y} s + v_{y} t$
-		$z = P_z + u_{z} s + v_{z} t$
+	,
+	$x = P_x + u_{x} s + v_{x} t$
+	$y = P_y + u_{y} s + v_{y} t$
+	$z = P_z + u_{z} s + v_{z} t$
 
 Finding the parametric equation of a plane given a point $P$ and a normal vector $\mathbf{n}$:
-	Cross $\mathbf{n}$ with $-\mathbf{n}$ to find a random vector $\mathbf{u}$ along the plane
+	Cross $\mathbf{n}$ with $(0, 1, 0)$ then cross it with $\mathbf{n}$ to find a random vector $\mathbf{u}$ along the plane
+		If you get a weird result after the first cross it's probably because the vectors were close to parallel, just try $(1, 0, 0)$ instead
 	Cross $\mathbf{n}$ with $\mathbf{u}$ to find another vector $\mathbf{v}$ along the plane
 	Solve as above
 
@@ -60,6 +62,7 @@ Finding the implicit equation of a line given a point $P$ and a parallel vector 
 
 Finding the parametric equation of a line given a point $P$ and a parallel vector $\mathbf{u}$:
 	$X = P + \mathbf{u} t$
+	,
 	$x = P_x + u_x t$
 	$y = P_y + u_y t$
 	$z = P_z + u_z t$

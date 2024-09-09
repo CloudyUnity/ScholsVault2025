@@ -1,3 +1,4 @@
+
 $A A^{-1} = I$
 
 For any matrix transformation the inverse is the opposite transformation
@@ -16,6 +17,9 @@ Inverse from the matrix of cofactors:
 	This is the only way to get 3x3 inverses
 
 $(ABC)^{-1} = C^{-1} B^{-1} A^{-1}$
+$(ABC)^T = C^T B^T A^T$
+$(A^{-1})^T = (A^T)^{-1}$
+$k$ is a scalar $\to k^T = k$
 
 $2 \times 2$ determinant:
 	$\begin{vmatrix} a & b \\ c & d \end{vmatrix} = ad - bc$

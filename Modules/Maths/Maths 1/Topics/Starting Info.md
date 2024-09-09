@@ -15,6 +15,7 @@ Cross Product:
 	Works with any n sized vectors. Always start with $a_1$ 
 	Cross two vectors to find a new vector perpendicular to the two:
 		$v_1 \times v_2 = v_{\perp}$
+	$\mathbf{v} \times \mathbf{v_{||}} = \mathbf{0}$
 
 Matrix:
 	$\begin{bmatrix} a_{11} & a_{12} \\ a_{21} & a_{22} \end{bmatrix}$
@@ -23,6 +24,13 @@ Matrix:
 
 Square Matrix:
 	Matrix with the same number of rows and columns
+
+Singular Matrix:
+	A square matrix whose determinant is 0
+	A non-invertible matrix
+
+Orthonormal Matrix
+	Where $A^{-1} = A^T$
 
 Transpose:
 	$\begin{bmatrix} a_{11} & a_{12} \\ a_{21} & a_{22} \end{bmatrix} ^T = \begin{bmatrix} a_{11} & a_{21} \\ a_{12} & a_{22} \end{bmatrix}$

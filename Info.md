@@ -1,4 +1,4 @@
-See [[Trinity/Schols/Resources|Resources]] for more advanced info
+See [[Links|Links]] for more advanced info
 
 The schols is composed of 4 papers
 	Maths & Stats | 4/6 Qs | 3 hrs | 30%
@@ -7,7 +7,7 @@ The schols is composed of 4 papers
 	Systems          | 3 Qs     | 2 hrs | 22.5%
 
 "Broadly based on your first three semesters"
-	Aka it's possible to get asked questions you've not seen in the course like multithreading
+	Aka it's possible to get asked questions you've not seen in the course like multithreading or Maths 3 II
 Takes place between 9-13th January 2025
 
 You need to apply for two online forms, once in September, another in November
@@ -21,6 +21,7 @@ Math papers from 2016 on are a good basis
 Ask your lecturers questions because they like to give hints
 Also pay attention during lectures for hints
 Watch out for micheal manzke, a demon apparently. Can write on Systems paper
+Last year the prog java author (Hitesh?) just stole the sudoku problem from geeks4geeks, will they do it again? Learn some similar difficult algos that have not appeared before
 
 To pass:
 	Get an average of +70%
@@ -38,8 +39,31 @@ Rewards:
 
 Successful scholars announced 24th April 2025
 ~60 pass per year
-Maximum of 70 "Foundation" scholars and after that you are "Non-Foundation". Same rewards gained
-Last year they gave out a lot it seems, both CS scholars were non-foundation
+Maximum of 70 "Foundation" scholars and after that you are "Non-Foundation". Same rewards gained. Science courses are non-foundation
+Two people won 2 years ago (2023)
 	@spy727 (Daniel)
 	@yellowdragoon (Henry?)
-23 sat CS schols last year
+	23 sat CS schols 
+1 person won the year before (2022)
+Keep in mind last year they had 160 people instead of the usual 100
+A lot of people did much better in the maths paper than others 2 years ago so maybe expect the others to get easier or maths to get harder?
+Pre-announcement a lot of people thought comp sci went bad, after announcement comp sys turned out to fuck people over
+I don't have much info from last year but afaik 2 people won it for CS
+	Justin Ikechukwu Cunningham  
+	Adam Watters
+
+Pre-2010: 3 Exams - Math, Programming, Hardware 
+2010-2013: 4 Exams - Math, Programming, Systems, Hardware 
+2013-2020: 3 Exams - Math, Systems, Programming 
+2021-NOW: 4 Exams - Math, Programming, Systems, CS (edited)
+
+Years with 0 scholars: 8 
+Years with 1 scholar: 11
+Years with 2 scholars: 12
+Years with 3 scholars: 10
+Years with 4 scholars: 2
+Years with 5 scholars: 2
+
+![[Pasted image 20240907203316.png]]
+
+![[Pasted image 20240907203324.png]]
