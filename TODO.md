@@ -1,10 +1,10 @@
 First Year:
 - [x] Electronics Explanation
 - [x] Electronics Q
-- [ ] Elec tut sheets
+- [x] Elec tut sheets
 - [x] IT Explanation
 - [x] IT Q
-- [ ] IT tut sheets
+- [x] IT tut sheets
 - [x] Maths 1 Explanation
 - [x] Maths 1 Q
 - [ ] Maths 1 tut sheets
