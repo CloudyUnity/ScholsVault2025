@@ -33,13 +33,13 @@ Info:
 
 TODO: Name all these links below
 Previous year notes:
-	https://drive.google.com/drive/folders/1Aj4ZhU9BKsKqpAW6XaDvGT0rrqo7VL4Z
-	https://github.com/jonwk/College
-	https://drive.google.com/drive/folders/1a553elBO1zIrcyUyZJ1LWU9nXAXBR2rm?usp=sharing
+	1st Year
+		https://drive.google.com/drive/folders/1Aj4ZhU9BKsKqpAW6XaDvGT0rrqo7VL4Z
+	Github
+		https://github.com/jonwk/College
 	https://github.com/cppavel/VHDL_Microprocessor
-	https://drive.google.com/drive/folders/1a553elBO1zIrcyUyZJ1LWU9nXAXBR2rm?usp=sharing
-	https://drive.google.com/drive/folders/1Aj4ZhU9BKsKqpAW6XaDvGT0rrqo7VL4Z?usp=sharing
-		This one is good apparently
+	PDFs
+		https://drive.google.com/drive/folders/1a553elBO1zIrcyUyZJ1LWU9nXAXBR2rm?usp=sharing
 
 Presentations:
 	https://tcdud-my.sharepoint.com/personal/hederman_tcd_ie/_layouts/15/stream.aspx?id=%2Fpersonal%2Fhederman%5Ftcd%5Fie%2FDocuments%2FDocuments%2FJH%20CS%2FSchol%5FInfo%5FSession%5F27%5FOct%5F22%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E797ce956%2Da058%2D47cc%2Db823%2D9d6d5f3fc86f
