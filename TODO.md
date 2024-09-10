@@ -1,19 +1,12 @@
 First Year:
 - [x] Electronics Explanation
 - [x] Electronics Q
-<<<<<<< HEAD
 - [x] Elec tut sheets
-- [x] IT Explanation
-- [x] IT Q
-- [x] IT tut sheets
-=======
-- [ ] Elec tut sheets
 - [ ] Elec A
 - [x] IT Explanation
 - [x] IT Q
-- [ ] IT tut sheets
+- [x] IT tut sheets
 - [ ] IT A
->>>>>>> b26907cdf994e12914e24a3ce6a828c3f19b611e
 - [x] Maths 1 Explanation
 - [x] Maths 1 Q
 - [ ] Maths 1 tut sheets
@@ -46,17 +39,17 @@ Second Year:
 - [ ] Probability Explanation
 - [ ] Probability Q
 - [ ] Probability A
-- [ ] Comp Arch Get all slides
+- [x] Comp Arch Get all slides
 - [ ] Comp Arch Explanation
-- [ ] Comp Arch Q
+- [x] Comp Arch Q
 - [ ] Comp Arch A
 - [ ] Info Get all slides
 - [ ] Info Explanation
-- [ ] Info Q
+- [x] Info Q
 - [ ] Info A
-- [ ] ADS Get all slides
+- [x] ADS Get all slides
 - [ ] ADS Explanation
-- [ ] C
+- [ ] C Explanation
 - [x] C Q
 - [ ] C A
 
@@ -71,9 +64,3 @@ Updates:
 - [ ] Gather all non-lecture material from stats module on blackboard
 - [x] Replace "TODO" text with #todo tag
 - [ ] Write out kens coding standard
-
-# Finn Specific
-- [ ] Learn quicksort and be able to write it in Java and C
-- [ ] Learn binary search and be able to write it in Java and C
-- [ ] Learn Insertion sort and be able to write it in ARM
-- [ ] Learn pros and cons of various sorts/searches especially ones named above
