@@ -33,3 +33,5 @@ The Potential Divider:
 	Has two resisters in series
 	$V_o = V_i \dfrac{R_2}{R_1 + R_2}$
 	Used for volume controls in audio equipment
+	![[Pasted image 20240911132118.png]]
+
