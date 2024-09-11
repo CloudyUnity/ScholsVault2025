@@ -2,18 +2,17 @@ Charge ($q$):
 	A difference in number between the protons and electrons
 	Causes matter to experience a force in an electromagnetic field
 	Differences attract, like repel like
-	#NeedsFactCheckingByTrueAmericanPatriots
 	$q = It$
 
 Coulomb's Law:
 	Force between any two point charges is proportional to the product of the charges 
-		$F = k q_1 q_2$
+		$F \propto q_1 q_2$
 	Force between any two point charges is inversely proportional to the square distance between them
-		$F = k \dfrac{1}{|AB|^2}$
+		$F \propto \dfrac{1}{|AB|^2}$
 	$F = k \dfrac{q_1 q_2}{|AB|^2}$
-	$\mathbf F = F \mathbf{\hat r}$
-	k = Coulombs Constant ($8.99_{E^{9}})$
-	$\mathbf{\hat r}$ is the normalised direction from charge 1 to 2
+		k = Coulombs Constant ($8.99_{E^{9}})$
+	$\mathbf F = F \mathbf{\hat r}$	
+		$\mathbf{\hat r}$ is the normalised direction from charge 1 to 2
 
 Potential Energy: The energy of a body due to state or position
 

@@ -37,7 +37,6 @@ Semiconductor Diodes:
 	Form an element from a P-Type then N-Type semiconductors
 	The junction of the two is the depletion layer/region, has no majority carrier
 	Depletion layer has no charge and is a poor conductor
-	An applied variable voltage source causes #todo
 	If the anode is connected to the P-Type the diode is forward-biased
 		At $V \approx 0.7$ (Si) the p.d. is strong enough to force carriers across the depletion layer and the current flows freely
 	If the voltage is applied in the reverse direction hard enough ($V \approx -25$) the diode breaks down and the electrons are forced across the crystal despite it being entirely depletion layer 
