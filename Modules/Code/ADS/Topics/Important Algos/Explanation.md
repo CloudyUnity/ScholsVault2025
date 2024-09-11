@@ -54,3 +54,11 @@ int binarySearch(int[] a, int key)
 	return -1;
 }
 ```
+
+Intro Sort (Java)
+	$O(N \ log \ N)$
+	Run quick sort
+	If stack depth $> 2 log \ N$
+		Heap sort
+	If $N = 16$
+		Insertion sort

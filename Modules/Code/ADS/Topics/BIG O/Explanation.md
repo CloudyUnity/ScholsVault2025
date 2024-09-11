@@ -55,6 +55,7 @@ Memory costs
 	Any pointer is 8 bytes
 	`T[]` = $sizeof(T) * N + 24$
 	`T[][]` $\approx sizeof(T) * N * M$	
+	For a recursive function $M$ call stack frames add to the memory cost
 
 Shallow Memory Usage
 	Don't include referenced objects
