@@ -28,11 +28,11 @@ Magnetic Pole/Charge:
 	Magnetic poles are an abstraction, not physical
 
 Magnetic Field Strength ($\mathbf H$):
-	 MFS at a point is the force per unit positive magnetic pole at that point
+	 $H$ at a point is the force per unit positive magnetic pole at that point
 	 Unit = $A$ (Vector)
 
 Magnetic Flux Density ($\mathbf B$):
-	MFD at a point is the force per unit positive electric charge moving at 1m/s normal to the magnetic field direction
+	$B$ at a point is the force per unit positive electric charge moving at 1m/s normal to the magnetic field direction
 	$\mathbf B = \dfrac{\mathbf F}{I l}$
 		$\mathbf F$ = Force (Vector)
 		$l$ = Length of wire

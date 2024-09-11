@@ -35,3 +35,8 @@ The Potential Divider:
 	Used for volume controls in audio equipment
 	![[Pasted image 20240911132118.png]]
 
+#NeedsFactCheckingByTrueAmericanPatriots 
+Current Split
+	Given a current $I$ being split into two branches with resistance $R_1$ and $R_2$
+	$I_1 = \dfrac{R_2}{R_1 + R_2}$
+	$I_2 = \dfrac{R_1}{R_1 + R_2}$
