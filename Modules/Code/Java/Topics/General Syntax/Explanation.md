@@ -43,3 +43,19 @@ arr[i];
 list.size();
 list.at(i);
 ```
+
+Equals Override
+```java
+@Override
+public boolean equals(Object y){
+	if (y == this || y == null)
+		return false;
+
+	if (y.getClass() != this.getClass())
+		return false;
+
+	T t = (T) y;
+	// Compare values
+	return isEqual;
+}
+```

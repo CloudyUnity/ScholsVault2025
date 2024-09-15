@@ -3,12 +3,16 @@ Inferential Statistics is use of data to generalize findings
 
 Population:
 	A set of units which have at least one or more common characteristics 
+	There can be finite and infinite populations
 
 Sample:
 	Samples are drawn from populations of interest. The size is lower than the population size
 
-Data is structured into units and variables
-	#todo
+Unit
+	A single observation or measurement
+
+Variable
+	A characteristic or quality that can be measured and assumes different values per unit
 
 Quantitative:
 	Discrete is predefined intervals
@@ -25,7 +29,13 @@ Contingency Table:
 Absolute Frequency = $f$
 Relative Frequency = $\tilde f$
 Cumulative Relative Frequency = $f_c$
-	$f_{ci} = \overset{i}{\underset{k = 1}{\sum}} \tilde{f}_k$
+	$f_{c_{i}} = \overset{i}{\underset{k = 1}{\sum}} \tilde{f}_k$
+Cumulative Absolute Frequency = $f_C$
+	$f_{C_i} = \overset{i}{\underset{k=1}{\sum}} f_k$
+
+Unimodal has a single clear peak/mode
+Bimodal has 2 peaks
+Multimodal has 2+ peaks
 
 Arg max $f(x)$:
 	The points $x$ where $f(x)$ attains the largest value
