@@ -22,6 +22,8 @@ Ask your lecturers questions because they like to give hints
 Also pay attention during lectures for hints
 Watch out for micheal manzke, a demon apparently. Can write on Systems paper
 Last year the prog java author (Hitesh?) just stole the sudoku problem from geeks4geeks, will they do it again? Learn some similar difficult algos that have not appeared before
+Possibly ignore some math papers (2019, 2024, #todo)
+	Why? Is this even true? #todo
 
 To pass:
 	Get an average of +70%
