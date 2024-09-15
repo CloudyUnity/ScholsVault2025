@@ -62,3 +62,11 @@ Intro Sort (Java)
 		Heap sort
 	If $N = 16$
 		Insertion sort
+
+Boids
+	Avoidance
+		Point away from $k$ nearest boids
+	Centering
+		Point towards center of mass of $k$ nearest boids
+	Matching
+		Update velocity to average of $k$ nearest boids

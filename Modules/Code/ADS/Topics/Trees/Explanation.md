@@ -95,7 +95,7 @@ BST Deletion
 	Local transformations to remove 4-nodes
 		![[Pasted image 20240912153944.png]]
 
-Left-Leaning Red-Black Trees from 2-3 Trees
+Red-Black Trees (Left-Leaning)
 	2-3 Trees have their 3-nodes converted to 2-nodes with red glue links
 		Larger key becomes parent, red glue links the two nodes to the left
 		Color of parent link is stored in node class
@@ -149,4 +149,114 @@ B-Tree
 	Keeps root page in memory
 	#todo 
 		Huh?
-	
+
+1D Range Search
+	Given an ordered priority queue
+	Range Search
+		$O(R + log \ N)$
+		Find all keys between $k_1$ and $k_2$ 
+	Range Count
+		$O(log \ N)$
+		Number of keys between $k_1$ and $k_2$
+	$k_1$ and $k_2$ don't have to be elements in the $PQ$
+	$R$ is the number of matching keys
+	BST Implementation		
+		Range Count
+			$O(log \ N)$
+			Contains($k_2$)
+				Rank($k_2$) - Rank($k_1$) + 1
+			!Contains($k_2$)
+				TreeSize() - Rank($k_1$)
+		Range Search
+			$O(R + log \ N)$
+			Recursively check all keys in $k_L$ if in range
+			Check $k$
+			Recursively check all keys in $k_R$ if in range
+
+Line Segments Intersection Test
+	$O(N \ log \ N + R)$
+	Assume all coordinates are distinct
+	Determines horizontal-vertical intersections only
+	$h$-Segment is a horizontal segment
+	$v$-Segment is a vertical segment
+	Sweep vertical line left to right
+	x coords define events
+	At $h$-Segment Left Endpoint insert y coord into BST
+	At $h$-Segment Right Endpoint remove y coord from BST
+	At $v$-Segment do a 1D Range Search between endpoint interval
+	This algo reduces a 2D problem into a 1D $\times$ 1D problem
+
+2D Range Search
+	Assume keys are 2D
+	Find keys in an AABB ($h$-$v$ rectangle) 
+	Grid Implementation
+		Divide space into $M \times M$ grid
+		Put points into their respective square
+		Only examine squares the AABB covers
+		Space: $O(M^2 + N)$
+		Time: $O(1 + N/M^2)$ per square examined
+		Rule of Thumb: $M = \sqrt N$
+		Can lead to a clustering problem
+
+Partitioning data structures that alleviates clustering problem
+	2D Tree
+		Recursively divide space into halfplanes (Like BVH) 
+	QuadTree
+		Recursively divide space into 4 quadrants (Like sparse voxel octree)
+	BSP Tree
+		Recursively divide space into two non-AABB regions
+
+2D Tree
+	Average of $O(R + log \ N)$
+	Worst case of $O(R + \sqrt N)$
+	BST but alternating using x and y coord as key
+	![[Pasted image 20240915210139.png]]
+	Nearest Neighbour Search
+		$O(log \ N)$
+		Worst Case: $O(N)$
+		Check distance from $p$ to $k$
+		Recursively check $k_{LB}$ if it could contain a closer point
+		Recursively check $k_{RT}$ if it could contain a closer point
+
+KD Tree
+	Recursively partition $K$-dimensional space into 2 halfspaces
+	Called a Bounding Volume Hierarchy in 3D
+	Like a 2D Tree but you cycle through all dimensions
+
+N-Body Simulation
+	Simulate the motion of $N$ particles mutually affected by eachothers gravity
+	Treat clusters of particles as single aggregate particle
+	Compute force between particle and center of mass of aggregate
+	Appel's Algo
+		$O(N log \ N)$
+		Build 3D Tree
+		Store center of mass of subtree in each node
+		To compute total force on a particle, traverse tree until distance from particle is sufficiently large
+
+1D Interval Search
+	Data structure for holding set of overlapping intervals
+	Given an interval (lo, hi) find all intersecting intervals
+	Create BST of intervals
+		Red-Black BST is fastest
+	Store max right endpoint of subtree in node
+	Insert
+		Use lo as the key
+		Update max in each node on search path
+	Intersect (Any)
+		$O(log \ N)$
+		If node intersects, return it
+		Else if $!k_L$ : check right
+		Else if $max(k_L) < lo$ : check right
+		Else check left
+	Intersect (All)
+		$O(R \ log \ N)$
+
+AABBs Intersection Test
+	$O(N\ log\ N + R\ log \ N)$
+	Sweep vertical line from left to right
+	Intersections create a 1D Interval 
+	Left Endpoint
+		1D Interval Search
+		Insert y-Interval
+	Right Endpoint
+		Remove y-Interval

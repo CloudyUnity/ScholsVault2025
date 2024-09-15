@@ -35,3 +35,10 @@ Tilde Notation
 	$N+2 =\ \sim N$
 	$k(N+a)(N+b) =\ \sim kN^2$
 
+$lg \ N = log_2 \ N$
+
+Quadratic algorithms don't follow Moore's Law
+	With a 2x faster computer the algo scales by 4x
+	This is why linearithmic algos are so good
+	197X : $N$ amount of time
+	197(X+1.5) : $(4N) / 2 = 2N$ amount of time
