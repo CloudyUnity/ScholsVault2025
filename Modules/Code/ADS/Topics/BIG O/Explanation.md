@@ -26,7 +26,8 @@ Cost Model
 
 $O(log_a \ N) = O(\dfrac{log_b \ N}{log_b \ a}) = O(c \ log_b \ N) = O(log \ N)$
 
-If the brute force algo is $\geq O(N)$ then sorting the array is free as it's a lower order term
+#NeedsFactCheckingByTrueAmericanPatriots 
+If the brute force algo is $\geq O(N \ log \ N)$ then sorting the array is free as it's a lower order term
 	(This doesn't necessarily mean the sort algo will be faster)
 
 $T(N)$ may have different orders of growth for different $N$
