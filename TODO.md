@@ -35,7 +35,7 @@ Second Year:
 - [ ] Maths 3 Explanation
 - [ ] Maths 3 Q
 - [ ] Maths 3 A
-- [ ] Probability Get all slides
+- [x] Probability Get all slides
 - [ ] Probability Explanation
 - [ ] Probability Q
 - [ ] Probability A
@@ -48,7 +48,7 @@ Second Year:
 - [x] Info Q
 - [ ] Info A
 - [x] ADS Get all slides
-- [ ] ADS Explanation
+- [x] ADS Explanation
 - [ ] C Explanation
 - [x] C Q
 - [ ] C A
