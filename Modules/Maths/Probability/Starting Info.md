@@ -33,8 +33,8 @@ Sample Point ($s_i$)
 	$p_i = P(s_i)$
 	$\sum p_i = 1$
 
-$P(Y = y) = p(y)$
-$p(y)$ is the probability mass function for $Y$ 
+Probability Mass Function (PMF)
+	$P(Y = y) = p(y)$
 
 $Z = X + Y \to E(Z) = E(X) + E(Y)$
 $E(aX + b) \to aE(X) + b$
@@ -53,3 +53,35 @@ Geometric Distribution
 
 $P(X > s + t | X > t) = P(X > s)$
 $P(X > s + t) = P(X > s) P(X > t)$
+
+Exponential is memoryless
+	$X \sim$ Exp($\lambda$) $\to P(X > t + s | X > t) = P(X > s)$
+
+Markov Inequality
+	What is the probability an r.v. $X$ exceeds some quantity
+	$P(X > a) \leq \dfrac{E(X)}{a}$
+	Example:
+		Given the expected time between stock crashes is 12 months, how likely is it the stock will go 60 months without a crash
+		$P(X > 60) \leq \dfrac{12}{60} = \dfrac{1}{5}$
+
+Chebyshev's Inequality
+	$P(|X - E(X)| > c) \leq \dfrac{V(X)}{c^2}$
+
+Tail Probabilities
+	$X \sim N(\mu, \sigma^2) \to P(|X - \mu| > k\sigma)$ is small
+	$P(|X - \mu| > k\sigma) \leq \dfrac{1}{k^2}$
+	$P(|X - \mu| > k\sigma) \leq 2 \dfrac{exp(-k^2/2)}{k \sqrt{2\pi}}$
+
+:=
+	Assignment like in programming
+
+Joint Distribution
+	$p(x, y) := P((X = x) \cap (Y = y))$
+	$p_X(x) := P(X = x)$
+	$p_Y(x) := P(Y = y)$
+	$p_X(x) = \sum p(x, y_i)$
+	$p_Y(y) = \sum p(x_i, y)$
+	$F(x, y) := P((X \leq x) \cup (Y \leq y)) = \int^x \int^y f(s, t)\ dt\ ds$
+
+Marginal Density
+	$f_X(x) = \int f(x, y) dy$

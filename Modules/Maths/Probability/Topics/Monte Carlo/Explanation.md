@@ -10,7 +10,8 @@ Lottery Problem
 	Sum of absolute deviations is given by
 		$D = \overset{12}{\sum} | O_i - E_i |$
 	We want to calculate the probability
-		$P(\overset{12}{\sum} |O_i - E_i| \geq D)$
+		#NeedsFactCheckingByTrueAmericanPatriots 
+		$P(\overset{12}{\sum} |G_i - E_i| \geq D)$
 	Monte Carlo Sim
 		Generate random permutation of the first 366 integers $a(1), a(2), \dots, a(366)$
 		$a(i)$ is the $i$th day of the year
@@ -18,7 +19,7 @@ Lottery Problem
 		Count experiment as success if
 			$\overset{12}{\sum} |G_i - E_i| \geq D$
 		$\tilde{f_n}(Success) = \dfrac{\# Success}{\# Experiments}$
-		$P(\overset{12}{\sum} |O_i - E_i| \geq D) \approx \tilde{f_n}(Success)$
+		$P(\overset{12}{\sum} |G_i - E_i| \geq D) \approx \tilde{f_n}(Success)$
 	Finding the Monthly Trend
 		Rank months by average draft number
 		Permutation of months is $a^* = \{a(1), a(2), \dots, a(12)\}$
