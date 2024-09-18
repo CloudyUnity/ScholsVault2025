@@ -35,8 +35,30 @@ The Potential Divider:
 	Used for volume controls in audio equipment
 	![[Pasted image 20240911132118.png]]
 
-#NeedsFactCheckingByTrueAmericanPatriots 
 Current Split
 	Given a current $I$ being split into two branches with resistance $R_1$ and $R_2$
-	$I_1 = \dfrac{R_2}{R_1 + R_2}$
-	$I_2 = \dfrac{R_1}{R_1 + R_2}$
+	$I_1 = I \dfrac{R_2}{R_1 + R_2}$
+	$I_2 = I \dfrac{R_1}{R_1 + R_2}$
+
+Superposition Theorem
+	Used to solve circuits with multiple batteries
+	Can only be used on circuits reducible to series/parallel combinations. Not unbalanced bridge circuits
+	For each power source	
+		For every other power source
+			Replace voltage sources with short circuits (Wire)
+			Replace current sources with open circuits (Break)
+		Calculate all voltages and current for the circuit
+		Add voltages and currents into circuit drawing
+	Add voltage drops across all resistors
+		Opposite polarities subtract
+	Add currents across all branches
+		Opposite directions subtract
+
+Mesh Current
+	Also used for multi-battery circuits
+	Label all current loops
+	![[{B0D87BE8-628C-43AF-B031-96D83B2BCACE}.png]]
+	Then label all voltage drops across resistors according to assumed directions of mesh currents
+	Apply KVL to each loop, replace $V$ with $IR$
+	Solve for each $I$,  $I < 0 \to$ Change rotation of loop
+	Where loops touch the same branch, sum individual currents
