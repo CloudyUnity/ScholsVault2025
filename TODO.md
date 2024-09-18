@@ -37,7 +37,7 @@ Second Year:
 - [ ] Maths 3 A
 - [x] Probability Get all slides
 - [x] Probability Explanation
-- [ ] Probability Q
+- [x] Probability Q
 - [ ] Probability A
 - [x] Comp Arch Get all slides
 - [ ] Comp Arch Explanation

@@ -8,6 +8,7 @@ Maths:
 	Stats:
 		Distributions
 	Probability:
+		Misc (General Prob)
 
 Programming:
 	Java:

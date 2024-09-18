@@ -1,5 +1,46 @@
-#schols 
-![[Pasted image 20240716162638.png]]
+
+> [!question]- #schols  ![[Pasted image 20240716162638.png]]
+> $R_1 = 5 \ohm$
+> $R_2 = 10 \ohm$
+> $R_3 = 2 \ohm$
+> $R_4 = 4 \ohm$
+> $R_5 = 15 \ohm$
+> $R_6 = 2 \ohm$ (Battery)
+> $R_7 = 5 \ohm$ (Battery)
+> Assuming 20 V battery
+> 	$R = \dfrac{3010}{201}$
+> 	$R_{3, 6, 5, 2} = \dfrac{250}{19}$
+> 	$R_{3, 6} = 4$
+> 	$20 = I_1(\dfrac{3010}{201})$
+> 	$I_1 = \dfrac{402}{301}$
+> 	$I_2 = I_1 (\dfrac{8}{8 + \dfrac{250}{19}}) = \dfrac{152}{301}$
+> 	$I_4 = I_1 (\dfrac{\dfrac{250}{19}}{8 + \dfrac{250}{19}}) = \dfrac{250}{301}$
+>	$I_3 = I_2 (\dfrac{15}{19}) = \dfrac{120}{301}$
+>	$I_5 = I_2 (\dfrac{4}{19}) = \dfrac{32}{301}$
+>	$V_1 = \dfrac{2010}{301}$
+>	$V_2 = \dfrac{1520}{301}$
+>	$V_3 = \dfrac{240}{301}, \dfrac{240}{301}$
+>	$V_4 = \dfrac{2000}{301}$
+>	$V_5 = \dfrac{480}{301}$
+>Assuming 10 V battery
+>	$R = \dfrac{602}{53}$
+>	$R_{7, 1, 2, 4} = \dfrac{130}{9}$
+>	$10 = I_3 (\dfrac{601}{53})$
+>	$I_3 = \dfrac{265}{301}$
+>	$I_5 = I_3 (\dfrac{\dfrac{130}{9}}{15 + \dfrac{130}{9}}) = \dfrac{130}{301}$
+>	$I_2 = I_3 (\dfrac{15}{15 + \dfrac{130}{9}}) = \dfrac{135}{301}$
+>	$I_1 = I_2 (\dfrac{8}{18}) = \dfrac{60}{301}$
+>	$I_4 = I_2 (\dfrac{10}{18}) = \dfrac{75}{301}$
+>	$V_3 = \dfrac{530}{301}, \dfrac{530}{301}$
+>	$V_5 = \dfrac{1950}{301}$
+>	$V_2 = \dfrac{1350}{301}$
+>	$V_4 = \dfrac{600}{301}$
+>	$V_1 = \dfrac{300}{301}$
+>Combining Batteries
+>	For $I_2, 20V$ current goes opposite to $10 V$ current
+>	$I_2 = \dfrac{152}{301} - \dfrac{135}{301} = \dfrac{17}{301} A$
+>	For $V_5, 20V$ voltage goes in same direction to $10V$ voltage
+>	$V_5 = \dfrac{480}{301} + \dfrac{1950}{301} = \dfrac{2430}{301} V$
 
 > [!question]- ![[Pasted image 20240911133325.png]] ![[Pasted image 20240911133339.png]]
 > (7.)

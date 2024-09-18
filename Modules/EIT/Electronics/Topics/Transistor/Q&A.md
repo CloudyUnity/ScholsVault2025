@@ -1,3 +1,4 @@
+
 #schols 
 ![[Pasted image 20240716161815.png]]
 

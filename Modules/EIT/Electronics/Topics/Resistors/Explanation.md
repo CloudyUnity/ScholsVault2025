@@ -62,3 +62,5 @@ Mesh Current
 	Apply KVL to each loop, replace $V$ with $IR$
 	Solve for each $I$,  $I < 0 \to$ Change rotation of loop
 	Where loops touch the same branch, sum individual currents
+
+If a battery has internal resistance that must be factored into ohms law
