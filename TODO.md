@@ -49,7 +49,7 @@ Second Year:
 - [ ] Info A
 - [x] ADS Get all slides
 - [x] ADS Explanation
-- [ ] C Explanation
+- [x] C Explanation
 - [x] C Q
 - [ ] C A
 

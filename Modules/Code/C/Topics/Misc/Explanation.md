@@ -174,4 +174,35 @@ gdb ./prog
 gdb --args ./prog arg1 arg2 ...
 ```
 
-Next is 23-structures
+#NeedsFactCheckingByTrueAmericanPatriots 
+```c
+memcpy(void* dst, void* src, size_t);
+```
+
+Makefiles
+```make
+CC=gcc
+CFLAGS=<flags>
+COMPILE = $(CC) $(CFLAGS) -c
+
+targets: dependencies
+	commands
+
+prog.o: prog.c depend.c
+	$(COMPILE) -o prog.o prog.c
+```
+
+Quick Sort
+```c
+#include <stdlib.h>
+void qsort(void*, size_t numElements, size_t stride, int (*compare)(const void*, const void*));
+```
+
+Union
+	Unions are like structs where each member uses the same memory space
+	Useless when inheritance exists
+	`sizeof(UnionObj) == max(members)`
+
+Profiling
+	Use the `-pg` flag to generate profile file
+	Then run `gprof prog` to get a profile description
