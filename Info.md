@@ -7,24 +7,42 @@ The schols is composed of 4 papers
 	Systems          | 3 Qs     | 2 hrs | 22.5%
 
 "Broadly based on your first three semesters"
-	Aka it's possible to get asked questions you've not seen in the course like multithreading or Maths 3 II
-Takes place between 9-13th January 2025
+	Aka it's possible to get asked questions you've not seen in the course like multithreading
+		Although in these cases they will explain the topic first
+Takes place between 6-10th January 2025
+Announced on 21st of april
 
-You need to apply for two online forms, once in September, another in November
+You need to apply for two online forms, once in 30th September, another in November
 There is a presentation coming at some point in October(?) with a Q&A at the end so be ready for that
 
 Code must all be handwritten so start getting good at writing bugless code
 Answer every question
+	You have time for all 6 questions in maths even though only 4 are counted
 Math papers from 2016 on are a good basis 
 	Also see this book (A tour through mathematical logic by Robert Wolf)
 		https://pdfcoffee.com/r-wolf-a-tour-through-mathematical-logic-pdf-free.html
 Ask your lecturers questions because they like to give hints
 Also pay attention during lectures for hints
-Watch out for micheal manzke, a demon apparently. Can write on Systems paper
 Last year the prog java author (Hitesh?) just stole the sudoku problem from geeks4geeks, will they do it again? Learn some similar difficult algos that have not appeared before
+	Hitesh will likely be writing this years
 Possibly ignore some math papers (2019, 2024, #todo)
 	Why? Is this even true? #todo
 Maths 3 put emphasis on set proofs (Proof sets are equal)
+All waldron questions are taken from some book he recommended 
+Elec is know for repeating questions, not guaranteed 
+John Stalker writes weirder/harder questions than andrea for maths 3
+Syntax errors don't matter for programming, you could almost write it in another language and get full marks. 
+	Except in ARM where it does matter
+All that matters is the approach
+You don't need to import libraries/header files in code
+You bring your own calculator, don't bring a log book
+Sometimes if a hard paper causes everyone to get low marks they will mark it easier
+You won't get told the authors, you need to email people directly
+Stats is extremely theory heavy, can be memorised for free marks but it's a shit load of content
+Learn how smart pointers, atomics, locks, etc work in detail 
+	#todo 
+Check out the recommended books by profs to find sample questions (Maths)
+Learn about various optimizations for ARM, look over memcpy assignment
 
 To pass:
 	Get an average of +70%
@@ -35,14 +53,16 @@ To pass:
 Rewards:
 	Free tuition
 	Free accommodation
-	Weekly salary of 150 euro
+		9 months per year
+		1 time use summer (Generally used for postgrad)
+		Accom can be swapped out for 2000x4 euros
+	Weekly salary of 250 euro
 	One free meal per weekday
 	"Sch" title
 	Lasts up to 5 years
 
 Successful scholars announced 24th April 2025
-~60 pass per year
-Maximum of 70 "Foundation" scholars and after that you are "Non-Foundation". Same rewards gained. Science courses are non-foundation
+~65 pass per year
 Two people won 2 years ago (2023)
 	@spy727 (Daniel)
 	@yellowdragoon (Henry?)

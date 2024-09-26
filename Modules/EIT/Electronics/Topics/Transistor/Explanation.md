@@ -18,10 +18,17 @@ Building Logic Gates:
 		When the gate is LOW the voltage goes straight from Vcc to X HIGH
 	![[Pasted image 20240715163353.png]]
 
-Amplifiers:
+Class A Amplifiers:
 	![[Pasted image 20240715163530.png]]
 	$V_{in}$ is AC
 	$V_{DD}$ is DC
-	Capacitors prevent backflow
+	Capacitors prevent backflow of DC while allowing AC 
+	$V_{out}$ is inverted amplified AC voltage
+	$R_S$ is the emitter resistor
+	$R_1$ is the base resistor
+	$R_0$ is the collector resistor
+	$V_S$ should be $0.5 V_{DD}$ for maximum efficiency   
+	Gain
+		How much the signal amplitude is multiplied
 	#todo
 		Solve for each variable, idfk how it's confusin
