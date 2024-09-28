@@ -1,3 +1,4 @@
+
 > [!question]- ![[{CC3FB14B-08D5-4048-9D27-B2D42E10F393}.png]]
 > $P =$ The sun explodes
 $Q =$ I die

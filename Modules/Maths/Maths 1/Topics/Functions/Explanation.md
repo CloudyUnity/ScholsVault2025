@@ -11,7 +11,7 @@ $y = f(x)$
 	$y$ is dependent 
 
 The image is the set of all elements of the codomain associated with an element of the domain
-	Domain = $A \to$ Image = $\{f(x) : x \in A \}$
+	Domain = $A \to$ Image = $\{f(x) | x \in A \}$
 
 A graph of a function is the set of ordered pairs $(x, f(x))$
 	If a vertical line intersects a curve more than once, it is not a function
@@ -27,8 +27,8 @@ $(f - g)(x) = f(x) - g(x)$
 $(fg)(x) = f(x)g(x)$
 Domain = $D_f \cap D_g$
 
-$(\dfrac{f}{g})(x) = \dfrac{f(x)}{g(x)}$
-Domain = $D_f \cap \{ x \in D_g : g(x) \neq 0 \}$
+$(\dfrac{f}{g})(x) = \dfrac{f(x)}{g(x)}$.
+	Domain = $D_f \cap \{ x \in D_g | g(x) \neq 0 \}$
 
 Composition:
 	($g \circ f)(x) = g(f(x))$
@@ -39,15 +39,15 @@ Translations:
 	To translate by $(h, v)$
 	$f(x - h) + v$
 
+Scaling:
+	To scale by $(h, v)$
+	$vf(\dfrac{x}{h})$
+
 Reflections:
 	x-axis flip:
 		$-f(x)$
 	y-axis flip:
 		$f(-x)$
-
-Scaling:
-	To scale by $(h, v)$
-	$vf(\dfrac{x}{h})$
 
 $f(x) = f(-x) \to f(x)$ is even
 $-f(x) = f(-x) \to f(x)$ is odd

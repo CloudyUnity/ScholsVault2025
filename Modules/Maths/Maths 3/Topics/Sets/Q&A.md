@@ -1,3 +1,4 @@
+
 > [!question]- ![[{9A915EFC-851F-40F0-AB0F-784CFC9E2C8C}.png]]
 > (1)
 $A \backslash B = A \cap (B')$
