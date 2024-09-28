@@ -23,7 +23,7 @@ Math papers from 2016 on are a good basis
 		https://pdfcoffee.com/r-wolf-a-tour-through-mathematical-logic-pdf-free.html
 Ask your lecturers questions because they like to give hints
 Also pay attention during lectures for hints
-Last year the prog java author (Hitesh?) just stole the sudoku problem from geeks4geeks, will they do it again? Learn some similar difficult algos that have not appeared before
+Last year Hitesh just stole the sudoku problem from geeks4geeks, will they do it again? Learn some similar difficult algos that have not appeared before
 	Hitesh will likely be writing this years
 Possibly ignore some math papers (2019, 2024, #todo)
 	Why? Is this even true? #todo
@@ -31,9 +31,8 @@ Maths 3 put emphasis on set proofs (Proof sets are equal)
 All waldron questions are taken from some book he recommended 
 Elec is know for repeating questions, not guaranteed 
 John Stalker writes weirder/harder questions than andrea for maths 3
-Syntax errors don't matter for programming, you could almost write it in another language and get full marks. 
+Syntax errors don't matter for programming, you could almost write it in another language and get full marks. All that matters is the approach
 	Except in ARM where it does matter
-All that matters is the approach
 You don't need to import libraries/header files in code
 You bring your own calculator, don't bring a log book
 Sometimes if a hard paper causes everyone to get low marks they will mark it easier
@@ -46,7 +45,6 @@ Learn about various optimizations for ARM, look over memcpy assignment
 
 To pass:
 	Get an average of +70%
-		This seems to fuck people the most
 	Get +70% in at least 2/4 papers
 	Get +65% in all papers
 
@@ -61,7 +59,6 @@ Rewards:
 	"Sch" title
 	Lasts up to 5 years
 
-Successful scholars announced 24th April 2025
 ~65 pass per year
 Two people won 2 years ago (2023)
 	@spy727 (Daniel)
@@ -78,7 +75,7 @@ I don't have much info from last year but afaik 2 people won it for CS
 Pre-2010: 3 Exams - Math, Programming, Hardware 
 2010-2013: 4 Exams - Math, Programming, Systems, Hardware 
 2013-2020: 3 Exams - Math, Systems, Programming 
-2021-NOW: 4 Exams - Math, Programming, Systems, CS (edited)
+2021-NOW: 4 Exams - Math, Programming, Systems, CS 
 
 Years with 0 scholars: 8 
 Years with 1 scholar: 11
