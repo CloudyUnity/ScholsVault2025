@@ -2,8 +2,6 @@ Relations are a way to abstract the idea of comparing elements together
 Some examples of relations are $=, \equiv mod \ n, <, >, \sim, \to, \leftrightarrow, \subseteq$
 	But you can make them whatever you want
 Relations are functions that always return a boolean value, either they are related or not
-#NeedsFactCheckingByTrueAmericanPatriots 
-	You can have relations which only involve a single element
 
 We use Cartesian Products to define these relations
 
@@ -46,6 +44,13 @@ Equivalence Class $([x]_R)$
 		Contradiction with $\lnot (xRy)$
 
 Equivalence classes always partition a set in two
+
+If $xRy \land yRx \to x = y$ then $R$ is anti-symmetric
+
+A function can be symmetric and anti-symmetric for example:
+	Equality 
+	$R = \emptyset$
+	$|R| = 1$
 
 Partial Order
 	A relation on $A$ that is reflexive, anti-symmetric and transitive

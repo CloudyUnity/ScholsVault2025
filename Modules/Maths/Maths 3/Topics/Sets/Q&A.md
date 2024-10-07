@@ -19,3 +19,24 @@ True, {3} is a subset of $\mathbb{N}$
 False, {3} is an element not a subset of $P(\mathbb{N})$
 False, $P(\{\{\emptyset\}\}) = \{\emptyset, \{\{\emptyset\}\}\}$
 True, $\mathbb{Z} \cap (2, 4) = \{3\}$
+
+
+> [!question]- ![[{1CE93EDD-4FA8-4A66-B2D1-672CA47341A9}.png]]
+> Z = {0}
+> Plates = $D\backslash Z \times L \times L \times D \times D$
+> 9 x 26 x 26 x 10 x 10 = 608400
+
+
+> [!question]- ![[{65BA887B-9A50-42BB-B5DC-247D7CA53EC4}.png]]
+> $xRx$ is true by observation thus $R$ is reflexive
+>$xRy \land yRz \to x \in A_a \land y \in A_a \land z \in A_a \to xRz$
+>Thus $R$ is transitive 
+>$xRy \leftrightarrow x \in A_a \land y \in A_a \leftrightarrow yRx$
+>Thus $R$ is reflexive
+>Thus $R$ is an equivalence relation
+> $[x]_R = \{ y \in A | xRy \}$
+> $A_a = \{x, y \in A | xRy\}$
+> $x \in [x]_R$
+> $\forall x, y \in A xRy \to y \in [x]_R \land x \in [x]_R \land y \in A_a \land x \in A_a \to [x]_R = A_a$
+
+

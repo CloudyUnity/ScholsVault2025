@@ -35,4 +35,6 @@ The Pigeonhole Principle
 	Proof:
 		$f(D) \subseteq C_d \land |C_d| < |D| \to |f(D)| < |D|$
 		$f$ is not injective
-		
+
+#todo 
+Add stuff on symmetry, anti-symmetry 

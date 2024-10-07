@@ -60,6 +60,7 @@ Exponential is memoryless
 Markov Inequality
 	What is the probability an r.v. $X$ exceeds some quantity
 	$P(X > a) \leq \dfrac{E(X)}{a}$
+	If $a$ is negative and the min value is negative then shift all values up to make the min 0
 	Example:
 		Given the expected time between stock crashes is 12 months, how likely is it the stock will go 60 months without a crash
 		$P(X > 60) \leq \dfrac{12}{60} = \dfrac{1}{5}$
@@ -81,7 +82,7 @@ Joint Distribution
 	$p_Y(x) := P(Y = y)$
 	$p_X(x) = \sum p(x, y_i)$
 	$p_Y(y) = \sum p(x_i, y)$
-	$F(x, y) := P((X \leq x) \cup (Y \leq y)) = \int^x \int^y f(s, t)\ dt\ ds$
+	$F(x, y) := P((X \leq x) \cap (Y \leq y)) = \int^x \int^y f(s, t)\ dt\ ds$
 
 Marginal Density
 	$f_X(x) = \int f(x, y) dy$
