@@ -67,10 +67,13 @@ Sinusoidal:
 
 Surjective: $\forall y \in$ Codomain, $\exists x (f(x) = y)$
 	Horizontal Line hits at least once
+	Every output is mapped
 Injective: $\forall y \in$ Codomain, $\exists^{\leq 1} x (f(x) = y)$
 	Horizontal Line hits at most once
+	No output is mapped more than once
 Bijective: $\forall y \in$ Codomain, $\exists !x (f(x) = y)$
 	Horizontal Line hits once
+	Every output is mapped once
 
 Inverse Functions:
 	$f(x)$ must be bijective
