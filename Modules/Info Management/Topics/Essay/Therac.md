@@ -6,7 +6,12 @@ Summary:
 	One warning, Warning 53 was caused by trying to change the ray type while the magnetic disks were rearranging. This software error caused tens of thousands of rads to be sent into the patient 
 	The company failed to notice, address and solve this issue, leading to many many deaths
 
-The Deaths (1985-1987):
-	
+This wasn't a one-off incident. Many more radiation overdose accidents have occurred since
 
-Reflection:
+The Issues:
+	Overconfidence in software:
+		There's a widespread belief that software doesn't fail
+		In safety critical systems today some hardware backups/interlocks are being replaced or controlled by software 
+		Systems need more protection against software errors
+	No hardware limits:
+	Company stuff...
