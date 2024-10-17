@@ -5,17 +5,19 @@ Also allows for multiplexing
 Remember that phase is the derivative of frequency
 $B_m$ is the bandwidth
 $B_b$ is the baseband
+$I(t)$ is the information signal
+$m(t)$ is the modulated signal 
 
 Amplitude Modulation (AM):
 	The modulated signal is gotten from multiplying the carrier signal with the information signal
+	$B_m$ is the difference between the upper and lower band
 	Example: AM Radio
 
 Frequency Modulation (FM):
 	$m(t) = sin(\omega t + \beta \int_0^t I(t) dt)$
-		$I(t)$ is the information signal
 		$\omega$ is the carrier angular frequency
 		$\beta$ is the frequency modulation index
-			#todo What is this?
+			The ratio of frequency deviation to the modulating frequency
 	Example: FM Radio 
 	Bandwidth:
 		$B_m = 2(1 + \beta) B_b$			
@@ -39,8 +41,11 @@ Negative Spectrum:
 
 Examples:
 	AM:
-	![[Pasted image 20240717141659.png]]
+		![[Pasted image 20240717141659.png]]
 	FM:
-	![[Pasted image 20240717141725.png]]
+		![[Pasted image 20240717141725.png]]
 	ASK/FSK/PSK:
-	![[Pasted image 20240717141844.png]]
+		![[Pasted image 20240717141844.png]]
+
+If you modulate a signal and part of its spectra is below zero you will experience distortion and aliasing
+You may also lose data due to interference with the positive frequencies 

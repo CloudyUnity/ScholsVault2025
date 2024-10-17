@@ -6,7 +6,7 @@ Nyquist-Shannon theorem:
 	![[Pasted image 20240718150931.png]]
 
 Fast Fourier Transform (FFT) is used to compute the signal from samples
-	$F_k = \sum_{n=0}^{N-1} s[n] e^{-i \dfrac{2 \pi kn}{N}}$
+	$F_k = \sum_{n=0}^{N-1} s_n e^{-i \dfrac{2 \pi kn}{N}}$
 	Also see Discrete Fourier Transform (DFT)
 	Applications:
 		Sobel Edge Detection
@@ -25,8 +25,7 @@ Bits per sample ($n$):
 
 Bitrate ($R$):
 	Bits per second = Bits per sample * Samples per second
-		$R = nS$
-	Samples per second = Samples per channel * Channels per second
+		$R = nS$	
 	$R = 2n B_m$
 
 HDTV:
@@ -42,20 +41,22 @@ Latency / Propagation Speed:
 $0 \leq d \leq 1$
 
 Baud ($S$):
-	How many slots/signals per second
-	If a signal transmits 12 b/s with 2-bits per sample the baud is 6 slots per second
+	How many slots/signals/samples per second
+	If a signal transmits 12 b/s with 2-bits per sample the baud is 6
 	$S = \dfrac{R}{n}$
 	$S = 2B_b = (1+d)B_m$
+	$S =$ Samples per channel * Channels per second
 
 Amplitude Shift Keying (ASK):
 	On-Off Keying (OOK):
 		2-bit ASK
 		null amplitude for 0b0
 		$A$ amplitude for 0b1		
-	M-ASK:
+	M-ASK:		
 		M = $L$
+		$B_m = (1 + d)R$ 
 		null amplitude for 0
-		$A_1, A_2, \dots A_M$ amplitudes for $1, 2 \dots,M$ 
+		$A_1, A_2, \dots, A_M$ amplitudes for $1, 2, \dots,M$ 
 
 Frequency Shift Keying (FSK):
 	M-FSK:
@@ -63,7 +64,7 @@ Frequency Shift Keying (FSK):
 		Ideally $d=0$
 
 Phase Shift Keying (PSK):
-	$B_m = (1 + d)S$		
+	$B_m = (1 + d) S$ 
 	Isn't affected by noise as much as ASK
 	At high M levels it becomes difficult to distinguish between them
 	BPSK = 2-PSK
@@ -81,3 +82,9 @@ Constellation Diagram:
 	Angle is the phase
 	![[Pasted image 20240718164738.png]]
 	![[Pasted image 20240718165032.png]]
+
+Reducing the bandwidth:
+	Don't oversample
+	Compress data
+	Undersample
+	Use more efficient modulation schemes like PSK/QAM

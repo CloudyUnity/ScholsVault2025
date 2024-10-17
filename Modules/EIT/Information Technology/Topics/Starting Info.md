@@ -1,5 +1,6 @@
 Carrier signal:
-	#todo
+	A pure wave of constant frequency used in modulation
+	Often a sin wave
 
 Analogue = Continuous
 Digital = Discrete

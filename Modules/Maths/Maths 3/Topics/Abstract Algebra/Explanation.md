@@ -26,14 +26,44 @@ Identity Elements $(e)$
 	$A$ for $(P(A), \cap)$
 	$I_n$ for $(M_n, *)$
 
+$a^0 = e$
+
 Monoids
-	A semigroup with an identity element
+	A semigroup with an identity element $e$ 
+
+Inverses
+	$x$ is the inverse of $y$ $\leftrightarrow x * y = y*x = e$
+	$a^{-n}$ where $n \geq 0 = (a^{n})^{-1}$	
+	Any monoid with an invertible element $a \in A$ has a unique inverse 
+		Proof:
+			Assume $a$ has two inverses
+			$a * b = b * a = a * c = c * a = e$
+			$b \neq c$ 
+			$b = b * e = b* (a * c) = (b * a) * c = e * c = c$
+			Contradiction
+	For any monoid with invertible elements $a, b \in A$, $a*b$ is also invertible and $(a*b)^{-1} = b^{-1} * a^{-1}$ 
+		Proof:
+			$(a*b) * (b^{-1} * a^{-1}) = a * (b * b^{-1}) * a^{-1} = a*e*a^{-1} = e$
+			$(b^{-1} * a^{-1}) * (a*b) = b^{-1} * (a^{-1}  * a) * b = b^{-1} * e * b = e$
+	For any monoid with elements $a,b,x \in A$ where $x$ is invertible, $a = b * x \leftrightarrow b = a * x^{-1}$
+		Proof:
+			$"\to"$ 
+				Assume $a = b*x$ 
+				$a * x^{-1}= (b*x) * x^{-1} = b$
+			$"\leftarrow"$ 
+				Assume $b = a * x^{-1}$ 
+				$b * x = (a * x^{-1}) * x = a$
 
 Group $(G)$
 	A set of elements
 	A closed associative BO
 	An identity element
 	Valid Inverses
+
+Group syntax is $(A, *, e)$
+
+#NeedsFactCheckingByTrueAmericanPatriots 
+Groups are called Abelian if they're commutative 
 
 Order $(|G|)$
 	New name for cardinality just dropped
@@ -43,7 +73,7 @@ Subgroup $(H)$
 	$H \neq G \land H \leq G \to H < G$
 
 Cayley Tables
-	Imagine multiplication tables but abstract
+	Imagine multiplication tables but generic
 	Headers contain the elements
 	Cells contain $Row_i * Col_j$ 
 	If you start the headers with $e$ then the first row/column match their respective headers

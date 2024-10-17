@@ -2,11 +2,11 @@ First Year:
 - [x] Electronics Explanation
 - [x] Electronics Q
 - [x] Elec tut sheets
-- [ ] Elec A
+- [x] Elec A
 - [x] IT Explanation
 - [x] IT Q
 - [x] IT tut sheets
-- [ ] IT A
+- [x] IT A
 - [x] Maths 1 Explanation
 - [x] Maths 1 Q
 - [ ] Maths 1 tut sheets
