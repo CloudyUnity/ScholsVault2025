@@ -12,7 +12,24 @@
 > These values are outside the domain thus $15$ is not mapped
 > $f$ is not surjective
 
-
 >[!question]- ![[{D8CFAF81-E072-415C-8A67-62FBF155061E}.png]]
 >5 as if you assume person $i$ has written $i \ mod \ 1,000,001$ lines of code then at least 5 people must have the same number of lines of code
 
+> [!question]- ![[Pasted image 20241017115712.png]]
+ 1 Every man has shaved one other man
+ 2 No man can shave himself
+ 3 No man had been shaved by more than one other man
+ 4 One man had never been shaved by another
+Are there more or less than 100 men in the loge?
+.
+Assume n men
+man 1 shaves man 2
+man 2 shaves man 3
+...
+man n-1 shaves man n
+man 1 does not get shaved
+man n has nobody to shave
+.
+Assume infinite men
+Now the problem works
+Therefore there are infinite men which is greater than 100
