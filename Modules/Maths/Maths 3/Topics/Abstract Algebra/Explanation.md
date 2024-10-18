@@ -60,9 +60,8 @@ Group $(G)$
 	An identity element
 	Valid Inverses
 
-Group syntax is $(A, *, e)$
+Group/Monoid syntax is $(A, *, e)$
 
-#NeedsFactCheckingByTrueAmericanPatriots 
 Groups are called Abelian if they're commutative 
 
 Order $(|G|)$
@@ -89,3 +88,45 @@ Cayley Tables
 Trivial Group
 	$\{e\}$
 	Is a subgroup of all other groups
+
+Cyclic Group
+	Given $(A, *, e), a \in A$
+	$A' = \{a^m | m \in \mathbb{Z}\}$
+	$(A', *, e)$ is a cyclic group and abelian regardless of whether $(A, *, e)$ is abelian
+
+Homomorphism
+	Let $(A, *), (B, \diamond)$ be semigroups
+	$f: A \to B$ is a homomorphism iff $\forall x, y \in A, f(x * y) = f(x) \diamond f(y)$
+	Example:
+		$G = (\mathbb{R}, +, 0)$
+		$H = (\mathbb{R}^+, \times, 1)$
+		$f: G \to H, x \mapsto e^x$
+		$f(x+y) = f(x) \times f(y)$
+		$e^{x+y} = e^x \times e^y$
+
+Isomorphic
+	Two semigroups are isomorphic if you can map all elements from one to another where all products also maps correctly
+	$\exists$ isomorphism $f: A \to B$ 
+	Same Mary, different hat
+
+Isomorphism
+	A homomorphism which is bijective
+	This shows the semigroups are identical in shape
+	Example:
+		$G := (\mathbb{R}^+, \times, 1)$
+		$H := (\mathbb{R}, +, 0)$
+		$f: G \to H, x \mapsto log(x)$
+		$log(x \times y) = log(x) + log(y)$ 
+		$log(x) = log(y) \to e^{log(x)} = e^{log(y)} \to x = y \to$ Injective
+		$log(x) \in \mathbb{R} \to$ Surjective
+
+The inverse of any isomorphism is also an isomorphism
+Proof:
+	$f: A \to B$ is bijective $\to f^{-1}: B \to A$ is bijective
+	$\forall u, v \in B, \exists x, y \in A, \ \  x = f^{-1}(u) \land y = f^{-1}(v) \to \ \  u = f(x) \land v = f(y)$
+	$f(x * y) = f(x) * f(y) = u * v$
+	$f^{-1}(u * v) = x*y = f^{-1}(u) * f^{-1}(v)$ 
+
+Rings
+
+Vector Spaces

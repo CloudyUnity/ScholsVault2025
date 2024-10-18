@@ -38,3 +38,6 @@ The Pigeonhole Principle
 
 #todo 
 Add stuff on symmetry, anti-symmetry 
+
+Arity/Rank
+	The number of args taken by a function

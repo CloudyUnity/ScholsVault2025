@@ -1,4 +1,5 @@
 
+#NeedsFactCheckingByTrueAmericanPatriots 
 > [!question]- ![[{A4A5149A-4074-47C5-8463-6D1DC0EB31EF}.png]]
 > Find turning point of $f$
 > $f'(x) = 2x + 3$
