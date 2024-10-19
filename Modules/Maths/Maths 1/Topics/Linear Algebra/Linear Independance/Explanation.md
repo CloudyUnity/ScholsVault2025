@@ -1,3 +1,4 @@
+
 $\mathbf v$ is a linear combination of $\mathbf v_1, \mathbf v_2, \dots, \mathbf v_n$ if there exists scalars $k_1, k_2, \dots, k_n$ such that:
 	$\mathbf v = k_1 \mathbf v_1, k_2 \mathbf v_2, \dots k_n \mathbf v_n$
 
