@@ -91,42 +91,76 @@ There must be a better way of doing this one, right?
  #NeedsFactCheckingByTrueAmericanPatriots 
 
 > [!question]- #schols  ![[Pasted image 20240703150221.png]]
+ (i)
+ $\begin{vmatrix} -7 - \lambda & -6 & -12 \\ 5 & 5 - \lambda & 7  \\ 1 & 0 & 4 - \lambda  \end{vmatrix} = 0$
+ $A = (-7 - \lambda)((5-\lambda)(4 - \lambda) - 0)$
+ $A = (-7 - \lambda)(20 - 9 \lambda + \lambda^2)$
+ $A = -140 + 63 \lambda - 7 \lambda^2 - 20 \lambda + 9 \lambda^2 - \lambda^3$
+ $B = 6 (5(4 - \lambda) - 7)$
+ $B = 6(20 - 5 \lambda - 7)$
+ $B = 78 - 30 \lambda$
+ $C = -12 (0 - (5 - \lambda))$
+ $C = 60 - 12 \lambda$ 
+ $A + B + C = 0$
+ $-\lambda^3 + 2 \lambda^2 + 43 \lambda  - 30 \lambda - 12 \lambda - 140 + 78 + 60 = 0$
+ $\lambda^3 - 2 \lambda^2 - \lambda + 2 = 0$
+ $\lambda = -1, 1, 2$ 
+ .
+ $\begin{bmatrix} -6 & -6 & -12 & 0 \\ 5 & 6 & 7 & 0 \\ 1 & 0 & 5 & 0 \end{bmatrix}$
+ $\begin{bmatrix} 1 & 1 & 2 & 0 \\ 0 & 1 & -3 & 0 \\ 0 & 0 & 3 & 0 \end{bmatrix}$
+ $\begin{bmatrix} 1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 1 & 0 \end{bmatrix}$
+ $v = \begin{bmatrix} 0 \\ 0 \\ 0 \end{bmatrix}$
+ $\begin{bmatrix} -8 & -6 & -12 & 0 \\ 5 & 4 & 7 & 0 \\ 1 & 0 & 3 & 0 \end{bmatrix}$
+ $\begin{bmatrix} 2 & 3 & 6 & 0 \\ 0 & 4 & -8 & 0 \\ 1 & 0 & 3 & 0 \end{bmatrix}$
+ $\begin{bmatrix} 1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 1 & 0 \end{bmatrix}$
+ $\begin{bmatrix} -9 & -6 & -12 & 0 \\ 5 & 3 & 7  & 0 \\ 1 & 0 & 2 & 0 \end{bmatrix}$
+ $\begin{bmatrix} 3 & 2 & 4 & 0 \\ 0 & 3 & -3 & 0 \\ 1 & 0 & 2 & 0 \end{bmatrix}$
+ $\begin{bmatrix} 1 & 0 & 2 & 0 \\ 0 & 2 & -2 & 0 \\ 0 & 0 & 0 & 0 \end{bmatrix}$
+ $x_1 = -2x_3$
+ $x_2 = -x_3$ 
+ $v = t\begin{bmatrix} -2 \\ -1 \\ 1 \end{bmatrix}$ 
+ (ii)
+   $\tilde{S} = \begin{bmatrix}  2 - 1 & -(3 - 1) & 3 - 2 \\ -(-3 + 2) & -5 + 2 & -(-5 + 3) \\ -3 + 4 & -(-5 + 6) & -10 + 9 \end{bmatrix}$
+ $\tilde{S} = \begin{bmatrix} 1 & -2 & 1 \\ 1 & -3 & 2 \\ 1 & -1 & -1 \end{bmatrix}$
+ $\tilde{S}^T = \begin{bmatrix} 1 & 1 & 1 \\ -2 & -3 & -1 \\ 1 & 2 & -1 \end{bmatrix}$
+  $det(S) = -5(2 - 1) + 3(3 - 1) - 2(3 - 2) = -5 + 6 - 2 = -1$
+ $S^{-1} = \begin{bmatrix} -1 & -1 & -1 \\ 2 & 3 & 1 \\ -1 & -2 & 1   \end{bmatrix}$
+ $S^{-1} B = \begin{bmatrix} 7 -5 - 1 & 6 - 5 & 12 - 7 - 4 \\ -14 + 15 + 1 & -12 + 15 & -24 + 21 + 4 \\ 7 - 10 + 1 & 6 - 10 & 12 - 14 + 4  \end{bmatrix}$
+ $S^{-1}B = \begin{bmatrix} 1 & 1 & 1 \\ 2 & 3 & 1 \\ -2 & -4 & 2 \end{bmatrix}$
+ $S^{-1}BS = \begin{bmatrix} -5 + 3 + 1 & -3 + 2 + 1 & -2 + 1 + 1 \\  -10 + 9 + 1 & -6 + 6 + 1 & -4 + 3 + 1 \\ 10 - 12 + 2 & 6 - 8 + 2 & 4 - 4 + 2 \end{bmatrix}$
+ $S^{-1}BS = \begin{bmatrix} -1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 2 \end{bmatrix}$ 
 
-(i)
-$\begin{vmatrix} -7 - \lambda & -6 & -12 \\ 5 & 5 - \lambda & 7  \\ 1 & 0 & 4 - \lambda  \end{vmatrix} = 0$
-$A = (-7 - \lambda)((5-\lambda)(4 - \lambda) - 0)$
-$A = (-7 - \lambda)(20 - 9 \lambda + \lambda^2)$
-$A = -140 + 63 \lambda - 7 \lambda^2 - 20 \lambda + 9 \lambda^2 - \lambda^3$
-$B = 6 (5(4 - \lambda) - 7)$
-$B = 6(20 - 5 \lambda - 7)$
-$B = 78 - 30 \lambda$
-$C = -12 (0 - (5 - \lambda))$
-$C = 60 - 12 \lambda$ 
-$A + B + C = 0$
-$-\lambda^3 + 2 \lambda^2 + 43 \lambda  - 30 \lambda - 12 \lambda - 140 + 78 + 60 = 0$
-$\lambda^3 - 2 \lambda^2 - \lambda + 2 = 0$
-$\lambda = -1, 1, 2$ 
-.
-$\begin{bmatrix} -6 & -6 & -12 & 0 \\ 5 & 6 & 7 & 0 \\ 1 & 0 & 5 & 0 \end{bmatrix}$
-$\begin{bmatrix} 1 & 1 & 2 & 0 \\ 0 & 1 & -3 & 0 \\ 0 & 0 & 3 & 0 \end{bmatrix}$
-$\begin{bmatrix} 1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 1 & 0 \end{bmatrix}$
-$v = \begin{bmatrix} 0 \\ 0 \\ 0 \end{bmatrix}$
-$\begin{bmatrix} -8 & -6 & -12 & 0 \\ 5 & 4 & 7 & 0 \\ 1 & 0 & 3 & 0 \end{bmatrix}$
-$\begin{bmatrix} 2 & 3 & 6 & 0 \\ 0 & 4 & -8 & 0 \\ 1 & 0 & 3 & 0 \end{bmatrix}$
-$\begin{bmatrix} 1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 1 & 0 \end{bmatrix}$
-$\begin{bmatrix} -9 & -6 & -12 & 0 \\ 5 & 3 & 7  & 0 \\ 1 & 0 & 2 & 0 \end{bmatrix}$
-$\begin{bmatrix} 3 & 2 & 4 & 0 \\ 0 & 3 & -3 & 0 \\ 1 & 0 & 2 & 0 \end{bmatrix}$
-$\begin{bmatrix} 1 & 0 & 2 & 0 \\ 0 & 2 & -2 & 0 \\ 0 & 0 & 0 & 0 \end{bmatrix}$
-$x_1 = -2x_3$
-$x_2 = -x_3$ 
-$v = t\begin{bmatrix} -2 \\ -1 \\ 1 \end{bmatrix}$ 
-(ii)
+> [!question]- #schols  ![[Pasted image 20240703150328.png]]
+ $\begin{bmatrix} 5 - \lambda & -3 & 2 \\ 6 & -4 - \lambda & 4 \\ 4 & -4 & 5 - \lambda \end{bmatrix}$
+ $(5- \lambda)((-4 - \lambda)(5 - \lambda) + 16) + 3(6(5 - \lambda) - 16) + 2(-24 - 4(-4 - \lambda))$
+ $(5 - \lambda)(-20 + 4 \lambda - 5 \lambda + \lambda^2 + 16) + 3(30 - 6 \lambda - 16) + 2(-24 + 16 + 4 \lambda)$
+ $(5 - \lambda) (\lambda^2 - \lambda - 4) + 42 - 18 \lambda -16 + 8 \lambda$
+ $5 \lambda^2 - 5 \lambda - 20 - \lambda^3 + \lambda^2 + 4\lambda + 26 - 10 \lambda = 0$
+ $-\lambda^3 + 6 \lambda^2 - 11 \lambda + 6 = 0$
+ $\lambda^3 - 6\lambda^2 + 11\lambda - 6 = 0$ 
+ $\lambda = 1, 2, 3$ 
+ .
+ $\begin{bmatrix} 4 & -3 & 2 \\ 6 & -5 & 4 \\ 4 & -4 & 4 \end{bmatrix}$
+ $\begin{bmatrix} 0 & 1 & -2 \\ 0 & 1 & -2 \\ 1 & -1 & 1 \end{bmatrix}$
+ $\begin{bmatrix} 0 & 1 & -2 \\ 1 & 0 & -1 \\ 0 & 0 & 0 \end{bmatrix}$ 
+ $x_2 - 2x_3 =0$
+ $x_1 - x_3 = 0$
+ $v = t \begin{bmatrix} 1 \\ 2 \\ 1 \end{bmatrix}$
+ $\begin{bmatrix} 3 & -3 & 2 \\ 6 & -6 & 4 \\ 4 & -4 & 3 \end{bmatrix}$
+ $\begin{bmatrix} 1 & -1 & 1 \\ 0 & 0 & -1 \\ 0 & 0 & 0 \end{bmatrix}$
+ $\begin{bmatrix} 1 & -1 & 0 \\ 0 & 0 & 1 \\ 0 & 0 & 0 \end{bmatrix}$
+ $x_1 - x_2 = 0$
+ $x_3 = 0$
+  $v = t \begin{bmatrix} 1 \\ 1 \\ 0 \end{bmatrix}$
+ $\begin{bmatrix} 2 & -3 & 2 \\ 6 & -7 & 4 \\ 4 & -4 & 2 \end{bmatrix}$
+ $\begin{bmatrix} 2 & -3 & 2 \\ 0 & 2 & -2 \\ 0 & -10 & -2 \end{bmatrix}$
+ $\begin{bmatrix} 2 & 0 & -1 \\ 0 & 1 & -1 \\ 0 & 0 & -12 \end{bmatrix}$
+$\begin{bmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{bmatrix}$
+ $v = \mathbf{0}$ 
 
-#schols 
-![[Pasted image 20240703150328.png]]
+> [!question]- #schols  ![[Pasted image 20240703150437.png]]
 
-#schols 
-![[Pasted image 20240703150437.png]]
+
 
 > [!question]- #schols #bonus  ![[Pasted image 20240703150125.png]]
 

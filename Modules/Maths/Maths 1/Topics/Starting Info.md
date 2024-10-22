@@ -61,6 +61,8 @@ Adjoint:
 The Zero Vector:
 	$\overline{0} = (0, 0, 0)$
 
+When multiplying matrices, imagine the dot product, it's addition. Don't get it twisted!
+
 #bonus
 Transformations:
 	A matrix can represent a transformation in space (Often 2D or 3D)
