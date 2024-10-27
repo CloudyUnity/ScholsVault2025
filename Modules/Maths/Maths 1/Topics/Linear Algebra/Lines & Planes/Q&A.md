@@ -22,3 +22,6 @@
 > $x = \dfrac{9}{7} + \dfrac{10}{7}t$
 > $y = 1 + t$
 > $z = \dfrac{17}{7} + \dfrac{1}{7} t$
+
+> [!question] #schols [2024] ![[Pasted image 20241027191019.png]]
+

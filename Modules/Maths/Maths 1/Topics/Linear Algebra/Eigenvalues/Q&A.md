@@ -159,8 +159,30 @@ $\begin{bmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{bmatrix}$
  $v = \mathbf{0}$ 
 
 > [!question]- #schols  ![[Pasted image 20240703150437.png]]
-
-
+ $\begin{bmatrix} 5 - \lambda & -2 & 2 \\ 4 & -3 - \lambda & 4 \\ 4 & -6 & 7 - \lambda \end{bmatrix}$
+ $(5 - \lambda)((-3 - \lambda)(7 - \lambda) + 24) + 2(4(7 - \lambda) - 16) + 2(-24 - 4(-3 - \lambda))$
+ $(5 - \lambda)(-21 - 4 \lambda + \lambda^2 + 24) + 56 - 8 \lambda - 32 - 48 + 24 + 8 \lambda$
+ $(5 - \lambda)(3 - 4 \lambda + \lambda^2) + 56 - 32 - 48 + 24$
+ $15 - 20 \lambda + 5 \lambda^2 - 3 \lambda + 4 \lambda^2  - \lambda^3 =0$
+ $\lambda^3 - 9 \lambda^2 + 23 \lambda - 15 = 0$
+ $\lambda = 1, 3, 5$
+ .
+ $\begin{bmatrix} 4 & - 2 & 2 \\ 4 & -4 & 4 \\ 4 & -6 & 6 \end{bmatrix}$
+ $\begin{bmatrix} 2 & -1 & 1 \\ 1 & -1 & 1 \\ 2 & -3 & 3 \end{bmatrix}$
+ $\begin{bmatrix} 1 & 0 & 0 \\ 0 & -1 & 1 \\ 0 & 0 & 0 \end{bmatrix}$
+ $x_1 = 0$
+ $x_2 = x_3$
+ $v = t \begin{bmatrix} 0 \\ 1 \\ 1 \end{bmatrix}$
+ $\begin{bmatrix} 2 & -2 & 2 \\ 4 & -6 & 4 \\ 4 & -6 & 4 \end{bmatrix}$
+ $\begin{bmatrix} 1 & -1 & 1 \\ 0 & -2 & 0 \\ 0 & 0 & 0 \end{bmatrix}$
+ $\begin{bmatrix} 1 & 0 & 1 \\ 0 & 1 & 0 \\ 0 & 0 & 0 \end{bmatrix}$
+ $x_1 = -x_3$
+ $x_2 =0$
+ $v = t \begin{bmatrix} -1 \\ 0 \\ 1 \end{bmatrix}$
+ $\begin{bmatrix} 0 & -2 & 2 \\ 4 & -8 & 4 \\ 4 & -6 & 3 \end{bmatrix}$
+ $\begin{bmatrix} 0 & -1 & 1 \\ 4 & -4 & 0 \\ 4 & -3 & 0 \end{bmatrix}$
+ $\begin{bmatrix} 0 & 1 & 0 \\ 0 & 0 & 1 \\ 1 & 0 & 0 \end{bmatrix}$
+ $v = \mathbf{0}$ 
 
 > [!question]- #schols #bonus  ![[Pasted image 20240703150125.png]]
 

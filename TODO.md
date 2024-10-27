@@ -6,7 +6,7 @@ First Year:
 - [x] IT Explanation
 - [x] IT Q
 - [x] IT tut sheets
-- [x] IT A
+- [ ] IT A
 - [x] Maths 1 Explanation
 - [x] Maths 1 Q
 - [ ] Maths 1 tut sheets
@@ -53,8 +53,8 @@ Second Year:
 - [x] C Q
 - [ ] C A
 
-- [ ] FIND 2023/2024 SCHOLS PAPERS!!!!
-- [ ] Answer questions in [[Questions]]
+- [x] Update all sections with 2024 paper questions
+- [x] FIND 2023/2024 SCHOLS PAPERS!!!!
 
 Updates:
 - [x] Replace all $\overline v$ and $\overrightarrow v$ in Linear Algebra/Elec with $\mathbf v$

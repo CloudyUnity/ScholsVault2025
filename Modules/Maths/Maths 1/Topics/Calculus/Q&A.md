@@ -98,3 +98,5 @@
 > $x ln^3 \ x - 3(x ln^2 \ x - 2x ln(x) - 2x)$
 > $x ln^3 \ x - 3x ln^2 \ x - 6x ln(x) - 6x + C$
 
+> [!question]- #schols [2024] ![[Pasted image 20241027191133.png]]
+

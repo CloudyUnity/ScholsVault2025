@@ -17,3 +17,6 @@
 #schols 
 ![[Pasted image 20240805121156.png]]
 ![[Pasted image 20240805121202.png]]
+
+#schols [2024]
+![[Pasted image 20241027191433.png]]

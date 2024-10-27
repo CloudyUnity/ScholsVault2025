@@ -3,6 +3,13 @@ Given a system of linear equations:
 
 This system is consistent if it has at least one solution
 
+Zero solutions occur from contradictions 
+	Row: $\begin{bmatrix} 0 & 0 & 0 & | & 5 \end{bmatrix}$ 
+
+One solution occurs from perfect RRE
+
+Infinite solutions occurs from partial RRE
+
 Rewrite this equation where $A \mathbf x = \mathbf b$
 ![[Pasted image 20240702171352.png]]
 

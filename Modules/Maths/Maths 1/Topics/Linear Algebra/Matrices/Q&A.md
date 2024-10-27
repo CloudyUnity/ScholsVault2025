@@ -65,3 +65,5 @@
 > $Q^{-1} = k^{-1} Q^T$
 > $Q^{-1} = \dfrac{1}{a^2 + b^2 + c^2 + d^2} Q^T$
 
+> [!question] #schols [2024] ![[Pasted image 20241027191051.png]]
+

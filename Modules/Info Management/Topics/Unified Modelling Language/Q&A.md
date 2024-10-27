@@ -1,3 +1,7 @@
+
+#schols [2024]
+![[Pasted image 20241027203514.png]]
+
 #schols [2023]
 ![[Pasted image 20240909164204.png]]
 
