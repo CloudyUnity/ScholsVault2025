@@ -1,3 +1,4 @@
+
 In a kmap there's a box for each line in a truth table
 The rows and columns represent the input
 The value of the box represents the output

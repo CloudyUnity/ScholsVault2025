@@ -6,11 +6,11 @@ First Year:
 - [x] IT Explanation
 - [x] IT Q
 - [x] IT tut sheets
-- [ ] IT A
+- [x] IT A
 - [x] Maths 1 Explanation
 - [x] Maths 1 Q
 - [ ] Maths 1 tut sheets
-- [ ] Maths 1 A
+- [x] Maths 1 A
 - [x] Maths 2 Explanation
 - [x] Maths 2 Q
 - [ ] Maths 2 tut sheets

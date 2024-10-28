@@ -19,6 +19,7 @@ Decoder:
 Barrel Shifter:
 	![[Pasted image 20240731120818.png]]
 	A circuit for shifting a number using a sequence of multiplexors
+	This one rotates (wraps) bits by default
 	y = x >> s
 
 Encoder:

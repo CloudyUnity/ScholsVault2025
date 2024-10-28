@@ -31,7 +31,7 @@ Full-Adder:
 		Z (Is Zero) = $S_0' S_1' S_2' S_3'$
 		C (Carry) = $C_4$
 		V (Overflow) = $C_4 \oplus C_3$
-			Look for if `sign(A) == sign(B) != sign(S)`
+			Look for if $sign(A) = sign(B) \land sign(A) \neq sign(S)$ 
 
 Decimal Adder:
 	Binary Coded Decimal (BCD):

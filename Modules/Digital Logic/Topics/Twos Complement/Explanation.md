@@ -25,4 +25,5 @@ One's Complement:
 
 Negating a number:
 	Negate the bits and add 1
+	$-X = ¬X + 1$ 
 	0110 (6) => 1001 + 0001 = 1010 (-6)

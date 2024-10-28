@@ -53,4 +53,4 @@ Simple Binary Counters:
 
 #bonus
 Register:
-	#todo
+	Just a bunch of flip flops where each represents a bit of a bit vector. Shrimple stuff

@@ -8,9 +8,11 @@ Nibble:
 Active High/Low:
 	![[Pasted image 20240731121234.png]]
 	Bobbles on the input indicate active-low
-	#todo
+	High chips are considered "on" when a high voltage is applied
+	Low chips are considered "on" when a low voltage is applied
 
 XOR3:
+	An XOR gate with 3 inputs, how does it work?
 	Option 1:
 		Odd-parity function
 	Option 2:
@@ -18,16 +20,16 @@ XOR3:
 
 Minterms:
 	A boolean function of n unique variables multiplied together
-	min(0, 1) = 0
-	min(1, 1) = 1
+	Minimal conditions where expression is true
+	Same as SOP
 	For example:
 		AB'C
 		X'Y'ZW'
 
 Maxterms:
 	A boolean function of n unique variables summed together
-	max(0, 1) = 1
-	max(0, 0) = 0
+	Maximal conditions where expression is false
+	Same as POS
 	For example:
 		A+B'+C
 		X'+Y'+Z+W'

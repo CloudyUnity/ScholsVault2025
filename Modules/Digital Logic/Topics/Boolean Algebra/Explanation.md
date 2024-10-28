@@ -1,6 +1,6 @@
-AND: $A \& B = A.B = AB$
+AND: $A \& B = A \cdot B = AB$
 OR:   $A | B = A + B$
-NOT: $\overline{A} = A' = \ !A$
+NOT: $\overline{A} = A' = \ !A = ¬A$ 
 XOR: $A \land B = A \oplus B$
 
 By manipulating boolean expressions it is sometimes possible to simplify the function and thus reduce the gate count

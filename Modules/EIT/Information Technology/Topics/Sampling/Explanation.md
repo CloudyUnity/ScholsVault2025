@@ -52,10 +52,11 @@ Amplitude Shift Keying (ASK):
 		2-bit ASK
 		null amplitude for 0b0
 		$A$ amplitude for 0b1		
-	M-ASK:
+	M-ASK:		
 		M = $L$
+		$B_m = (1 + d)R$ 
 		null amplitude for 0
-		$A_1, A_2, \dots A_M$ amplitudes for $1, 2 \dots,M$ 
+		$A_1, A_2, \dots, A_M$ amplitudes for $1, 2, \dots,M$ 
 
 Frequency Shift Keying (FSK):
 	M-FSK:
@@ -63,7 +64,7 @@ Frequency Shift Keying (FSK):
 		Ideally $d=0$
 
 Phase Shift Keying (PSK):
-	$B_m = (1 + d)S$		
+	$B_m = (1 + d) S$ 
 	Isn't affected by noise as much as ASK
 	At high M levels it becomes difficult to distinguish between them
 	BPSK = 2-PSK
@@ -81,3 +82,9 @@ Constellation Diagram:
 	Angle is the phase
 	![[Pasted image 20240718164738.png]]
 	![[Pasted image 20240718165032.png]]
+
+Reducing the bandwidth:
+	Don't oversample
+	Compress data
+	Undersample
+	Use more efficient modulation schemes like PSK/QAM
