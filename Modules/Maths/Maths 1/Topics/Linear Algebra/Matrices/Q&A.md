@@ -65,5 +65,14 @@
 > $Q^{-1} = k^{-1} Q^T$
 > $Q^{-1} = \dfrac{1}{a^2 + b^2 + c^2 + d^2} Q^T$
 
-> [!question] #schols [2024] ![[Pasted image 20241027191051.png]]
-
+> [!question]- #schols [2024] ![[Pasted image 20241027191051.png]]
+ $\begin{bmatrix} -4 + \lambda & -4 & 4 \\ -1 & \lambda & 1 \\ -7 & -6 & 7 + \lambda \end{bmatrix}$
+ Determinant must be zero
+ $(-4 + \lambda)(\lambda (7 + \lambda) + 6) + 4 (-(7 + \lambda) + 7) + 4 (6 + 7 \lambda ) = 0$
+ $(-4 + \lambda) (\lambda^2 + 7\lambda + 6) - 28 - 4 \lambda + 28 + 24 + 28 \lambda = 0$
+  $-4 \lambda^2 - 28 \lambda - 24 + \lambda^3 + 7 \lambda^2 + 6 \lambda - 4 \lambda + 24 + 28 \lambda = 0$
+ $\lambda^3 + 3 \lambda^2 + 2 \lambda = 0$
+  $\lambda = 0$
+ $\lambda^2 + 3\lambda + 2 = 0$
+ $\lambda = -1, -2$ 
+ 

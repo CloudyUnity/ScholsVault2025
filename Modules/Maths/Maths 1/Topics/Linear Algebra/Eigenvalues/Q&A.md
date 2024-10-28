@@ -49,7 +49,7 @@ There must be a better way of doing this one, right?
  $C_{10} = -\lambda(-\lambda^9) + 10^{10}(1)$
  $\lambda^{10} + 10^{10} = 0$  
 
-> [!question] #schols  ![[Pasted image 20240703145601.png]]
+> [!question]- #schols  ![[Pasted image 20240703145601.png]]
  $Av = \lambda v$
  $B v = \mu v$ 
  $mAv = m\lambda v$

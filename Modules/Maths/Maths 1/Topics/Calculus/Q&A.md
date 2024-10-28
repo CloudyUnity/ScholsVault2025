@@ -99,4 +99,22 @@
 > $x ln^3 \ x - 3x ln^2 \ x - 6x ln(x) - 6x + C$
 
 > [!question]- #schols [2024] ![[Pasted image 20241027191133.png]]
-
+ $u = \sqrt{x + 10}$ 
+$u^2 - 10 = x$
+ $2u\  du = dx$
+ $\int 2u \dfrac{2}{u^2 - 10 - 3 u} \ du$
+ $4 \int \dfrac{u}{(u - 5)(u + 2)} \ du$
+ $\dfrac{A}{u - 5} + \dfrac{B}{u + 2}$
+ $\dfrac{A(u+2) + B(u-5)}{(u-5)(u+2)} = \dfrac{u}{(u-5)(u+2)}$
+ $Au + 2A + Bu - 5B = u + 0$
+ $A + B = 1$
+ $2A - 5B = 0$
+ $5A + 5B = 5$
+ $7A = 5$
+ $A = 5/7$
+ $B = 2/7$ 
+ $4 \int \dfrac{5/7}{u - 5} + \dfrac{2/7}{u+2} \ du$
+ $\dfrac{20}{7} \int (u-5)^{-1} \ du + \dfrac{8}{7} \int (u+2)^{-1} \ du$
+$\dfrac{20}{7} \ ln | u-5 | + \dfrac{8}{7} \ ln | u+2 | + C$
+ $\dfrac{20}{7} \ ln | \sqrt{x+10} - 5 | + \dfrac{8}{7} \ ln |\sqrt{x + 10} + 2 | + C$ 
+ 

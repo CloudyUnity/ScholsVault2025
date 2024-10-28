@@ -23,5 +23,31 @@
 > $y = 1 + t$
 > $z = \dfrac{17}{7} + \dfrac{1}{7} t$
 
+#NeedsFactCheckingByTrueAmericanPatriots 
 > [!question] #schols [2024] ![[Pasted image 20241027191019.png]]
-
+(i)
+Make equation parametric to get vector, find perp vector, use implicit line eq formula
+$2x - 6 = y - 3 = -2z$
+$2x - 3 = y$
+$z = 3 - x$
+$v = (x, 2x - 3, 3 - x) = (0, -3, 3)$
+$v \cdot u = 0$
+$0u_x -3 u_y + 3u_z = 0$
+ $u_y = u_z$ 
+$u = (1, 1, 1)$
+$\dfrac{x - 1}{1} = \dfrac{y + 2}{1} = \dfrac{z - 0}{1}$
+ $x - 1 = y + 2 = z$ 
+(ii)
+ $-3x + 3y + 9z = 6$
+ $10z = 15$
+ $z = 3/2$ 
+ $v = (0, 0, 3/2)$
+ $v \cdot u = 0$
+ $0u_x + 0u_y + 3/2 u_z = 0$
+ $u_z = 0$
+ $u = (1, 1, 0)$ 
+ $X = P + ut$ 
+ $x = 1 + t$
+ $y = -2 + t$
+ $z = 0$ 
+ 
