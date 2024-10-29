@@ -18,3 +18,5 @@ For implementing a complex data structure
 
 If you need to determine any kind of union operation consider bitfields
 For example the alphabet can be stored in a 26-bit number where each bit determines whether the letter has been seen
+
+Assume no casts are implicit, write out c-style casts on everything explicitly 

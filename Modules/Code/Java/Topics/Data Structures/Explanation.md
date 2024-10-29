@@ -1,7 +1,7 @@
 
 ```java
 public interface java.util.List<T>
-boolean Add(int, T);
+boolean add(int, T);
 T remove(int);
 ```
 Implemented as LinkedList (doubly) or ArrayList
@@ -13,6 +13,16 @@ Implemented as LinkedList (doubly) or ArrayList
 T pop();
 T dequeue();
 void enqueue(T);
+
+Deque<T> var = new ArrayDeque<>();
+var.addFirst(T); var.push(T); // Equivalent
+var.addLast(T); var.offer(T); // Equivalent
+var.removeFirst();
+var.removeLast();
+var.clear();
+var.getFirst();
+var.getLast();
+T[] arr = var.toArray(new T[var.size()]); // O(n)
 ```
 
 ```java
