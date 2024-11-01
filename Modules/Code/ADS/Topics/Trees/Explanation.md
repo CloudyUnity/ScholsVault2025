@@ -75,7 +75,8 @@ BST Deletion
 	Hibbard Deletion
 		$p$ is the parent of $k$ to be deleted
 		$\lnot k_L \land \lnot k_R \to p_k = null$
-		$k_L \oplus k_R \to p_k = k_{LR}$
+		$\lnot k_L \land k_R \to p_R = k_R$ 
+		$k_L \land \lnot k_R \to p_L = k_L$ 
 		Otherwise
 			$x =$ Min($k_R$)
 			$x_L = k_L$

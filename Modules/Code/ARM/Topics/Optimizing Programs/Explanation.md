@@ -1,7 +1,7 @@
 CPUs run on Fetch-Decode-Execute cycles
 To do this they need to know what instructions are incoming so they can begin fetching and decoding them before they're executed
 Branch instructions fuck this up as the CPU doesn't know what is incoming causing wasted cycles, this is what's known as stall cycles
-Modern CPUs have branch predictors to help this problem but not in Cortex-M3 no sir
+Modern CPUs have branch predictors to help this problem but not in Cortex-M3 no ma'am
 
 To reduce branches try to flatten branches with multipliers or unroll loops
 	Example:
