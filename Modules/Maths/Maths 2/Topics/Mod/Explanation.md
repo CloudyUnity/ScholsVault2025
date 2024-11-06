@@ -4,6 +4,8 @@ Two numbers are congruent modulo n if they have the same remainder on division b
 
 Congruence/Residue Class:
 	A set of numbers congruent to each other modulo n
+	#bonus 
+		Same as equivalence class when the relation is modulo (Maths 3)
 
 Least Residue:
 	Smallest positive member of a residue class
@@ -43,7 +45,7 @@ Chinese Remainder Theorem:
 Fermat's Little Theorem:
 	If $p$ is a prime number co-prime with $a$
 	$a^{p-1} \equiv 1$ (mod $p$)
-	Use FLT to find the least residue of a high power. Split the power into a prime
+	Tip: Use FLT to find the least residue of a high power. Split the power into a prime
 
 #bonus 
 Fermat's Last Theorem:

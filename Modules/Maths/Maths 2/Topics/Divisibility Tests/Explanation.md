@@ -1,3 +1,4 @@
+
 $a = a_0 + a_1 \times 10 + a_2 \times 10^2 + \dots + a_n \times 10^n$
 
 2:
@@ -25,6 +26,7 @@ $2^n$:
 
 n:
 	Is divisible by 2 factors $f_1, f_2$ of n
+	$r$ is the remainder on mod
 	$r_n = f_{1} (r_{f_{2}}) - f_{2} (r_{f_{1}})$ (mod n)
 
 7,13:
@@ -35,4 +37,5 @@ n:
 		$1000 \equiv -1$ (mod 7)
 		$1000 \equiv -1$ (mod 13)
 		$a = a_0 + (10) a_1+(10^2) a_2 - 1[a_3 + (10)a_4 + (10^2)a_5] + 1[...]$
+		$a = a_2 \circ a_1 \circ a_0 - [a_5 \circ a_4 \circ a_3] + \dots$
 
