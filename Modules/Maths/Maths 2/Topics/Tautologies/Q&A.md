@@ -25,25 +25,34 @@
  $C(s)$ 
 
 > [!question]- #schols  ![[Pasted image 20240805115611.png]]
-
-#todo 
-	Not sure about this one
-$p \lor q \to p \land q \equiv p \equiv q$ 
-Contraposition:
-$p \land q \oplus p \oplus q \to \lnot p \land \lnot q$ 
-Brackets 1:
-$((p \land q) \oplus p) \oplus q \to \lnot p \land \lnot q$ 
-$(p \land q) \oplus p \to (p \land \lnot (p \land q)) \lor (F)$
-$p \land \lnot (p \land q) \to \lnot q$ 
-$\lnot q$
-Brackets 2:
-$(p \land q) \oplus (p \oplus q) \to \lnot p \land \lnot q$
-$(p \land q \land (p \equiv q)) \lor ((\lnot p \lor \lnot q) \land (p \oplus q))$
-$(p \land q) \lor ((\lnot p \lor \lnot q) \land ((p \land \lnot q) \lor (\lnot p \land q)))$ 
-$(p \land q) \lor ((p \land \lnot q) \lor (\lnot p \land q))$  
-$\lnot q \land (p \land q) \to F$ 
-$(p \land \lnot q) \lor (\lnot p \land q)$ 
-$p$ 
+ $(p \lor q \to p \land q) \equiv (p \equiv q)$
+ Prove forwards:
+ $p \lor q \to p \land q$      (Hypothesis)
+ $p \land q \equiv p$      (TX)
+ $p \lor q \to p$     (Substitution on 1 from 2)
+ $p \land q \equiv q$     (TX)
+ $p \lor q \to q$     (Substitution on 1 from 4)
+ $(p \lor q \to p) \land (p \lor q \to q)$    (3 + 5)
+  $p \lor q \equiv \lnot(\lnot p \land \lnot q)$      (DeMorgan)
+$(\lnot(\lnot p \land \lnot q) \to p) \land (\lnot(\lnot p \land \lnot q) \to q)$      (Substitution on 6 from 7)
+ $(\lnot p \to \lnot p \land \lnot q) \land (\lnot q \to \lnot p \land \lnot q)$            (Contrapositive)
+ $(\lnot p \to \lnot p) \land (\lnot p \to \lnot q) \land (\lnot q \to \lnot p) \land (\lnot q \to \lnot q)$      (TX)
+ $(\lnot p \to \lnot q) \land (\lnot q \to \lnot p)$       (TX)
+ $(q \to p) \land (p \to q)$              (Contrapositive)
+ $p \equiv q$         (TX)
+ $\therefore (p \lor q \to p \land q) \to (p \equiv q)$
+ .
+ Prove backwards:
+ $p \equiv q$   (Hypothesis)
+ $p \equiv p \lor p$     (TX)
+ $p \lor p \equiv q$   (Substitution on 1 from 2) 
+ $q \equiv q \land q$     (TX)
+ $p \lor p \equiv q \land q$   (Substitution on 4 from 3)  
+ $p \lor q \equiv p \land q$   (Substitution on 5 from 1) 
+ $p \lor q \to p \land q$  (Conclusion)
+ $\therefore (p \equiv q) \to (p \lor q \to p \land q)$
+ .
+ $\therefore (p \lor q \to p \land q) \equiv (p \equiv q)$ 
 
 > [!question]- #schols  ![[Pasted image 20240805115626.png]]
  $p \oplus q \to \lnot p \lor \lnot q$
