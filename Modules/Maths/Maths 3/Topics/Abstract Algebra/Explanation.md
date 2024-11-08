@@ -1,3 +1,4 @@
+
 Binary Operation (BO) $(*)$:
 	Given a set $A$,
 	 $*$ on $A$ is an operation to any two elements $x, y \in A$ that yields an element $(x*y) \in A$ 

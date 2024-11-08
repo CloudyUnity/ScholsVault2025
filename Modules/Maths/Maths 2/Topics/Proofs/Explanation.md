@@ -37,6 +37,7 @@ Proof by Contraposition:
 
 Proof involving IFF:
 	To prove $p \leftrightarrow q$ you must prove $p \to q$ and $q \to p$
+	You can use the same trick to prove equality or symmetric relations 
 
 Proof by Contradiction:
 	To prove $p$ assume $¬p$ is true and find a contradiction

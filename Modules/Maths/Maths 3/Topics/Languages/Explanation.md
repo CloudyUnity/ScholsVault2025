@@ -19,10 +19,17 @@ $A^+$
 
 $A = \{0, 1\} \to A^+ = \{0, 1, 00, 01, 10, 11, \dots \}$ 
 
-$\epsilon = \{\}$ 
+The Empty String
+	$\epsilon = \{\}$ 
+	$A^0 = \{\epsilon\}$	
+
+$\emptyset$ is the language that does not contain any strings
+	$A^0 = \{\}$ 
 
 Kleene Star $(*)$
 	$A^* = \epsilon \cup A^+$ 
+
+$\epsilon^* = \emptyset^* = \{\epsilon\}$ 
 
 $w_1 \circ w_2$ is the concatenation of words
 	$|w_1 \circ w_2 | = |w_1| + |w_2|$ 
@@ -100,6 +107,7 @@ Phase Structure Grammar
 		$\langle D \rangle \to$ "Died" 
 
 Regular/Finite State Languages
+	Languages which are recognized by a finite state acceptor
 	Regular languages over $A$ constitute the smallest collection $C$ where
 		$C \subseteq P(A^*)$ 
 		$M \in C \to M^* \in C$ 
@@ -111,3 +119,40 @@ Regular/Finite State Languages
 		$L_i = L_j ^*$ 
 		$L_i = L_j \circ L_k$
 		$L_i = L_j \cup L_k$ 
+	Basically by taking the elements of $A$ can you get to $L$ by applying the above operations
+	Example:
+		$A = \{0, 1\}$
+		$L = \{0^m 1^n | m,n \in \mathbb{N}, m \geq 0, n \geq 0\}$ 
+		$L$ is a regular language over $A$ 
+		Proof:
+			$L_1 = \{0\}$
+			$L_2 = \{1\}$
+			$L_3 = L_1 ^*$
+			$L_4 = L_2 ^*$
+			$L = L_5 = L_3 \circ L_4$ 
+
+Regular languages correspond to problems solvable with finite memory
+
+$L', L''$ are regular languages $\to L' \cap L''$ is a regular language 
+$L$ is a regular language $\to A^* \backslash L$ is a regular language
+
+Regular Grammar (Left)
+	A context-free grammar where every production rule is of one of the forms:
+		1. $\langle A \rangle \to b \langle B \rangle$
+		2. $\langle A \rangle \to b$
+		3. $\langle A \rangle \to \epsilon$ 
+	Where $\langle A \rangle, \langle B \rangle$ are nonterminals, $b$ is a terminal and $\epsilon$ is the empty word
+	A regular grammar is in normal form if it only uses rule forms 1 and 3
+
+Right Regular Grammar
+	Production rule form 1 is instead:
+		$\langle A \rangle \to \langle B \rangle b$ 
+
+Regular Expressions (Regex)
+	$\emptyset, \epsilon, a \in A$ are all regexes 
+	$w, w'$ are regexes $\to w \circ w', w \cup w', w^*$ are regexes
+
+Operator Precedence 
+	$* > \circ > \cup$ 
+
+$L$ is regular $\leftrightarrow$ A regex describes $L$ 

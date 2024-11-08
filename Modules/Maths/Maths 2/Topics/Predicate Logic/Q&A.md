@@ -37,24 +37,54 @@
  $\lnot W$
 
 > [!question]- #schols ![[Pasted image 20240805115342.png]]
+ $A =$ Alice lives in dublin
+ $B =$ Bob lives in dublin
+ $D =$ Dan lives in dublin
+ $C =$ Cathy lives in galway
+ Hypotheses:
+ $A \to \lnot B$
+ $B \lor (D \to C)$
+ Conclusion:
+ $A \land D \to C$ 
+ Workings:
+ $A \land D$ 
+ $A \land (A \to \lnot B) \to \lnot B$
+ $\lnot B \land D$ 
+ $\lnot B \land (B \lor (D \to C)) \to (D \to C)$ 
+ $D \land (D \to C) \to C$ 
+ $A \land D \to C$ 
 
-$A =$ Alice lives in dublin
-$B =$ Bob lives in dublin
-$D =$ Dan lives in dublin
-$C =$ Cathy lives in galway
-Hypotheses:
-$A \to \lnot B$
-$B \lor (D \to C)$
-Conclusion:
-$A \land D \to C$ 
-Workings:
-$
+> [!question]- #schols  ![[Pasted image 20240805115559.png]]
+ $W =$ The world will end
+ $E =$ An eclipse will occur
+ $H =$ The sun is hidden
+ Hypotheses:
+ $E \to W$ 
+ $E \lor \lnot H$ 
+ Conclusion:
+ $H \to W$ 
+ Workings:
+ $(E \to W) \land (E \lor \lnot H) \to W \lor \lnot H$ 
+ $H \land (W \lor \lnot H) \to W$
+ $H \to W$ 
 
-#schols 
-![[Pasted image 20240805115559.png]]
+> [!question]- #schols  ![[Pasted image 20240805120521.png]]
+ Hypotheses:
+ $(P \to Q) \to R$
+ $\lnot P$ 
+ Conclusion:
+ $R$ 
+ Workings:
+ $\begin{array}{| c | c | c | c |} \hline P & Q & P \to Q & R \\ \hline F & F & T & T \\ \hline F & T & T & T \\ \hline \end{array}$ 
 
-#schols 
-![[Pasted image 20240805120521.png]]
-
-#schols 
-![[Pasted image 20240805120902.png]]
+> [!question]- #schols  ![[Pasted image 20240805120902.png]]
+ Hypotheses:
+ $A \to \lnot B$
+ $B \lor (D \to C)$
+  Conclusion:
+  $A \land D \to C$ 
+ Workings:
+ $A \land D \land (A \to \lnot B) \to \lnot B \land D$ 
+ $\lnot B \land (B \lor (D \to C)) \to (D \to C)$
+ $D \land (D \to C) \to C$
+ $A \land D \to C$  

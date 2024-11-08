@@ -2,6 +2,7 @@ Setup:
 	Go to gitlab link
 	Clone repo
 	Open repo in VSCode
+	Ctrl+Shift+P $\to$ TCD: Apply Configuration (Windows)
 	Ctrl+Shift+B to compile
 	F5 to Run
 

@@ -12,18 +12,18 @@ Congruent
 Modulo
 Residue Class
 Least Residue
-Modular Arithmatic
+Modular Arithmetic
 Multiplicative Inverse
 Linear Congruence
 Chinese Remainder Theorem
-Fermats Little Theorem
+Fermat's Little Theorem
 Division Theorem
 Prime
 Co-prime
 Composite 
-Fundemental Theorem of Arithmatic
+Fundamental Theorem of Arithmetic
 HCF/GCD
-Euclids Algorithm
+Euclid's Algorithm
 Back Substitution
 Bezouts Identity
 LCM
