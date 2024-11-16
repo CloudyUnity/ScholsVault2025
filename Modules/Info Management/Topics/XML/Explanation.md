@@ -1,12 +1,20 @@
+
 ```xml
 <OpeningTag> Data </ClosingTag>
 ```
 
-Meta-Language
-	
+Tags that contain other tags are CDATA
+Tags that contain data are PCDATA (Parsed)
 
-Vocab
-	
+Markup Indicators == Tags
+
+Meta-Language
+	XML/SGML
+	...
+
+Vocabulary
+	HTML/SVG/XTM
+	...
 
 Standard Generalised Mark-Up Language (SGML)
 	ISO Standard since 1986
@@ -26,7 +34,51 @@ XML is another simplified subset of SGML but retains the lost features of HTML
 	Cannot have spaces in tag names
 	Cannot start tag with "XML"
 
+XML Declaration 
+	Required 
+	Informs the xml version, character encoding, whether or not external declarations affect the doc
+```xml
+<?xml version='1.0' encoding='ISO-8859-1' standalone='no' ?>
+```
+
+Attributes
+```xml
+<Tag att="attVal"> Data </Tag>
+```
+
+Empty Tag
+```xml
+<Tag></Tag>
+<SelfClosingTag/>
+```
+
+Comments
+```xml
+<!-- one-line -->
+<!--
+Multi
+line
+-->
+```
+
 Document Type Definition (DTD)
+	Defines the structure of a XML doc
+	Defines elements/cardinality/attributes/aggregation 
+	Validates XML docs
+	Can be external or internal to XML doc
+	Occurrences:
+		$?$ = 0/1
+		$+$ = 0+
+		$*$ = 1+
+```dtd
+<!DOCTYPE database [ <!-- database is root -->
+<!ELEMENT database (person*)> <!-- database contains 0+ persons -->
+<!ELEMENT person (name, hobby*)> <!-- person contains name and 0+ hobbies -->
+<!ATTLIST person age CDATA #IMPLIED> <!-- person contains age attribute ??? -->
+<!ELEMENT name (title?, firstname+, surname)> <!-- name has 0/1 title, 1+ firstname and a surname -->
+<!ELEMENT hobby (#PCDATA)> <!-- hobby is PCDATA -->
+]>
+```
 
 XQuery
 

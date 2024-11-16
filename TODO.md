@@ -40,7 +40,7 @@ Second Year:
 - [x] Probability Q
 - [ ] Probability A
 - [x] Comp Arch Get all slides
-- [ ] Comp Arch Explanation
+- [x] Comp Arch Explanation
 - [x] Comp Arch Q
 - [ ] Comp Arch A
 - [ ] Info Get all slides
