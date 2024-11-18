@@ -20,7 +20,6 @@ False, {3} is an element not a subset of $P(\mathbb{N})$
 False, $P(\{\{\emptyset\}\}) = \{\emptyset, \{\{\emptyset\}\}\}$
 True, $\mathbb{Z} \cap (2, 4) = \{3\}$
 
-
 > [!question]- ![[{1CE93EDD-4FA8-4A66-B2D1-672CA47341A9}.png]]
 > Z = {0}
 > Plates = $D\backslash Z \times L \times L \times D \times D$

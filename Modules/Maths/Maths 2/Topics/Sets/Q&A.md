@@ -5,6 +5,8 @@
  $(A \backslash B) \cup (A \backslash C')$ 
  $(A \backslash B) \cup (A \cap C)$ 
 
+#todo
+Make strict by proving it's subset not subseteq 
 > [!question]- #schols  ![[Pasted image 20240805115443.png]]
  Prove forwards:
  Assume $S \subset T$, prove $P(S) \subset P(T)$ 

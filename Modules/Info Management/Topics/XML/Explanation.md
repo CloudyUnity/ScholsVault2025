@@ -80,9 +80,64 @@ Document Type Definition (DTD)
 ]>
 ```
 
+DTD Attribute default values
+	`#REQUIRED`
+		Attribute is required to be written explicitly 
+	`#IMPLIED`
+		Attribute is optional 
+	`#FIXED val`
+		Attribute can only have this value
+	`val`
+		Attribute has default value if not written explicitly 
+
 XQuery
+	Retrieves info from XML docs using XPath	
+	You can access a doc with `doc("filepath.xml")`
+	You need to write statements in FLWOR order
+		For
+		Let
+		Where
+		Order by
+		Return
+	All lowercase 
+	`for $var in <expr1>, $var2 in <expr2>, <expr3> ...`
+		Equivalent to:
+			`for (var in expr1)
+				`for (var2 in expr2 and in expr3)`
+	`let $var := <expr>, <expr2>`
+	`where <expr>`
+		Filters binding tuples by conditional expr
+	`return <NewTag>{$v}</NewTag>`
+	User Defined Functions:
+		`declare function local:Foo($params (0+)) { <statements> }`
+		Call with:
+			`local:Foo($var)`
+		#todo 
+			Figure out what local means
 
 XPath
+	Expression language
+	Specification of a path for walking the XML tree
+	Sequence of steps separated by slashes 
+	`Tag1/Tag2/Tag3`
+	`//Tag3`
+		Finds all Tag3 in the tree
+	`.../Tag/string()`
+		Gets all values of Tag
+	`.../Tag/string(@attname)`
+		Gets `attname` attribute from Tag
+	`.../Tag[Expr]`
+		Returns Tag where condition Expr is met (e.g. Tag > 80, @att = "AGH")
+	`.../*/Tag`
+		`*` is a wildcard and stands in for any value
+	Location steps consists of three parts
+		Axis
+			Child, Parent, Preceding-Sibling, Following-Sibling, Root, Aunt, Uncle, Ancestor, Descendant 
+			Child is the default and implicit 
+		Node Test
+			The tag to go into
+		Predicate Tests (0+)
+			Conditionals 
 
 XLink
 

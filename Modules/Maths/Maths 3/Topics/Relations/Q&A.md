@@ -17,7 +17,6 @@
 > Not transitive by counter example
 > Not an equivalence relation as not symmetric or transitive
 
-
 > [!question]- ![[{2CF014D3-34CD-4B14-AF25-9F31FD546688}.png]]
 > $cos(x) = cos(-x)$
 > $cos(x) = cos(x + 2n \pi)$

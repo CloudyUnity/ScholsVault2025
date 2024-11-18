@@ -1,18 +1,97 @@
 
-#schols [2024]
-![[Pasted image 20241027193145.png]]
+> [!question]- #schols [2024] ![[Pasted image 20241027193145.png]]
+ (i)
+ $P(ABC) = P(A)P(B)P(C) = 0.6 \times 0.5 \times 0.4 = 0.12$
+ (ii)
+ Find probability not (exactly 0 rooms are not booked)
+ not (every room is booked)
+ not $(P(ABC)) = 1- 0.12 = 0.88$ 
+ (iii)
+ $P(A)P(B)'P(C)' + P(A)'P(B)P(C)' + P(A)'P(B)'P(C) = 0.6 (0.5) (0.6) + 0.4 (0.5) (0.6) + 0.4 (0.5) (0.4) = 0.38$ 
 
-#schols [2024]
-![[Pasted image 20241027193153.png]]
+#NeedsFactCheckingByTrueAmericanPatriots 
+> [!question]- #schols [2024] ![[Pasted image 20241027193153.png]]
+ $4 = \{1, 3\}, \{3, 1\}, \{2, 2\}$
+ $6 = \{1, 5\}, \{5, 1\}, \{4, 2\}, \{2, 4\}, \{3, 3\}$ 
+ 36 total
+ $P(4) = 3/36 = 1/12$
+ $P(6) = 5/36$
+ $P(Neither) = 28/36$
+ $P(4\  before\  6) = P(4) + P(Neither)P(4)$
+ Situation restarts after 2 rolls
+ $1/12 + 28/36 (1/12) = 4/27$ 
 
-#schols [2023]
-![[{7B3F3FA6-48F7-4E9F-BC90-E5B14EB0CD25}.png]]
+> [!question]- #schols [2023] ![[{7B3F3FA6-48F7-4E9F-BC90-E5B14EB0CD25}.png]]
+ (i)
+ P(20th Ace is not spades) = $\dfrac{3}{4}$
+ $P(AceSpade_{21}) = \dfrac{1}{32}$ 
+ $P = \dfrac{3}{4} \times \dfrac{1}{32} = 0.0234$ 
+ (ii)
+ $P(Club_{21} \ | \ Ace_{20}) = \dfrac{P(Club_{21} \cap Club_{20}' \cap Ace_{20})}{P(Ace_{20})}$  
+ $P(Club_{20}' \cap Ace_{19}') = (47/52 \times 46/51 \times \dots \times 29/34) = \dfrac{47!}{28!} \div \dfrac{52!}{33!} = 0.0913$
+ $0.0913 \times P(Ace_{20}) = 0.0913 \times 4/33 = 0.01107$
+ $0.01107 \times P(Club_{21}) = 0.01107 \times 1/32 = 3.459E-4$ 
+ $P(Club_{21} \cap Club_{20}' \cap Ace_{20}) = 3.459E-4$ 
+ .
+ $P(Ace_{19}') = (48/52 \times 47/51 \times \dots \times 30/34) = \dfrac{48!}{29!} \div \dfrac{52!}{33!} = 0.15114969$ 
+ $P(Ace_{20}) = 0.15114969 \times 4/33 = 0.01832$ 
+ $P(Club_{21} | Ace_{20}) = \dfrac{3.459E-4}{0.01832} = 0.018881$ 
+ .
+ (ii) ALTERNATIVE ANSWER:
+ Take 4 aces out, avoid two of clubs for first 19
+ 47/48 x 46/47 x ... x 29/30 = $\dfrac{47!}{28!} \div \dfrac{48!}{29!} = 0.604$
+ Ace 100%, 3 left 
+ Get two of clubs out of remaining 29 + 3 = 32
+ $0.604 \times 1/32 = 0.01888$ 
 
-#schols  [2023]
-![[{1C0F733D-0597-4B4F-B12B-2FBC4F183228}.png]]
+  > [!question]- #schols  [2023] ![[{1C0F733D-0597-4B4F-B12B-2FBC4F183228}.png]]
+  (i)
+  $P(F) = \dfrac{P(Select_F \cap H_F)}{P(H)}$ 
+  $P(Select_F \cap H_F) = 0.5 \times 0.5 = 0.25$ 
+  $P(H) = P(Select_F \cap H_F) + P(Select_2 \cap H_2)$ 
+  $P(H) = 0.5 \times 0.5 + 0.5 \times 1 = 0.75$ 
+  $P(F) = 0.25 \div 0.75 = \frac{1}{3}$ 
+  (ii)
+  $P(F) = \dfrac{P(Select_F \cap H_F \cap H_F)}{H \cap H}$ 
+  $P(Select_F \cap H_F \cap H_F) = 0.5 \times 0.5 \times 0.5 = 0.125$
+  $P(H \cap H) = P(Select_F \cap H_F \cap H_F) + P(Select_2 \cap H_2 \cap H_2)$
+  $P(H \cap H) = 0.125 + 0.5 = 0.625$ 
+  $P(F) = 0.125 \div 0.625 = \frac{1}{5}$ 
+  (iii)
+  100%???
 
-#schols [2023]
-![[{139E38E1-1B15-46F3-A7B3-213786C68109}.png]]
+> [!question]- #schols [2023] ![[{139E38E1-1B15-46F3-A7B3-213786C68109}.png]]
+ M1(AA)
+ M2(AAA, AAA)
+ AA x2
+ AAA x4
+ .
+ $P(M1) = pp' + p'p + pp = 2pp' + pp$ 
+ To get $P(M2)$ we need to find when at least 2 of 4 work
+ Same as not (exactly 0 or exactly 1) work
+ $P(M2_0) = {{4}\choose{0}} p^0 (p')^4$ 
+ $P(M2_1) = {{4}\choose{1}} p (p')^3$
+ $P(M2) = 1 - ((p')^4 + 4p(p')^3)$
+ .
+ Find $p$ for which
+ $P(M1) > P(M2)$ 
+ $pp + 2pp' > 1 - ((p')^4 + 4p(p')^3)$ 
+ $(p')^4 + 4p(p')^3 + pp + 2pp' > 1$ 
+ $p' = 1 - p$
+ $(1-p)^4 + 4p(1-p)^3 + p^2 + 2p(1-p) > 1$ 
+ $(1 - 2p + p^2)^2 + 4p(1-p)(1 - 2p + p^2) + p^2 + 2p - 2p^2 > 1$
+ $1 - 2p + p^2 - 2p + 4p^2 - 2p^3 + p^2 - 2p^2 + p^4 + 4p(1 - 2p + p^2 - p + 2p^2 - p^3) + 2p - p^2 > 1$
+ $-4p + 4p^2 - 2p^3 + p^4 + 4p(1 - 3p + 3p^2 - p^3) + 2p - p^2 > 0$ 
+ $p^4 - 2p^3 + 3p^2 - 2p + 4p - 12p^2 + 12p^3 - 4p^4 > 0$
+ $-3p^4 + 10p^3 - 9p^2 + 2p > 0$ 
+ $p > 0$ 
+ $-3p^3 + 10p^2 - 9p + 2 > 0$ 
+ $p = 1$
+ Insert long division here
+ $-3p^2 + 7p - 2 = 0$ 
+ $p = 1/6$
+ $p = (0, 1/6]$ 
+  This is an answer but according to desmos the real answer is $(0, 2/3]$ so I must have made a maths mistake 
 
 #schols [2022]
 ![[{D019D6F1-0D0F-4F15-BB3C-F2D9CB541218}.png]]

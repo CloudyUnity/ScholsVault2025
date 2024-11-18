@@ -1,3 +1,4 @@
+
 > [!question]- ![[Pasted image 20241017113600.png]]
  $n = 1$
  $a = a \dfrac{1 - r^1}{1 - r} = a$
