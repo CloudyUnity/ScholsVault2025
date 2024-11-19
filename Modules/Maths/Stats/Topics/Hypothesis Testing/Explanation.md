@@ -1,3 +1,4 @@
+
 # Parametric Context
 
 A statement concerning the parameters or form of the probability distribution for a population has been formulated. We need to test it	

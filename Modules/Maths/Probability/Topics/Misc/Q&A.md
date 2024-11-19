@@ -93,14 +93,40 @@
  $p = (0, 1/6]$ 
   This is an answer but according to desmos the real answer is $(0, 2/3]$ so I must have made a maths mistake 
 
-#schols [2022]
-![[{D019D6F1-0D0F-4F15-BB3C-F2D9CB541218}.png]]
+#NeedsFactCheckingByTrueAmericanPatriots 
+> [!question]- #schols [2022] ![[{D019D6F1-0D0F-4F15-BB3C-F2D9CB541218}.png]]
+ Chance of reset = $R$ 
+ $R = pq + qp$ 
+ $P = pp + Rpp + R^2 pp + ...$ 
+ $P = pp [1 + R + R^2 + \dots + \infty]$
+ $P = pp \dfrac{1}{1 - R}$
+ $P = \dfrac{pp}{1 - R}$ 
 
-#schols [2022]
-![[{295AB61C-C114-4143-B2A6-411E634FEDF5}.png]]
+> [!question]- #schols [2022] ![[{295AB61C-C114-4143-B2A6-411E634FEDF5}.png]]
+ Uses Bayes Theorem 
+ $T =$ Over 200 pounds
+ $M =$ Is Man
+ .
+ $P(M) = 0.4$
+ $P(M') = 0.6$ 
+$P(T | M) = 0.04$
+ $P(T | M') = 0.01$ 
+ .
+ Find $P(M' | T)$ 
+ $P(M' | T) = \dfrac{P(M' \cap T)}{P(T)} = \dfrac{P(M' \cap T)}{P(M' \cap T) + P(M \cap T)}$ 
+ 	$P(A | B) = \dfrac{P(A \cap B)}{P(B)}$
+ 	$P(A \cap B) = P(B) P(A | B)$ 
+ $P(M' \cap T) = P(M')P(T | M') = 0.6 \times 0.01 = \frac{3}{500}$
+ $P(M \cap T) = P(M)P(T | M) = 0.4 \times 0.04 = 0.016$
+ $P(M' | T) = \dfrac{\frac{3}{500}}{\frac{3}{500} + 0.016} = \dfrac{3}{11}$ 
 
-#schols [2022]
-![[{C3A9EEA2-BE7E-4C5D-9FFA-1D93C10A0C17}.png]]
+> [!question]- #schols [2022] ![[{C3A9EEA2-BE7E-4C5D-9FFA-1D93C10A0C17}.png]]
+ Range is inclusive 
+ $A = \{1, 2, 3\}$
+ $N = 1 \to B = \{1, 2, 3\} \to P(3) = \frac{1}{3}$
+ $N = 2 \to B = \{2, 3\} \to P(3) = \frac{1}{2}$
+ $N = 3 \to B = \{3\} \to P(3) = 1$ 
+ $P(M_3) = \frac{1}{3} (\frac{1}{3} + \frac{1}{2} + 1)= \frac{11}{18}$ 
 
 > [!question]- ![[{DB44A14E-D89C-4874-9B30-6555CBEEC2D2}.png]]
 > $R_1$ = First ball is red
