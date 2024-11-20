@@ -1,4 +1,10 @@
 
+#schols [2016]
+![[{CC91AD41-95BA-4C02-8D28-C2F060A63917}.png]]
+
+#schols [2014]
+![[{6DD632BB-C23D-4E52-9BAF-4210C34A0D1D}.png]]
+
 #NeedsFactCheckingByTrueAmericanPatriots 
 > [!question]- ![[{A4A5149A-4074-47C5-8463-6D1DC0EB31EF}.png]]
 > Find turning point of $f$

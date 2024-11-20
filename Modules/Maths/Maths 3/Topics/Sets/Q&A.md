@@ -1,4 +1,16 @@
 
+#schols [2019]
+![[{DC5FF1F1-8165-4DAE-A3A1-1E8753A64D30}.png]]
+
+#schols [2017]
+![[{A2DBAC24-1C92-4F9E-9E52-71E6BF0D3D01}.png]]
+
+#schols [2015]
+![[{23EB410D-BBBA-4D05-9923-B048B5B84E79}.png]]
+
+#schols [2014]
+![[{34F3FE81-5295-465B-8453-4C64233D2474}.png]]
+
 > [!question]- ![[{9A915EFC-851F-40F0-AB0F-784CFC9E2C8C}.png]]
 > (1)
 $A \backslash B = A \cap (B')$

@@ -14,7 +14,7 @@ First Year:
 - [x] Maths 2 Explanation
 - [x] Maths 2 Q
 - [ ] Maths 2 tut sheets
-- [ ] Maths 2 A
+- [x] Maths 2 A
 - [x] Stats Explanation
 - [x] Stats Q
 - [ ] Stats Slide Exercises

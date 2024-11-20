@@ -60,11 +60,38 @@
  $P(X = m - Y, Y = y) = \dfrac{\lambda^{m - y + y} e^{-2\lambda}}{(m-y)! y!}$ 
  $\dfrac{\lambda^m e^{-2\lambda}}{(m-y)!y!}$ 
 
-#schols [2022]
-![[{2120A254-1582-470F-87FC-5391B1EBA4BF}.png]]
+> [!question]- #schols [2022] ![[{2120A254-1582-470F-87FC-5391B1EBA4BF}.png]]
+ $f(x) = \lambda e^{-\lambda x}$ 
+ $P(X < 1) = \int^1 _0 f(x) \ dx$
+ $P(X < 1) = \lambda \int^1 _0 e^{-\lambda x} \ dx$
+ $P(X < 1) = \lambda | \ \dfrac{e^{-\lambda x}}{-\lambda} |^1 _0 = \lambda (\dfrac{e^{-\lambda}}{-\lambda} - \dfrac{e^0}{-\lambda})$ 
+ $P(X < 1) = -e^{-\lambda} + 1$ 
+ $-e^{-\lambda} + 1 = 0.5$
+ $e^{-\lambda} = 0.5$
+ $-\lambda = ln(0.5)$ 
+ $\lambda = 0.693147$ 
+ .
+ $P(X < 2) = \lambda \int^2 _0 e^{-\lambda x} \ dx$
+ $P(X < 2) = \lambda (\dfrac{e^{-2 \lambda}}{-\lambda} - \dfrac{e^0}{-\lambda})$
+ $P(X < 2) = -e^{-2\lambda} + 1$
+ $P(X < 2) = -e^{-2 (0.693147)} + 1 \approx 0.75$ 
 
-#schols [2021]
-![[{28C5D56B-A191-4EEA-A1EF-A14D5F24CC49}.png]]
+> [!question]- #schols [2021] ![[{28C5D56B-A191-4EEA-A1EF-A14D5F24CC49}.png]]
+
+$r = \lambda /t$
+$\lambda = rt$ 
+$X \sim Pois(rt)$ 
+$P(X = x) = \dfrac{(rt)^x e^{-rt}}{x!}$ 
+$\overset{n}{\sum} P(X = x) = P(X < n)$  
+$\underset{n \to \infty}{lim}P(X < n) \approx \int^{t} _0 \dfrac{(rt)^n e^{-rt}}{n!} \ dn$ 
+.
+$RHS = \int^{t} _0 \dfrac{(rt)^n e^{-rt}}{n!} \ dn$ 
+I need to get:
+$RHS \equiv \int^{\infty} _t \dfrac{(rt x)^n rt e^{-rt x}}{n!} \ dx$
+- Flipped integral from (0, t) to (t, $\infty$)
+- Multiplied by $rtx^n (e^{-rt})^{x-1}$ 
+- $dn$ changed to $dx$ 
 
 #schols [2021]
 ![[{9C24DB56-6981-493C-AB21-852070A7DCD9}.png]]
+

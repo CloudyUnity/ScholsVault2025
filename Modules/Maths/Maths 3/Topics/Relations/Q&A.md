@@ -1,4 +1,16 @@
 
+#schols [2019]
+![[{184BA602-E730-41CB-AAA6-2971CC371369}.png]]
+
+#schols [2018]
+![[{0BAE4996-501F-4DF7-9993-2F4E03023290}.png]]
+
+#schols [2017]
+![[{480FD349-3C9A-4768-A892-0297AE0F1550}.png]]
+
+#schols [2014]
+![[{3BDCFF66-36B3-450E-8C70-A3542811CA25}.png]]
+
 > [!question]- ![[{7A3E6924-CFA2-442C-85DD-009F8B9246F4}.png]]
 > Yes as $x - x = 0 = (x - x)(x + 2x)$
 > No as swapping x and y leads to a different equation

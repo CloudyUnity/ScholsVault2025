@@ -26,7 +26,12 @@ EFAB - AB
 1110 - 11
 1111 - 00
 AND E with JK inputs for both flip flops 
+A out = J in
+B  out = K in
 Make KMaps with FAB for A, B
+INSERT KMAP HERE
+$A = B'F' + F'AB + FA'B$
+$B = B'$ 
 #todo
 
 #schols 
