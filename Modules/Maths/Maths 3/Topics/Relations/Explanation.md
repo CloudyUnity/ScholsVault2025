@@ -5,8 +5,7 @@ Relations are functions that always return a boolean value, either they are rela
 
 We use Cartesian Products to define these relations
 
-$R$ is equality $\to (xRy \leftrightarrow (x, y) \in \{(x, x) | x \in \mathbb{R}\}$
-
+$R$ is equality $\to xRy \leftrightarrow (x, y) \in \{(x, x) | x \in \mathbb{R}\}$
 $R = \{(1, 1), (1, 5), (3, 2)\} \to 1R1, 1R5, 3R2$
 
 A subset of $A \times B$ is a relation between $A$ and $B$

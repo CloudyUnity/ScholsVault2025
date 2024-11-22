@@ -76,21 +76,12 @@
  $P(X < 2) = -e^{-2\lambda} + 1$
  $P(X < 2) = -e^{-2 (0.693147)} + 1 \approx 0.75$ 
 
-> [!question]- #schols [2021] ![[{28C5D56B-A191-4EEA-A1EF-A14D5F24CC49}.png]]
-
-$r = \lambda /t$
-$\lambda = rt$ 
-$X \sim Pois(rt)$ 
-$P(X = x) = \dfrac{(rt)^x e^{-rt}}{x!}$ 
-$\overset{n}{\sum} P(X = x) = P(X < n)$  
-$\underset{n \to \infty}{lim}P(X < n) \approx \int^{t} _0 \dfrac{(rt)^n e^{-rt}}{n!} \ dn$ 
-.
-$RHS = \int^{t} _0 \dfrac{(rt)^n e^{-rt}}{n!} \ dn$ 
-I need to get:
-$RHS \equiv \int^{\infty} _t \dfrac{(rt x)^n rt e^{-rt x}}{n!} \ dx$
-- Flipped integral from (0, t) to (t, $\infty$)
-- Multiplied by $rtx^n (e^{-rt})^{x-1}$ 
-- $dn$ changed to $dx$ 
+> [!question]- #schols #bonus [2021] ![[{28C5D56B-A191-4EEA-A1EF-A14D5F24CC49}.png]]
+ $r = \lambda /t$
+ $\lambda = rt$ 
+ $X \sim Pois(rt)$ 
+ $P(X = x) = \dfrac{(rt)^x e^{-rt}}{x!}$ 
+ ...
 
 #schols [2021]
 ![[{9C24DB56-6981-493C-AB21-852070A7DCD9}.png]]

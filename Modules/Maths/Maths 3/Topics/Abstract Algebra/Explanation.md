@@ -3,6 +3,7 @@ Binary Operation (BO) $(*)$:
 	Given a set $A$,
 	 $*$ on $A$ is an operation to any two elements $x, y \in A$ that yields an element $(x*y) \in A$ 
 	 $\forall x, y \in A, x*y \in A$
+	 
 
 All BOs are closed by definition 
 $\div$ on $\mathbb{R}$ is not a BO as $\exists x \in \mathbb{R}, \dfrac{x}{0}$ is undefined
