@@ -43,3 +43,6 @@ Example:
 Hardware Multiplication
 	Keep track of rolling $a, B, P$ 
 	Add to $P$ after each iteration
+
+Twos Complement Multiplication
+	Same as regular multiplication but with arithmetic shifting instead of logical shifting

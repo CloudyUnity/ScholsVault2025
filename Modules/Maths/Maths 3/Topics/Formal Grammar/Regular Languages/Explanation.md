@@ -1,3 +1,4 @@
+ 
 Regular/Finite State Languages
 	Languages which are recognized by a finite state acceptor
 	Regular languages over $A$ constitute the smallest collection $C$ where
@@ -43,6 +44,10 @@ Right Regular Grammar
 Regular Expressions (Regex)
 	$\emptyset, \epsilon, a \in A$ are all regexes 
 	$w, w'$ are regexes $\to w \circ w', w \cup w', w^*$ are regexes
+	Regexes are single line strings which form a language
+	Example:
+		$L = \{011, 011011, 011011011, \dots\}$
+		$L = (\{0\} \circ \{1\} \circ \{1\}) \circ ((\{0\} \circ \{1\} \circ \{1\}) \cup \epsilon) \circ \dots \circ ((\{0\} \circ \{1\} \circ \{1\}) \cup \epsilon)$
 
 Operator Precedence 
 	$* > \circ > \cup$ 
@@ -59,7 +64,6 @@ Proof:
 
 $L$ is regular $\leftrightarrow L$ is accepted by a DFSA/NDFSA
 $L$ is regular $\leftrightarrow L$ is produced by a regular grammar
-
 
 How to determine whether $L$ is regular 
 	Given $L \subset A^*$ 

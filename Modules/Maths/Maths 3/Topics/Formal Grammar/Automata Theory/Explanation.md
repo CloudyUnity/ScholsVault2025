@@ -34,5 +34,6 @@ $L$ over $A$ is a regular language $\leftrightarrow$ $L$ is accepted by a DFSA w
 Myhill-Nerode Theorem
 	Let $x, y \in L$ over $A$ 
 	$(\forall w \in A^*, x \circ w \in L \leftrightarrow y \circ w \in L) \to x \equiv_L y$ 
+		In other words $x$ and $y$ place the FSA in the same state
 	$L/\equiv$ is the set of equivalence classes determined by the relation $\equiv_L$ 
 	If $L/\equiv$ is infinite then $L$ is not a regular language 

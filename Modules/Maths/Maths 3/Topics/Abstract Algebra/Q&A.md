@@ -251,4 +251,82 @@ $x_1 + 2y_2 = 0$
  Yes all elements have an inverse
  (d)
   A line
-  
+> [!question]- ![[{C8145A82-7824-4B6F-8639-366D92EF86A9}.png]]
+ (a)
+ This is a group as $+$ is both closed and associative
+ $a + (b + c) = (a + b) + c = a + b + c$ 
+ There exists an identity $0$ 
+ $\forall a, a + 0 = a$ 
+ And all elements have an inverse
+ $\forall a, a + (-a) = 0$ 
+ .
+ (b)
+ This is also a group as $+$ is closed an associative 
+ $2p + (2q + 2k) = (2p + 2q) + 2k = 2p + 2q + 2k$ 
+ There exists an identity 0
+ $\forall a, a + 0 = a$ 
+ All elements have an inverse 
+ $\forall a, a + (-a) = 0$
+ $-a \in E$ 
+ .
+ (c)
+ Prove $f(a + b) = f(a) + f(b)$ 
+ $f(a + b) = 2(a + b) = 2(a) + 2(b)$
+ $f(a) + f(b) = 2(a) + 2(b)$ 
+ $\therefore f$ is a homomorphism
+ .
+ (d)
+ Prove $f(a) = f(b) \to a = b$ 
+ $2a = 2b$
+ $a = b$ 
+ $\therefore f$ is injective
+ .
+ Every output is mapped
+ $\forall a \in E, \exists n, f(n) = a$ 
+ $n = 0.5a$ 
+ $a = 2p, p \in \mathbb{Z}$ 
+ $n = 0.5(2p) = p$ 
+ $n \in \mathbb{Z}$ 
+ $\therefore f$ is surjective
+ $\therefore f$ is bijective
+ $\therefore f$ is an isomorphism
+
+> [!question]- ![[{C8145A82-7824-4B6F-8639-366D92EF86A9}.png]]
+ (a)
+ This is a group as $+$ is both closed and associative
+ $a + (b + c) = (a + b) + c = a + b + c$ 
+ There exists an identity $0$ 
+ $\forall a, a + 0 = a$ 
+ And all elements have an inverse
+ $\forall a, a + (-a) = 0$ 
+ .
+ (b)
+ This is also a group as $+$ is closed an associative 
+ $2p + (2q + 2k) = (2p + 2q) + 2k = 2p + 2q + 2k$ 
+ There exists an identity 0
+ $\forall a, a + 0 = a$ 
+ All elements have an inverse 
+ $\forall a, a + (-a) = 0$
+ $-a \in E$ 
+ .
+ (c)
+ Prove $f(a + b) = f(a) + f(b)$ 
+ $f(a + b) = 2(a + b) = 2(a) + 2(b)$
+ $f(a) + f(b) = 2(a) + 2(b)$ 
+ $\therefore f$ is a homomorphism
+ .
+ (d)
+ Prove $f(a) = f(b) \to a = b$ 
+ $2a = 2b$
+ $a = b$ 
+ $\therefore f$ is injective
+ .
+ Every output is mapped
+ $\forall a \in E, \exists n, f(n) = a$ 
+ $n = 0.5a$ 
+ $a = 2p, p \in \mathbb{Z}$ 
+ $n = 0.5(2p) = p$ 
+ $n \in \mathbb{Z}$ 
+ $\therefore f$ is surjective
+ $\therefore f$ is bijective
+ $\therefore f$ is an isomorphism

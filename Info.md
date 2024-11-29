@@ -1,4 +1,4 @@
-See [[Links|Links]] for more advanced info
+See [[Trinity/Schols/Resources/Links|Links]] for more advanced info
 
 The schols is composed of 4 papers
 	Maths & Stats | 4/6 Qs | 3 hrs | 30%
