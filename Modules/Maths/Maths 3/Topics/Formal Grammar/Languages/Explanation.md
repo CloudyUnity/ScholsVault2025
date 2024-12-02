@@ -105,3 +105,11 @@ Phase Structure Grammar
 		$\langle s \rangle \to \langle N \rangle \langle D \rangle$
 		$\langle N \rangle \to$ "Mice" 
 		$\langle D \rangle \to$ "Died" 
+
+#bonus 
+Recursive Language
+	A language where there exists a turing machine halts on every input and either accepts or rejects. Boolean output 
+
+#bonus 
+Recursively Enumerable Language
+	A language where there exists a turing machine that either accepts or rejects/runs forever on every input

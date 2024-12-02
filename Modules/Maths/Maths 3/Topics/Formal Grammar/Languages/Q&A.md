@@ -71,16 +71,186 @@ Regular Grammar:
  $xu^n y \in L$ as $u$ takes the FSA from the $P$ state back to the $P$ state
  $\langle P \rangle \to 1 \langle O \rangle \to 10 \langle E \rangle \to 101 \langle G \rangle \to 1010 \langle P \rangle$ 
  Thus it can be repeated $n$ times and the word remains in the language 
+
+> [!question]- #schols [2022] ![[{7A61421D-EC9F-4B06-833A-D25B03F3FBE9}.png]]
+ (a)
+ I can't figure out how to do this with a regex no matter what I try so let's do it with a regular grammar
+ $L$ is regular $\leftrightarrow$ A regular grammar describes it
+ .
+ $\langle S \rangle \to 0\langle O \rangle$
+ $\langle S \rangle \to 2\langle O \rangle$
+ $\langle S \rangle \to 1 \langle P \rangle$ 
+ $\langle O \rangle \to 0 \langle E \rangle$ 
+ $\langle O \rangle \to 2 \langle E \rangle$ 
+ $\langle O \rangle \to 1 \langle G \rangle$
+ $\langle E \rangle \to 0 \langle O \rangle$
+ $\langle E \rangle \to 2 \langle O \rangle$ 
+ $\langle E \rangle \to 1 \langle P \rangle$ 
+ $\langle G \rangle \to 0 \langle P \rangle$
+ $\langle G \rangle \to 2 \langle P \rangle$
+ $\langle G \rangle \to 1 \langle O \rangle$
+ $\langle P \rangle \to 0 \langle G \rangle$
+ $\langle P \rangle \to 2 \langle G \rangle$
+ $\langle P \rangle \to 1 \langle E \rangle$
+ $\langle P \rangle \to \epsilon$ 
+ .
+ (b)
+ States:
+ $P =$ Even 02s + Odd len (Acceptor)
+ $O =$ Odd 02s + Odd len
+ $E =$ Even 02s + Even len
+ $G =$ Odd 02s + Even len
+ $i =$ Start State
+ $t(i, 0/2) = O$
+ $t(i, 1) = P$
+ $t(O, 0/2) = E$ 
+ $t(O, 1) = G$
+ $t(E, 0/2) = O$
+ $t(E, 1) = P$
+ $t(G, 0/2) = P$
+ $t(G, 1) = O$
+ $t(P, 0/2) = G$
+ $t(P, 1) = E$
+ .
+ (c)
+ This is the myhill-nerode theorem which states that when two words are related in this way that they place the FSA in the same state
+ As there are 5 states $(i, P, O, E, G)$ there are 5 equivalence classes 
+ The only word in the $i$ class is $\epsilon$ 
+ .
+ (d)
+ We will prove $M$ is irregular by using the pumping lemma 
+ $w = xuy$
+ $w = 01122$
+ As all 0, 1, 2 need to be increased for $xu^ny$ to be an element of $M$, $u$ must contain all $0, 1, 2$ 
+ $x = \epsilon$
+ $u = 0112$
+ $y = 2$ 
+ $xu^2 y = 011201122 \notin M$ 
+ This breaks the strict order of $0, 1, 2$ 
+ There are no values for $x, u, y$ such that the pumping lemma is true
+ $\therefore M$ is not a regular language
  
-#schols [2022]
-![[{7A61421D-EC9F-4B06-833A-D25B03F3FBE9}.png]]
+> [!question]- #schols [2021] ![[{EA49B183-4709-4311-B61D-D8BB8046F39F}.png]]
+ (a)
+ Forget about regexes, let's do regular grammar
+ $P =$ Even len, contains substrings
+ $O =$ Odd len, contains substrings
+  $N_0 =$ Even len, does not contain substrings, Last input 0
+$N_1 =$ Even len, does not contain substrings, Last input 1
+ $N_2 =$ Even len, does not contain substrings, Last input 2
+ $G_0 =$ Odd len, does not contain substrings, Last input 0
+ $G_1 =$ Odd len, does not contain substrings, Last input 1
+  $G_2 =$ Odd len, does not contain substrings, Last input 2
+ .
+ $\langle S \rangle \to 0 \langle G_0 \rangle$ 
+ $\langle S \rangle \to 1 \langle G_1 \rangle$
+ $\langle S \rangle \to 2 \langle G_2 \rangle$ 
+ $\langle G_0 \rangle \to 0 \langle N_0 \rangle$
+ $\langle G_0 \rangle \to 1 \langle N_1 \rangle$ 
+ $\langle G_0 \rangle \to 2 \langle P \rangle$
+ $\langle G_1 \rangle \to 0 \langle P \rangle$ 
+ $\langle G_1 \rangle \to 1 \langle N_1 \rangle$ 
+ $\langle G_1 \rangle \to 2\langle N_2 \rangle$
+ $\langle G_2 \rangle \to 0 \langle N_0 \rangle$
+ $\langle G_2 \rangle \to 1 \langle N_1 \rangle$
+ $\langle G_2 \rangle \to 2 \langle N_2 \rangle$ 
+ $\langle N_0 \rangle \to 0 \langle G_0 \rangle$
+ $\langle N_0 \rangle \to 1 \langle G_1 \rangle$
+ $\langle N_0 \rangle \to 2 \langle O \rangle$ 
+ $\langle N_1 \rangle \to 0 \langle O \rangle$
+ $\langle N_1 \rangle \to 1 \langle G_1 \rangle$
+ $\langle N_1 \rangle \to 2 \langle G_2 \rangle$
+ $\langle N_2 \rangle \to 0 \langle G_0 \rangle$
+ $\langle N_2 \rangle \to 1 \langle G_1 \rangle$
+ $\langle N_2 \rangle \to 2 \langle G_2 \rangle$ 
+ $\langle P \rangle \to 0 \langle O \rangle$
+ $\langle P \rangle \to 1 \langle O \rangle$
+ $\langle P \rangle \to 2 \langle O \rangle$
+ $\langle O \rangle \to 0 \langle P \rangle$
+ $\langle O \rangle \to 1 \langle P \rangle$
+ $\langle O \rangle \to 2 \langle P \rangle$
+ $\langle P \rangle \to \epsilon$ 
+ .
+ (b)
+ States:
+ $i =$ Start State
+ $P =$ Even len, contains substrings (Accepting)
+ $O =$ Odd len, contains substrings
+ $N_0 =$ Even len, does not contain substrings, Last input 0
+ $N_1 =$ Even len, does not contain substrings, Last input 1
+ $N_2 =$ Even len, does not contain substrings, Last input 2
+ $G_0 =$ Odd len, does not contain substrings, Last input 0
+ $G_1 =$ Odd len, does not contain substrings, Last input 1
+ $G_2 =$ Odd len, does not contain substrings, Last input 2
+ $t(i, 0) = G_0$
+ $t(i, 1) = G_1$
+ $t(i, 2) = G_2$
+ $t(G_0, 0) = N_0$
+ $t(G_0, 1) = N_1$
+ $t(G_0, 2) = P$
+ $t(G_1, 0) = P$
+ $t(G_1, 1) = N_1$
+ $t(G_1, 2) = N_2$
+ $t(G_2, 0) = N_0$
+ $t(G_2, 1) = N_1$
+ $t(G_2, 2) = N_2$ 
+ $t(N_0, 0) = G_0$
+ $t(N_0, 1) = G_1$
+ $t(N_0, 2) = O$ 
+ $t(N_1, 0) = O$
+ $t(N_1, 1) = G_1$
+ $t(N_1, 2) = G_2$
+ $t(N_2, 0)=G_0$
+ $t(N_2,1)=G_1$
+ $t(N_2,2)=G_2$
+ $t(P, 0/1/2) = O$
+ $t(O, 0/1/2) = P$ 
+ .
+ (c)
+ By myhill-nerode theorem the classes split the language into words that place the FSA in the same state
+ There are 9 states and thus 9 classes
+. 
+ (d)
+ Pumping lemma
+$w = xuy$
+ $w = 011222$
+ For $xu^n y$ to be in $M$ it needs to increase the total count of each $0, 1,2$
+ Thus $u$ must contain at least 1 of each $0, 1,2$
+ $u = 0112$
+ $xu^2 y = 0112011222$
+  This is not in $M$ as the strict order of $0$s then $1$s then $2$s is broken
+$\therefore M$ is not a regular language 
 
-#schols [2021]
-![[{EA49B183-4709-4311-B61D-D8BB8046F39F}.png]]
-
-#schols [2020]
-![[{C80BD95A-7094-4FB0-9164-093E8CE8C3FD}.png]]
-
+> [!question]- #schols [2020] ![[{C80BD95A-7094-4FB0-9164-093E8CE8C3FD}.png]]
+ (a)
+ Finite
+ Regular
+ Recursively Enumerable
+ Recursive 
+ Context Sensitive
+ Context Free
+ .
+ (b)
+ $D_3$ is an acceptor state
+ $ANY = \{A-Z, !, \#\, \$, \%, \&, ', (, ), -, @, \_, \{, \}, \sim\}$
+ $t(i, ANY) = C_1$ 
+ $t(C_1, ANY) = C_2$
+ $t(C_2, ANY) = C_3$ 
+ $\dots$
+ $t(C_7, ANY) = C_8$ 
+ $t(C_8, .) = D_1$ 
+ $t(D_1, ANY) = D_2$
+ $t(D_2, ANY) = D_3$ 
+ .
+ (c)
+ To be context free there cannot be any production rules with multiple nonterminals 
+ To be regular it can only use regular grammar style production rules
+ $\langle S \rangle \to 0\langle S \rangle$ 
+ $\langle S \rangle \to \epsilon$ 
+ This the language $L = \{0^n | n \in \mathbb{N}\}$ 
+ This is a regular grammar in normal form thus its a regular language
+ It is also context free as there is only a single nonterminal on both the left and right side of each rule
+ 
 #schols [2020]
 ![[{A7B34A7C-DD02-4B3D-B4C4-0FACEDF7A075}.png]]
 
