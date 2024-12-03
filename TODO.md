@@ -2,7 +2,7 @@ First Year:
 - [x] Electronics Explanation
 - [x] Electronics Q
 - [x] Elec tut sheets
-- [x] Elec A
+- [ ] Elec A (Electromagnetism)
 - [x] IT Explanation
 - [x] IT Q
 - [x] IT tut sheets
@@ -31,7 +31,7 @@ First Year:
 - [ ] ARM A
 
 Second Year:
-- [ ] Maths 3 Get all slides
+- [x] Maths 3 Get all slides
 - [ ] Maths 3 Explanation
 - [ ] Maths 3 Q
 - [ ] Maths 3 A
@@ -43,12 +43,13 @@ Second Year:
 - [x] Comp Arch Explanation
 - [x] Comp Arch Q
 - [ ] Comp Arch A
-- [ ] Info Get all slides
+- [x] Info Get all slides
 - [ ] Info Explanation
 - [x] Info Q
 - [ ] Info A
 - [x] ADS Get all slides
 - [x] ADS Explanation
+- [ ] ADS Important Algos
 - [x] C Explanation
 - [x] C Q
 - [ ] C A
@@ -59,8 +60,8 @@ Second Year:
 Updates:
 - [x] Replace all $\overline v$ and $\overrightarrow v$ in Linear Algebra/Elec with $\mathbf v$
 - [x] Add bonus tag to maths 1 stuff (Finn)
-- [ ] Sort summaries neatly
+- [x] Sort summaries neatly
 - [x] Make inter-module stats comparing most info to learn, most questions, most varied questions, etc
-- [ ] Gather all non-lecture material from stats module on blackboard
+- [x] Gather all non-lecture material from stats module on blackboard
 - [x] Replace "TODO" text with #todo tag
-- [ ] Write out kens coding standard
+- [x] Write out kens coding standard

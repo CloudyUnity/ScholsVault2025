@@ -15,7 +15,7 @@ Symmetric
 Transitive
 	$p=>q \land q=>r \to p=>r$
 
-Connected Component ($CC$
+Connected Component ($CC$)
 	Maximal set of objects mutually connected
 	Often represented by an index 
 
@@ -38,6 +38,7 @@ Quick-Find
 Quick-Union
 	int id$[N]$;
 	id$[p]$ is the parent of $p$
+	$r_p$ is the root of $p$ 
 	Root/$CC$ is when id$[r_p]$ = $r_p$
 	Union
 		Set id$[r_p]$ to $r_q$
@@ -56,7 +57,7 @@ Path Compression
 	Keeps trees almost completely flat assuming re-use
 
 Weighted Quick-Union Path Compression ($WQUPC$)
-	$M$ union-find ops on $N$ objects leads to $O(N + M \ lg^* N)$ array accesses
+	$M$ union-find operations on $N$ objects leads to $O(N + M \ lg^* N)$ array accesses
 	In theory not linear but linear in practise 
 	#todo 
 		What's $lg^* \ N$?

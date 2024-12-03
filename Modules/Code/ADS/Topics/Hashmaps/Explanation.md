@@ -50,11 +50,9 @@ Open Addressing (Linear Probing)
 	Less wasted space and better cache performance 
 	More sensitive to poorly designed hash functions
 	On collision find next empty slot and insert	
-	$M > N$ must be true
+	$M > N$ must be true otherwise displacement could be infinite
 	With $N=M/2$ mean displacement is $\sim 3/2$
 	With $N=M$ mean displacement is $\sim \sqrt{\pi M/8}$
-	#todo 
-		How are there any slots left? Wouldn't displacement be infinite?
 	Probe Count
 		Given $N = aM$
 		Search Hit = $\sim \dfrac{1}{2} (1 + \dfrac{1}{1-a})$
@@ -76,7 +74,7 @@ Double Hashing (Linear Probing Variant)
 
 Cuckoo Hashing (Linear Probing Variant)
 	Hash to two positions, if first one is occupied swap keys and place original into other position
-	Constant worst-cast time for search
+	Constant worst-case time for search
 
 Hash Tables vs BST
 	Hash Tables:
