@@ -86,3 +86,94 @@
 #schols [2021]
 ![[{9C24DB56-6981-493C-AB21-852070A7DCD9}.png]]
 
+> [!question]- ![[{9B3F366E-79B6-4144-BF33-A9722DD99E66}.png]]
+ $E(X) = E(\sum X_i) = \sum E(X_i)$
+ $E(X_i) = c(1) + 0 = c$ 
+ $\sum E(X_i) = \sum c = nc$
+ $E(X) = c$ 
+ $E(X^2) = V(X) + E(X)^2$
+ $V(X) = c - c = 0$ 
+
+> [!question]- ![[{FA4A7902-E331-4AE5-98E1-432580A0533C}.png]]
+
+(a)
+$0 \leq y < 1, F_Y(y) = \int^y_0 y\ dy = \dfrac{y^2}{2}$ 
+$F_Y(0.5) = 0.125$
+$f(0.5) = 0.5$ 
+$\therefore F_Y(0.5) < f(0.5)$ 
+How can the CDF be less than the PDF? 
+
+> [!question]- ![[{9D53680F-F95C-4F03-BF51-9BDD6C4A0844}.png]]
+  (a)
+ $F_V(v)$ 
+ $P(V \leq v)$
+ $1 - P(V > v)$
+ $1 - P(min(Y_1, \dots, Y_n) > v)$
+ $1 - P(Y_1 > v, \dots Y_n > v)$ 
+ $1 - P(Y_1 > v) \dots P(Y_n > v)$ 
+ $1 - (1 - P(Y_1 \leq v)) \dots (1 - P(Y_n \leq v))$ 
+ $1 - (1 - F_Y(v))^n$ 
+ .
+ (b)
+ $E(X) = 5$ 
+ $\lambda = 0.2$ 
+ $F(x) = 1 - exp(- \lambda x)$ 
+ $F(x) = 1 - exp(-0.2x)$ 
+ $F_V(v) = 1 - (1 - F(v))^{10}$
+ $F_V (v) = 1 - (1 - (1 - exp(-0.2v)))^{10}$ 
+ $F_V(v) = 1 - (e^{-0.2v})^{10}$ 
+ $F_V(v) = 1 - e^{-2v}$ 
+ $\lambda_V = 1/2$ 
+ $V \sim Exp(1/2)$ 
+
+> [!question]- ![[{ED9211AB-EAD9-420C-955B-144083EF62BD}.png]]
+ (i)
+ $P(X = x) = \dfrac{\lambda^x e^{-\lambda}}{x!}$ 
+ $P(X = 2) = \dfrac{2^{2}e^{-2}}{2!} = 0.2707$
+ $P(X=2)^5 = 0.2707^5 = 0.0015$ 
+ .
+ (ii)
+ $P(X = 0) = 2^0 e^{-2} = 0.1354$ 
+$5C2\ 0.1354^2 (1 - 0.1354)^3 = 0.119$ 
+
+> [!question]- ![[{215938FD-8157-4124-A208-C1BA52716179}.png]]
+ $P(X < 0) = 0$ 
+ $P(X = 0) = \frac{1}{5}$
+ $P(X = 1) = 0$
+ $P(X=2) = \frac{1}{5}$ 
+ $P(X = 3) = 0$
+ $P(X = 4) = \frac{3}{5}$
+ $P(X > 4) = 0$
+
+> [!question]- ![[{4CED7DD6-0892-4B17-9581-03CA24B49D6D}.png]]
+ (i)
+ The total area of the function is equal to 1
+ $\int^3_0 \int^3_0 cx^2 y(1 +y)\ dx\ dy = 1$ 
+ $\frac{c}{3} \int^3_0  x^3 y(1 + y) \ dy\ |^3_0 = 1$
+$\frac{c}{3} (27 - 0) \int^3_0 y + y^2 \ dy = 1$
+ $9c (\dfrac{y^2}{2} + \dfrac{y^3}{3}) \ |^3_0 = 1$ 
+ $9c((\frac{9}{2} + 9) - 0) = 1$
+ $121.5c = 1$
+ $c = 0.00823$ 
+ .
+ (ii)
+ $c \int^2_1 x^2 \int^1_0 y + y^2 \ dy \ dx$ 
+ $c \int^2_1 x^2 (0.5 + \frac{1}{3}) \ dx$
+ $\frac{5}{6} c (\frac{1}{3}) (2^3 - 1)$
+ $0.016$ 
+ .
+ (iii)
+ $c \int^x_0 x^2 \int^y_0 y + y^2 \ dy \ dx$ 
+ $c \int^x_0 x^2 (\dfrac{y^2}{2} + \dfrac{y^3}{3}) \ dx$ 
+   $F(x, y) = c \dfrac{x^3}{3} (\dfrac{y^2}{2} + \dfrac{y^3}{3})$ 
+ .
+ (iv)
+ $\int^3_0 cx^2 (y + y^2) \ dy$
+ $cx^2 (\dfrac{3^2}{2} + \dfrac{3^3}{3})$ 
+ $f(x) = 0.111105x^2$ 
+ .
+ (v)
+ $\int^3_0 cx^2 (y + y^2) \ dx$ 
+ $f(y) = 9c (y + y^2)$ 
+ $f(x)f(y) = cx^2y (1 + y) = f(x, y)$ 
+  $\therefore$ They are independent 

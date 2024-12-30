@@ -39,6 +39,7 @@ XML Declaration
 	Informs the xml version, character encoding, whether or not external declarations affect the doc
 ```xml
 <?xml version='1.0' encoding='ISO-8859-1' standalone='no' ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 ```
 
 Attributes
@@ -114,6 +115,10 @@ XQuery
 			`local:Foo($var)`
 		#todo 
 			Figure out what local means
+	Returning attributes
+		`return tag/@attVal/string()` 
+	Comparing tag strings
+		`where tag1/tag2/text() == "Example"`
 
 XPath
 	Expression language

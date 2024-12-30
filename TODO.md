@@ -32,7 +32,7 @@ First Year:
 
 Second Year:
 - [x] Maths 3 Get all slides
-- [ ] Maths 3 Explanation
+- [x] Maths 3 Explanation
 - [ ] Maths 3 Q
 - [ ] Maths 3 A
 - [x] Probability Get all slides
@@ -59,7 +59,7 @@ Second Year:
 
 Updates:
 - [x] Replace all $\overline v$ and $\overrightarrow v$ in Linear Algebra/Elec with $\mathbf v$
-- [x] Add bonus tag to maths 1 stuff (Finn)
+- [x] Add bonus tag to maths 1 stuff (Fiona)
 - [x] Sort summaries neatly
 - [x] Make inter-module stats comparing most info to learn, most questions, most varied questions, etc
 - [x] Gather all non-lecture material from stats module on blackboard
